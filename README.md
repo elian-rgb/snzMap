@@ -7,8 +7,10 @@ Historical map of institutional food service contracts. Two halves, per `SNZ_PLA
 
 ## Status
 
-**The contract chain is built end to end but has no real data in it.** Three layers that do
-carry real data — federal awards, ACS context and DOL wage & hour — are live in the console.
+**The contract chain now runs end to end on real data, at a sample size of 15 articles.**
+Three other layers — federal awards, ACS context and DOL wage & hour — carry real data and are
+live in the console. Nothing extracted from journalism is in the console yet: the 366-article
+corpus run has not been made, and the gold set it would be scored against is 1 row of 10–20.
 
 | Step | State |
 |---|---|
@@ -16,8 +18,8 @@ carry real data — federal awards, ACS context and DOL wage & hour — are live
 | Console scaffold + spine layer | ✅ renders, no API key needed |
 | Schemas locked (build order 2) | ✅ `pipeline/schema.py` + eval gate |
 | Gold set seeded (build order 2) | ⬜ 1 of 10–20 rows — **Kiki's to write** |
-| Extraction prompt + candidate finder | ✅ written, still unrun — articles exist now, an API key does not |
-| Extraction runner (Phase 1.5) | ✅ 17/17 gate; live API call unverified — no key here |
+| Extraction prompt + candidate finder | ✅ **real data** — venue join confirmed; 1 prompt defect found by reading rows against articles |
+| Extraction runner (Phase 1.5) | ✅ 17/17 gate + live endpoint verified; 2 silent defects found and fixed |
 | Ingest: collect / formats / parse / run | ✅ **real data** — 600 documents off the USB; 3 silent defects found and fixed |
 | Span pairing (Phase 1.6) | ✅ 18/18 rule gate, schema-clean |
 | Emit (Phase 1.7) | ✅ 6 files; has now processed rows, via the rehearsal |
@@ -28,12 +30,13 @@ carry real data — federal awards, ACS context and DOL wage & hour — are live
 | Wage & hour enforcement (DOL WHD) | ✅ **real data** — 66/66 gate, 231 in-scope cases, in the console |
 | Console verification pass | ✅ 2026-08-11 — walked end to end in a browser; 4 defects found and fixed |
 | Wage & hour *by venue* | ⬜ blocked on the data, not on time — 179 cases → 420 venues |
-| Real articles through the pipeline | 🟡 366 readable articles parsed and on disk; extraction still needs an API key |
+| Real articles through the pipeline | 🟡 366 parsed; **45 extracted** (30 = a reproducible random sample); corpus run ($18, ~1h) not made |
 
-The four ✅ **real data** rows are the only rows in this table backed by something other than
-a fixture. The contract side is no longer entirely self-tested — real articles are parsed and
-on disk — but nothing has been *extracted* from them yet, so no contract or tenure figure in
-the console comes from journalism.
+The five ✅ **real data** rows are the only rows in this table backed by something other than
+a fixture. The contract side is no longer self-tested: real articles are parsed, 15 have been
+through the real model, and one of them put a real contract event on a real venue. But 15 is a
+sample, not a corpus, and **no contract or tenure figure in the console comes from journalism
+yet** — the console still renders rehearsal output on that layer.
 
 The ⬜ on wage & hour by venue is deliberate and is not going to become a ✅. WHISARD has no
 venue field and ZIP is not a substitute for one; the row stays in the table so the absence is
@@ -498,23 +501,153 @@ because "it stops early on a bad key" is worth more than an assertion:
   exception type alone cannot tell a broken endpoint from a bad article. Checking only the
   type would have ground through all 500.
 
-What remains unverified is a real call to the real endpoint: there is no API key in this
-environment. Request construction, backoff, truncation handling and cost accounting are
-written and reviewed but have never round-tripped against Anthropic.
-**The first real run should be `--limit 5`, not the whole corpus.**
+The endpoint itself is no longer unverified — see **The first real calls (2026-08-12)** below.
+Request construction, backoff and cost accounting have now round-tripped against Anthropic on
+15 real articles. What is still unverified is the corpus run: 366 articles have never been
+extracted, and no gold row has been scored against a real extraction.
+
+### The first real calls (2026-08-12)
+
+15 articles, real endpoint, `claude-opus-4-6`. Zero failed calls, zero rejected events, zero
+`venue_id not offered` repairs — the model never invented a venue. Two defects surfaced that
+only a real, *repeated* call could show.
+
+**1. The response cache could never hit, so no run was ever resumable.** `run.py` promises
+that "an interrupted run re-reads the calls it already paid for". It did not. Two consecutive
+runs over the same 5 articles shared **0 cache entries and were billed twice**. The cache key
+is a hash of the payload, and one line of the payload was not stable: `Known parents:` in
+`prompt.py` was rendering `KNOWN_OPERATORS`, a `set`, without `sorted()`. Python randomizes
+string hashing per process, so the operator list came out in a different order on every run —
+same prompt meaning, different bytes, different hash, guaranteed miss. Every other list in
+that function was already sorted; this one was missed. Fixed and verified: the payload hash is
+now identical across three separate processes, and a repeat 10-article run reports
+**cache hits 10/10, 0.0s, no new spend**.
+
+This mattered more than the money. A two-hour corpus run that is interrupted at article 300
+would have had to be paid for again from the top, every time.
+
+**2. Prompt caching never engaged at all — the block comment in `build_payload` is wrong.**
+`cache_control` is set on the system block and the tool schema, and the API silently ignored
+both: every call reported `cache_creation_input_tokens: 0` and `cache_read_input_tokens: 0`.
+It is not the header, the API version, the key, or the block layout — a synthetic 9,903-token
+system block on the same key caches fine. It is a **minimum size**. Measured by bisection
+against the live endpoint:
+
+| cacheable prefix | cached? |
+|---|---|
+| 2,210 tokens | no |
+| 3,310 tokens | no |
+| 4,190 tokens | **yes** |
+
+The threshold is 4,096 tokens for this model. Counted exactly: system 2,499 + tool schema
+1,261 = **3,760** — 336 tokens short. The article body sits after the breakpoint and varies per
+article, so it cannot make up the difference.
+
+The honest consequence is a cost line, not a bug: the corpus costs **$18.22** rather than the
+$12.05 it would cost if the prefix cached, a **$6.17** difference. That is left alone
+deliberately. Padding the prompt with 336 tokens of filler to cross a billing threshold would
+change what the model reads in order to save six dollars, and the prompt is the one artefact
+in this pipeline whose exact wording has been tuned against the gold set. The
+`cache_control` markers stay where they are: they cost nothing, and they start working the day
+the schema or crosswalk grows past the threshold on its own.
+
+**3. The venue join works, and the first five articles were a misleading sample.** The initial
+`--limit 5` returned 5 events with **0 venue matches**, which reads like a broken join. It was
+not. `--limit 5` takes the first five articles in file order, and those happened to be prison
+and county-jail contracts — `El Paso County Criminal Justice Center`, `Michigan Department of
+Corrections`. The spine holds 7,494 sports and leisure venues and **zero** correctional
+facilities, so a null `venue_id` was the correct answer, and the model said so in `notes`
+rather than forcing a match. That is the behaviour the prompt asks for, confirmed on real data.
+
+Re-running with five articles chosen for venue vocabulary matched immediately:
+`U.S. Bank Stadium` → `wd-Q7929512`, Minneapolis MN, twice, from two different papers. The
+chain from RTF on a USB stick to a mapped point is now closed end to end on real data.
+
+The reason it needed checking is that the corpus is not mostly about the venues the spine
+covers. Measured across all 366 readable articles by domain vocabulary:
+
+| dominant domain | articles | share |
+|---|---|---|
+| higher ed | 120 | 32.8% |
+| K-12 schools | 92 | 25.1% |
+| **stadiums / arenas / convention centers** | **71** | **19.4%** |
+| healthcare | 33 | 9.0% |
+| none of these | 29 | 7.9% |
+| corrections | 21 | 5.7% |
+
+So roughly **19% of the corpus is on-scope for this spine**, and a large majority of extracted
+events should be expected to carry a null `venue_id`. That is a fact about a search that
+returned every Aramark and Sodexo contract story rather than only venue ones — not a defect,
+and not something to fix by widening the spine two days out. It does mean the corpus run
+should be judged on *venue-matched* events, not on total events.
+
+### The 30-article sample (2026-08-12)
+
+A random sample of 30 of the 366 readable articles, `random.seed(20260812)` so it is exactly
+reproducible. Unbiased on purpose — picking articles by venue vocabulary would have measured
+the sampler rather than the corpus. Result: **16 valid events from 30 articles, 1 carrying a
+`venue_id`.** 16 of 30 articles (53%) produced no event at all, which is the prompt behaving
+as instructed rather than failing.
+
+The one venue-matched event is a genuine find, and it is the hard case working:
+`Memorial Stadium` → **Gies Memorial Stadium, Champaign IL**, Sodexo, 2015. About 30 venues
+share the key "memorial stadium"; the model picked Champaign because the News-Gazette is a
+Champaign paper and the article quotes the University of Illinois athletics concessions
+director, and it wrote that reasoning into `notes`. That is the disambiguation `candidates.py`
+was built for, confirmed on real data.
+
+**The finding: a union contract is not a concessions contract.** The sample's other
+venue-matched event was Aramark / `expired` / 2016-04-01 at Citizens Bank Park, from an
+article about a Unite Here Local 274 picket. The source sentence is "the union's contract with
+Aramark expired April 1" — a collective bargaining agreement. Aramark's concessions contract
+was never mentioned, and Aramark still runs that ballpark.
+
+`expired` is in `CLOSERS` in `spans/pair.py`, so this row would have closed Aramark's tenure
+span and drawn on the map that Aramark left Citizens Bank Park in April 2016. A false fact,
+rendered as confidently as a true one, from an article that says no such thing.
+
+What makes it worth writing down is that **the model was not wrong — the schema was**. It put
+the right answer in `notes`: *"this is the labor/union contract expiration, not the food-service
+concession contract... flagging for review."* It understood the distinction, had no
+`event_type` that expressed it, and picked the closest one. `needs_review` was already true,
+but review catches a row a human reads; it does not stop the row reaching `pair.py`.
+
+The `## What is NOT an event` list in `prompt.py` now excludes labor contracts explicitly, and
+scopes `strike` to workers actually striking rather than picketing, contract talks or a strike
+vote. Re-asked, that article returns **zero events**. Re-running all 30 confirmed no real event
+was suppressed elsewhere: the Memorial Stadium find survives.
+
+This is the argument for a gold set in one example. The defect was invisible to every gate —
+schema-valid, correctly typed, high confidence, honestly annotated — and visible in about a
+minute to anyone who read the article next to the row.
+
+One operational note: **editing the prompt invalidates the entire response cache**, since the
+system block is part of the payload hash. The 30-article re-run cost the full $1.04 again.
+Prompt changes are therefore corpus-run-priced, and should be batched before the full run
+rather than made after it.
 
 ### How long the corpus will take
 
 Measured here: `build_index()` 0.08s once, candidate finding **0.4–1.4 ms/article** (all 500
-in under a second), prompt **3,600–5,300 tokens** of which **2,968 is the constant system +
-schema block**, marked `cache_control: ephemeral` so it is paid for once rather than 500
-times. Everything local is free; the model call is the whole clock.
+in under a second). Everything local is free; the model call is the whole clock.
 
-Not measured, and therefore an estimate: ~10–20s per call, so **~2 hours for 500 sequential**
-and order **$10–20**. Runs are sequential on purpose — the cache makes the second run free,
-which beats a concurrent runner whose failure mode is a half-written output file. The runner
-prints its own rate and ETA every 25 articles and reports actual tokens and cost at the end,
-so after the first `--limit 5` these estimates can be replaced with real numbers.
+These are no longer estimates. Measured over 15 real calls: **8.1–12.5s per article**,
+**8,252 input + 340 output tokens per article** on average, **$0.050 per article**, no
+caching (see above). For the 366-article corpus that projects to:
+
+| | measured basis | 366 articles |
+|---|---|---|
+| wall clock | 8.1–12.5 s/article | **50–76 minutes** |
+| input tokens | 8,252/article | 3.02 M |
+| cost | $0.050/article | **$18.22** |
+
+Both are inside the original $10–20 / ~2h guess, so nothing downstream needs rethinking — but
+the guess was right for the wrong reason, since it assumed a prompt cache that never engaged.
+
+Runs are sequential on purpose, and now that the payload hash is stable the cache genuinely
+makes a re-run free — verified at 10/10 hits, 0.0s. That beats a concurrent runner whose
+failure mode is a half-written output file. The runner prints its own rate and ETA every 25
+articles and reports actual tokens and cost at the end.
 
 `PRICE_PER_MTOK` in `extract/run.py` is a hardcoded rate with the date it was checked
 printed next to the total, so a stale rate is visible rather than quietly wrong.

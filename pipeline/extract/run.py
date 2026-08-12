@@ -79,10 +79,22 @@ def article_key(article: dict[str, Any]) -> str:
 
 def build_payload(article: dict[str, Any], candidates: list[dict[str, Any]],
                   model: str = MODEL) -> dict[str, Any]:
-    """`cache_control` sits on the system block and the tool schema because those two are
-    identical across every article in the run — measured at ~2,970 tokens, which is the
-    majority of a short article's prompt. They are the only cacheable parts; the candidate
-    list changes per article and must not be marked."""
+    """`cache_control` sits on the system block and the tool schema because those two are the
+    only parts identical across every article in the run; the candidate list changes per
+    article and must not be marked.
+
+    It does not currently do anything, and that is measured rather than assumed. Prompt
+    caching has a minimum cacheable prefix, found by bisection against the live endpoint to be
+    4,096 tokens for this model. Counted with `count_tokens`: system 2,499 + tool schema 1,261
+    = 3,760, which is 336 short, so the API ignores both markers and every real call so far has
+    come back `cache_creation_input_tokens: 0`. Over the 366-article corpus that is $18.22
+    instead of $12.05.
+
+    The markers stay. Padding the prompt to cross a billing threshold would change what the
+    model reads to save six dollars, and this prompt is tuned against the gold set. If the
+    crosswalk or the schema grows past 4,096 on its own, caching starts working with no code
+    change — and `run.py` already prints cache write/read tokens, so it will be visible when it
+    does."""
     return {
         "model": model,
         "max_tokens": MAX_TOKENS,

@@ -53,7 +53,15 @@ def _crosswalk_block() -> str:
         f"    {k} was bought by {v[0]} in {v[1]} — keep it as \"{k}\", do NOT write {v[0]}"
         for k, v in sorted(ACQUISITIONS.items())
     )
-    return f"""Known parents: {', '.join(KNOWN_OPERATORS)}
+    # `sorted` is not cosmetic here. KNOWN_OPERATORS is a set, and Python randomizes string
+    # hashing per process, so this line came out in a different order on every run. That changes
+    # the prompt text, which changes the payload hash, which is the cache key — so the "an
+    # interrupted run re-reads the calls it already paid for" promise in `run.py` was never
+    # true. Measured: two consecutive runs over the same 5 articles shared 0 cache entries and
+    # were billed twice. Over the full 366-article corpus that is the difference between a
+    # resumable two-hour run and one that has to be paid for again from the top every time it
+    # is interrupted. Every other list in this function was already sorted; this one was missed.
+    return f"""Known parents: {', '.join(sorted(KNOWN_OPERATORS))}
 
   RENAMES — same company, new name. Normalize freely.
     {renames}
@@ -102,6 +110,12 @@ name — "replaces the previous vendor" identifies no one.
   * Catering a single game, convention or one-off event.
   * A restaurant review, a menu item, a chef profile, a stadium food ranking.
   * The operator merely being present ("hot dogs from Aramark's stand") with no change.
+  * **A labor contract between the operator and a union.** "The union's contract with Aramark
+    expired April 1" is a collective bargaining agreement, not the concessions contract, and
+    the operator keeps running the venue throughout. Only `event_type` = `strike` applies to
+    labor, and only when workers actually strike — not for picketing, contract talks, a
+    rejected offer, or a strike vote that has not happened. If a labor dispute is all the
+    article reports, return an empty `events` list.
 
 If the article is about a pending decision, return an empty `events` list. Do not downgrade
 it to a low-confidence `won`. A phantom contract is worse than a missing one: a gap can be

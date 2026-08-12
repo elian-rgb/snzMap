@@ -1,0 +1,762 @@
+{
+  "per_article": [
+    {
+      "article_key": "fd1f595c098e",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 249011,
+      "candidates": 1,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 3.6,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4845,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "533af3f28e7b",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 417282,
+      "candidates": 20,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.45,
+      "cached": false,
+      "usage": {
+        "input_tokens": 14165,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "336042a03b51",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1870926,
+      "candidates": 0,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 1.98,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5287,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "7664e3bd6d5f",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 140353,
+      "candidates": 0,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 1.84,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "1fcc3e448a41",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 19564,
+      "candidates": 4,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 1.79,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6357,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "c748bc6bfbe5",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 352101,
+      "candidates": 5,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 1.8,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5092,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "ae04cfd873fc",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2246720,
+      "candidates": 6,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 11.09,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5691,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 388,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "338a32eff08c",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2943192,
+      "candidates": 7,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 3.46,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6665,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "5af2667f97b6",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1858456,
+      "candidates": 3,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 10.21,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4789,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 418,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "6cf39ab1360c",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1576967,
+      "candidates": 5,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.17,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5900,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "6fbc948bd258",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 198008,
+      "candidates": 0,
+      "events": 2,
+      "kept": 2,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 11.08,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4953,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 656,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "9b59cf3b5bbf",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2476184,
+      "candidates": 7,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.75,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6391,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "8cdcde5fb25a",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1328765,
+      "candidates": 2,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 11.32,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5764,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 448,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "9df0f133d1b4",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 306306,
+      "candidates": 0,
+      "events": 2,
+      "kept": 2,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 15.41,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4883,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 900,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "389bb0cafd9f",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 254353,
+      "candidates": 0,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 3.69,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "0c2a0ba2e2d1",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2426405,
+      "candidates": 5,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.39,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5248,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "7e2976226a70",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2974075,
+      "candidates": 5,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 0.0,
+      "cached": true,
+      "usage": {
+        "input_tokens": 5725,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "66fc49c761af",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2028576,
+      "candidates": 11,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.99,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5497,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "4e33cb8d1898",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1296586,
+      "candidates": 4,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 10.98,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4755,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 503,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "9e738db3b6dd",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1299597,
+      "candidates": 0,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 8.51,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5263,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 488,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "de8c8a2c04e8",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 3046611,
+      "candidates": 0,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 1.73,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4572,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "777a9593e5dd",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1424515,
+      "candidates": 0,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 9.71,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6672,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 411,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "17048458ecde",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 220472,
+      "candidates": 3,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.19,
+      "cached": false,
+      "usage": {
+        "input_tokens": 7314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "2b9d5be82d28",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1855523,
+      "candidates": 0,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 9.13,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4414,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 438,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "b0319ea5fec7",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1670799,
+      "candidates": 3,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.35,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5955,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "58f8c1219e8a",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 357088,
+      "candidates": 0,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 3.1,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5005,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "12e5a68e1fbe",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 1229594,
+      "candidates": 6,
+      "events": 0,
+      "kept": 0,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 2.77,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6051,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 33,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "84064e0dd3b6",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2435949,
+      "candidates": 2,
+      "events": 2,
+      "kept": 2,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 11.06,
+      "cached": false,
+      "usage": {
+        "input_tokens": 4898,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 719,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "80f7e3b00663",
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "source_offset": 338155,
+      "candidates": 25,
+      "events": 1,
+      "kept": 1,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 8.41,
+      "cached": false,
+      "usage": {
+        "input_tokens": 6136,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 391,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    },
+    {
+      "article_key": "dbcaccfb92cf",
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "source_offset": 2688853,
+      "candidates": 3,
+      "events": 2,
+      "kept": 2,
+      "rejected": 0,
+      "repairs": [],
+      "extraction_problems": [],
+      "seconds": 13.15,
+      "cached": false,
+      "usage": {
+        "input_tokens": 5520,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 713,
+        "service_tier": "standard",
+        "inference_geo": "global"
+      }
+    }
+  ],
+  "usage": {
+    "input_tokens": 173276,
+    "output_tokens": 7067,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "cache_hits": 1,
+  "seconds": 173.4
+}

@@ -1,0 +1,5647 @@
+[
+ {
+  "osm_id": "node/367931985",
+  "canonical_name": "Baptist State Convention Center",
+  "lat": 32.3275474,
+  "lng": -86.2814056,
+  "city": null,
+  "state": "AL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/528827304",
+  "canonical_name": "Spokane Convention Center",
+  "lat": 47.660981,
+  "lng": -117.412577,
+  "city": "Spokane",
+  "state": null,
+  "wikidata_qid": "Q7578854",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/1362434367",
+  "canonical_name": "Big Sur Lodge Convention Center",
+  "lat": 36.2529004,
+  "lng": -121.7857009,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/1408962389",
+  "canonical_name": "Empire State Plaza Convention Center",
+  "lat": 42.650589,
+  "lng": -73.758729,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/2467270050",
+  "canonical_name": "Yakima Convention Center",
+  "lat": 46.605231,
+  "lng": -120.4964039,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "City of Yakima"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/2626028714",
+  "canonical_name": "Treetops Resort Convention Center",
+  "lat": 45.0349089,
+  "lng": -84.5892523,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/3604081128",
+  "canonical_name": "Europa Convention Centre",
+  "lat": 43.685519,
+  "lng": -79.6652268,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/4368953793",
+  "canonical_name": "Vancouver Convention Centre East",
+  "lat": 49.2883318,
+  "lng": -123.1125685,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/4516194388",
+  "canonical_name": "Vancouver Convention Center",
+  "lat": 45.6253301,
+  "lng": -122.6744586,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/5225516431",
+  "canonical_name": "Van De Kamp Hall",
+  "lat": 34.2009777,
+  "lng": -118.209847,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/5782654769",
+  "canonical_name": "Chatham County Agricultural and Convention Center",
+  "lat": 35.7237479,
+  "lng": -79.1967602,
+  "city": "Pittsboro",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/6446923947",
+  "canonical_name": "Columbia County Exhibition Center",
+  "lat": 33.478361,
+  "lng": -82.1902554,
+  "city": "Grovetown",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/6612200206",
+  "canonical_name": "Columbia Exposition Center",
+  "lat": 31.277683,
+  "lng": -89.8414936,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "City of Columbia"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/7105362659",
+  "canonical_name": "Wenatchee Convention Center",
+  "lat": 47.4268612,
+  "lng": -120.3124231,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q65117633",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/7484423331",
+  "canonical_name": "Cave City Convention Center",
+  "lat": 37.1425949,
+  "lng": -85.966345,
+  "city": "Cave City",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/7590609704",
+  "canonical_name": "Terre Haute Convention Center & Visitor's Bureau",
+  "lat": 39.4329686,
+  "lng": -87.335943,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/7833908977",
+  "canonical_name": "MassMutual Center Convention Center",
+  "lat": 42.1016251,
+  "lng": -72.587718,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/7965531694",
+  "canonical_name": "Barry County Expo",
+  "lat": 42.6769025,
+  "lng": -85.3952635,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8042402944",
+  "canonical_name": "Linder Conference Center",
+  "lat": 40.9380362,
+  "lng": -74.5719954,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8268117221",
+  "canonical_name": "Sullivan Civic Center",
+  "lat": 39.098693,
+  "lng": -87.4073441,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8296098731",
+  "canonical_name": "Schaumburg Convention Center",
+  "lat": 42.0608065,
+  "lng": -88.039516,
+  "city": "Schaumburg",
+  "state": "IL",
+  "wikidata_qid": "Q7431003",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8386446701",
+  "canonical_name": "Chaco Convention Center",
+  "lat": 35.5086392,
+  "lng": -108.8102206,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8433554439",
+  "canonical_name": "Raising Cane's River Center Exhibition Halls",
+  "lat": 30.4438537,
+  "lng": -91.1888733,
+  "city": "Baton Rouge",
+  "state": "LA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8771094943",
+  "canonical_name": "Civic Center for the Performing Arts",
+  "lat": 43.4930613,
+  "lng": -112.0229739,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/8912036284",
+  "canonical_name": "Great Falls Home and Garden Show",
+  "lat": 47.501127,
+  "lng": -111.3039532,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9173305514",
+  "canonical_name": "Miami Convention Center",
+  "lat": 25.7709145,
+  "lng": -80.1910318,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9236208984",
+  "canonical_name": "Charlotte Convention Center",
+  "lat": 35.2229594,
+  "lng": -80.8461422,
+  "city": "Charlotte",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9306660385",
+  "canonical_name": "The 3-I Building",
+  "lat": 37.9601321,
+  "lng": -100.8807886,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9344149334",
+  "canonical_name": "Espace Shawinigan",
+  "lat": 46.5393621,
+  "lng": -72.7638867,
+  "city": "Shawinigan",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "operator": "Cit\u00e9 de l'\u00c9nergie"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9499199604",
+  "canonical_name": "Long Beach Civic Center",
+  "lat": 33.7679121,
+  "lng": -118.1977619,
+  "city": "Long Beach",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9921013609",
+  "canonical_name": "Kalahari Resorts Convention Center",
+  "lat": 30.5184496,
+  "lng": -97.6351872,
+  "city": "Round Rock",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/9985758635",
+  "canonical_name": "CLEMENT CIVIC CENTER",
+  "lat": 35.104624,
+  "lng": -78.5917796,
+  "city": "Autryville",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/10593034789",
+  "canonical_name": "Seattle Convention Center Arch at 705 Pike",
+  "lat": 47.6113891,
+  "lng": -122.3325491,
+  "city": "Seattle",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/10601266038",
+  "canonical_name": "Rainmaker Expo Center",
+  "lat": 41.4740124,
+  "lng": -71.958145,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/10610380976",
+  "canonical_name": "Umatilla County Fair",
+  "lat": 45.8257809,
+  "lng": -119.2556226,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11137487956",
+  "canonical_name": "Expo 1",
+  "lat": 41.0305407,
+  "lng": -78.4462699,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11137487957",
+  "canonical_name": "Expo 1",
+  "lat": 41.0311569,
+  "lng": -78.4456127,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11137487958",
+  "canonical_name": "Expo 3",
+  "lat": 41.0293466,
+  "lng": -78.4473136,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11140753657",
+  "canonical_name": "Old Town Sportmen's Wildlife Exhibit",
+  "lat": 41.031729,
+  "lng": -78.4466019,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11389934734",
+  "canonical_name": "The Murray & Lillian Slatkin Exhibit Hall",
+  "lat": 39.4329495,
+  "lng": -76.7628469,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11515591050",
+  "canonical_name": "Envision Center",
+  "lat": 40.4249455,
+  "lng": -86.9120649,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11864729912",
+  "canonical_name": "Stillwater County Civic Center & Fairgrounds",
+  "lat": 45.6503128,
+  "lng": -109.2509406,
+  "city": "Columbus",
+  "state": "MT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Stillwater County"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/11999438049",
+  "canonical_name": "Earth Expo & Convention Center",
+  "lat": 41.4946168,
+  "lng": -72.0923097,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12050038386",
+  "canonical_name": "Berks County Fairgrounds",
+  "lat": 40.3787005,
+  "lng": -76.0109459,
+  "city": "Leesport",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12136793148",
+  "canonical_name": "Lakeside Expo Center",
+  "lat": 25.7182155,
+  "lng": -80.2774919,
+  "city": "Coral Gables",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "operator": "University of Miami"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12407196268",
+  "canonical_name": "The Venetian Convention Center",
+  "lat": 36.121548,
+  "lng": -115.1649461,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12532749683",
+  "canonical_name": "Leon County Expo Center",
+  "lat": 31.3837571,
+  "lng": -96.0119882,
+  "city": "Buffalo",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12690036134",
+  "canonical_name": "River's Edge Convention Center",
+  "lat": 41.419379,
+  "lng": -97.3668747,
+  "city": "Columbus",
+  "state": "NE",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12806709501",
+  "canonical_name": "Clackamas County Event Center",
+  "lat": 45.266597,
+  "lng": -122.6888434,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/12911210803",
+  "canonical_name": "Sheraton Minneapolis Downtown Convention Center",
+  "lat": 44.9705564,
+  "lng": -93.276747,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13134837301",
+  "canonical_name": "Eglin Enlisted Hall",
+  "lat": 30.4665582,
+  "lng": -86.5314481,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13155856999",
+  "canonical_name": "Jekyll Island Convention Center",
+  "lat": 31.0486167,
+  "lng": -81.4112597,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "State Of Georgia"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13195805771",
+  "canonical_name": "Tucson Expo Center",
+  "lat": 32.1614832,
+  "lng": -110.9122988,
+  "city": "Tucson",
+  "state": "Arizona",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13318605852",
+  "canonical_name": "Red Wolf Convention Center",
+  "lat": 35.8454593,
+  "lng": -90.6679863,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13320440021",
+  "canonical_name": "Sky Convention Center Uncas Ballroom",
+  "lat": 41.4922628,
+  "lng": -72.0870841,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13625502525",
+  "canonical_name": "DTC Expo & Event Center",
+  "lat": 39.0305599,
+  "lng": -77.4231524,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13676361386",
+  "canonical_name": "Ontario Convention Center",
+  "lat": 34.0656467,
+  "lng": -117.6066497,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13676508672",
+  "canonical_name": "Anaheim Convention Center",
+  "lat": 33.800569,
+  "lng": -117.920719,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "node/13792622520",
+  "canonical_name": "NEA District Fair Grounds",
+  "lat": 35.8733292,
+  "lng": -90.6108761,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/13866261",
+  "canonical_name": "Seattle Convention Center Arch",
+  "lat": 47.6117723,
+  "lng": -122.3316528,
+  "city": "Seattle",
+  "state": "WA",
+  "wikidata_qid": "Q7972232",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/24168622",
+  "canonical_name": "San Jose McEnery Convention Center",
+  "lat": 37.3289602,
+  "lng": -121.8887737,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7414442",
+  "start_date": null,
+  "alt_names": [
+   "San Jose Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/24306412",
+  "canonical_name": "Moscone Convention Center West",
+  "lat": 37.783043,
+  "lng": -122.4040898,
+  "city": "San Francisco",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/25347737",
+  "canonical_name": "Arthur R. Outlaw Mobile Convention Center",
+  "lat": 30.6920164,
+  "lng": -88.0380452,
+  "city": "Mobile",
+  "state": "AL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Arthur R. Outlaw Mobile Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Oakview Group"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/25667700",
+  "canonical_name": "Oregon Convention Center",
+  "lat": 45.5282825,
+  "lng": -122.6632278,
+  "city": "Portland",
+  "state": "OR",
+  "wikidata_qid": "Q7101153",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Metro"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/27446284",
+  "canonical_name": "Santa Clara Convention Center",
+  "lat": 37.4043687,
+  "lng": -121.9751004,
+  "city": "Santa Clara",
+  "state": "CA",
+  "wikidata_qid": "Q7419315",
+  "start_date": "1986",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Oak View Group"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/27925846",
+  "canonical_name": "Las Vegas Convention Center",
+  "lat": 36.1309347,
+  "lng": -115.1506374,
+  "city": "Las Vegas",
+  "state": "NV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/28095309",
+  "canonical_name": "Fort Worth Convention Center",
+  "lat": 32.7498835,
+  "lng": -97.3280021,
+  "city": "Fort Worth",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Tarrant County Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public",
+   "operator": "City of Fort Worth"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/30303057",
+  "canonical_name": "Ohio Expo Center & State Fairgrounds",
+  "lat": 40.0028645,
+  "lng": -82.9910684,
+  "city": "Columbus",
+  "state": "OH",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "operator": "Ohio Exposition Commission"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/30929677",
+  "canonical_name": "San Diego Convention Center",
+  "lat": 32.7063538,
+  "lng": -117.1618222,
+  "city": "San Diego",
+  "state": "CA",
+  "wikidata_qid": "Q2236617",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "tourism": "attraction"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/32487966",
+  "canonical_name": "Greater Tacoma Convention and Trade Center",
+  "lat": 47.248509,
+  "lng": -122.4390709,
+  "city": "Tacoma",
+  "state": "WA",
+  "wikidata_qid": "Q5600778",
+  "start_date": "2004",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/32789248",
+  "canonical_name": "Connecticut Convention Center",
+  "lat": 41.7625827,
+  "lng": -72.6680607,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q14714881",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Capital Region Development Authority"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/33005120",
+  "canonical_name": "Portland Expo Center",
+  "lat": 45.6065817,
+  "lng": -122.6888456,
+  "city": "Portland",
+  "state": null,
+  "wikidata_qid": "Q7231980",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/33149360",
+  "canonical_name": "Salt Palace Convention Center",
+  "lat": 40.7672406,
+  "lng": -111.8968315,
+  "city": "Salt Lake City",
+  "state": "UT",
+  "wikidata_qid": "Q7405909",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/34614781",
+  "canonical_name": "Reno-Sparks Convention Center",
+  "lat": 39.4854802,
+  "lng": -119.7914699,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7313367",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/34937150",
+  "canonical_name": "Bradenton Area Convention Center",
+  "lat": 27.5150182,
+  "lng": -82.5614839,
+  "city": "Palmetto",
+  "state": "FL",
+  "wikidata_qid": "Q6747058",
+  "start_date": null,
+  "alt_names": [
+   "Manatee Civic Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/34958134",
+  "canonical_name": "Oakland Convention Center",
+  "lat": 37.8024427,
+  "lng": -122.2741177,
+  "city": "Oakland",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "George P. Scotlan Memorial Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/36897393",
+  "canonical_name": "Sharonville Convention Center",
+  "lat": 39.2793284,
+  "lng": -84.4447555,
+  "city": "Cincinnati",
+  "state": "OH",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/38501284",
+  "canonical_name": "Kansas City Convention Center",
+  "lat": 39.0963123,
+  "lng": -94.5864521,
+  "city": "Kansas City",
+  "state": "MO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/39117956",
+  "canonical_name": "Buffalo Niagara Convention Center",
+  "lat": 42.8869409,
+  "lng": -78.8757185,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/39996723",
+  "canonical_name": "Donald E. Stephens Convention Center",
+  "lat": 41.9789904,
+  "lng": -87.8602267,
+  "city": "Rosemont",
+  "state": "IL",
+  "wikidata_qid": "Q5294297",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "Village of Rosemont"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/40477610",
+  "canonical_name": "Greater Columbus Convention Center",
+  "lat": 39.9718259,
+  "lng": -83.0011299,
+  "city": "Columbus",
+  "state": "OH",
+  "wikidata_qid": "Q5600506",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/41376826",
+  "canonical_name": "Mountain America Exposition Center",
+  "lat": 40.5779886,
+  "lng": -111.8878821,
+  "city": "Sandy",
+  "state": "UT",
+  "wikidata_qid": null,
+  "start_date": "2000-11-01",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Salt Lake County"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/42417829",
+  "canonical_name": "Northern Kentucky Convention Center",
+  "lat": 39.0891841,
+  "lng": -84.5123736,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/42784639",
+  "canonical_name": "Pennsylvania Convention Center",
+  "lat": 39.9550136,
+  "lng": -75.1602147,
+  "city": "Philadelphia",
+  "state": "PA",
+  "wikidata_qid": "Q3374781",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/42837791",
+  "canonical_name": "Minneapolis Convention Center",
+  "lat": 44.9692238,
+  "lng": -93.2740587,
+  "city": "Minneapolis",
+  "state": "MN",
+  "wikidata_qid": "Q6867978",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/44129959",
+  "canonical_name": "George R. Brown Convention Center",
+  "lat": 29.7521235,
+  "lng": -95.3578446,
+  "city": "Houston",
+  "state": "TX",
+  "wikidata_qid": "Q5543614",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/44888568",
+  "canonical_name": "Greater Richmond Convention Center",
+  "lat": 37.545186,
+  "lng": -77.436679,
+  "city": "Richmond",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/53500175",
+  "canonical_name": "Pasadena Convention Center",
+  "lat": 29.6483659,
+  "lng": -95.1136183,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Pasadena"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/53566393",
+  "canonical_name": "York Expo Center",
+  "lat": 39.9574241,
+  "lng": -76.7556216,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/55316481",
+  "canonical_name": "Walter E. Washington Convention Center",
+  "lat": 38.9051398,
+  "lng": -77.0229439,
+  "city": "Washington",
+  "state": "DC",
+  "wikidata_qid": "Q7806370",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/76689875",
+  "canonical_name": "Miami Beach Convention Center",
+  "lat": 25.7951752,
+  "lng": -80.1335284,
+  "city": null,
+  "state": "FL",
+  "wikidata_qid": "Q6827269",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/78485782",
+  "canonical_name": "Henry B. Gonz\u00e1lez Convention Center",
+  "lat": 29.4204611,
+  "lng": -98.4835749,
+  "city": "San Antonio",
+  "state": null,
+  "wikidata_qid": "Q5717615",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/82134867",
+  "canonical_name": "Las Cruces Convention Center",
+  "lat": 32.2824936,
+  "lng": -106.7624688,
+  "city": null,
+  "state": "NM",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/85240507",
+  "canonical_name": "Vancouver Convention Centre West",
+  "lat": 49.2890516,
+  "lng": -123.1159516,
+  "city": "Vancouver",
+  "state": null,
+  "wikidata_qid": "Q2742735",
+  "start_date": null,
+  "alt_names": [
+   "Vancouver Convention Centre"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/94482797",
+  "canonical_name": "Thomas M Menino Convention & Exhibition Center",
+  "lat": 42.3457369,
+  "lng": -71.0461568,
+  "city": "Boston",
+  "state": "MA",
+  "wikidata_qid": "Q4947862",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/103485570",
+  "canonical_name": "Palm Springs Convention Center",
+  "lat": 33.8258475,
+  "lng": -116.5381903,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q115930",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/106779984",
+  "canonical_name": "Community Choice Credit Union Convention Center",
+  "lat": 41.5923381,
+  "lng": -93.6229183,
+  "city": "Des Moines",
+  "state": "IA",
+  "wikidata_qid": "Q14688947",
+  "start_date": null,
+  "alt_names": [
+   "Veterans Memorial Auditorium"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/106780498",
+  "canonical_name": "EMC Expo Center",
+  "lat": 41.5916979,
+  "lng": -93.6224409,
+  "city": "Des Moines",
+  "state": "IA",
+  "wikidata_qid": "Q65118010",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/108059651",
+  "canonical_name": "Greater Fort Lauderdale Broward County Convention Center",
+  "lat": 26.0983755,
+  "lng": -80.1230283,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/108706999",
+  "canonical_name": "America\u2019s Center Convention Complex",
+  "lat": 38.6326802,
+  "lng": -90.1910138,
+  "city": "Saint Louis",
+  "state": "MO",
+  "wikidata_qid": "Q4742521",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Marriott Hotels"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/109141774",
+  "canonical_name": "Moscone Convention Center North",
+  "lat": 37.7843438,
+  "lng": -122.4018648,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/109141776",
+  "canonical_name": "Moscone Convention Center South",
+  "lat": 37.7838668,
+  "lng": -122.4012532,
+  "city": "San Francisco",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/116056302",
+  "canonical_name": "Pontiac Convention Center",
+  "lat": 42.7160047,
+  "lng": -88.9900377,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/116660354",
+  "canonical_name": "Mandalay Bay Convention Center",
+  "lat": 36.0889481,
+  "lng": -115.1763762,
+  "city": "Las Vegas",
+  "state": "NV",
+  "wikidata_qid": "Q3285420",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/116794651",
+  "canonical_name": "Expo Center",
+  "lat": 32.9744477,
+  "lng": -117.2600518,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/119282056",
+  "canonical_name": "Riverside Convention Center",
+  "lat": 33.9852385,
+  "lng": -117.3715303,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "government"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/121498413",
+  "canonical_name": "Rhode Island Convention Center",
+  "lat": 41.8244588,
+  "lng": -71.416984,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7320906",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/125704201",
+  "canonical_name": "Century II Performing Arts & Convention Center",
+  "lat": 37.6848553,
+  "lng": -97.3404927,
+  "city": "Wichita",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/129998603",
+  "canonical_name": "Statehouse Convention Center",
+  "lat": 34.7485533,
+  "lng": -92.2703106,
+  "city": "Little Rock",
+  "state": "AR",
+  "wikidata_qid": "Q7603929",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/130173065",
+  "canonical_name": "Savannah International Trade & Convention Center",
+  "lat": 32.0846279,
+  "lng": -81.0870007,
+  "city": "Savannah",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/133134973",
+  "canonical_name": "Clark County Exposition Center",
+  "lat": 39.8965364,
+  "lng": -83.7330282,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/134180169",
+  "canonical_name": "Mesa Convention Center",
+  "lat": 33.4196754,
+  "lng": -111.8295915,
+  "city": "Mesa",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/134627092",
+  "canonical_name": "Ruidoso Convention Center",
+  "lat": 33.3540583,
+  "lng": -105.6626733,
+  "city": null,
+  "state": "NM",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/134949715",
+  "canonical_name": "Caesars Palace Convention Center",
+  "lat": 36.1163888,
+  "lng": -115.1788076,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/135692673",
+  "canonical_name": "Raleigh Convention Center",
+  "lat": 35.7736489,
+  "lng": -78.6413226,
+  "city": "Raleigh",
+  "state": "NC",
+  "wikidata_qid": "Q7286901",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/136625468",
+  "canonical_name": "Mesa Convention Center",
+  "lat": 33.4212112,
+  "lng": -111.8307682,
+  "city": "Mesa",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/143524454",
+  "canonical_name": "Harbour Convention Centre",
+  "lat": 49.2745948,
+  "lng": -123.1091557,
+  "city": "Vancouver",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/150272240",
+  "canonical_name": "Bristlecone Convention Center",
+  "lat": 39.2488201,
+  "lng": -114.8915051,
+  "city": "Ely",
+  "state": "NV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/160693668",
+  "canonical_name": "Exhibit Building",
+  "lat": 36.0170145,
+  "lng": -114.7384934,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Hoover Dam"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/163340628",
+  "canonical_name": "DeVos Place Convention Center",
+  "lat": 42.9687861,
+  "lng": -85.6732635,
+  "city": "Grand Rapids",
+  "state": "MI",
+  "wikidata_qid": "Q5244146",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/171726159",
+  "canonical_name": "Antique Car / Truck Building",
+  "lat": 40.9590422,
+  "lng": -91.5479284,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/171870223",
+  "canonical_name": "David L. Lawrence Convention Center",
+  "lat": 40.4457486,
+  "lng": -79.9961139,
+  "city": "Pittsburgh",
+  "state": "PA",
+  "wikidata_qid": "Q5236224",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/176980458",
+  "canonical_name": "Bastrop Convention & Exhibit Center",
+  "lat": 30.1111314,
+  "lng": -97.3110402,
+  "city": "Bastrop",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Bastrop"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/177402622",
+  "canonical_name": "Niagara Falls Convention Centre",
+  "lat": 43.0760995,
+  "lng": -79.0850199,
+  "city": "Niagara Falls",
+  "state": null,
+  "wikidata_qid": "Q85800030",
+  "start_date": null,
+  "alt_names": [
+   "Scotiabank Convention Centre"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/180280188",
+  "canonical_name": "Kalahari Convention Center",
+  "lat": 43.5711479,
+  "lng": -89.768176,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Kalahari Resorts & Conventions"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/183739711",
+  "canonical_name": "Galveston Island Convention Center",
+  "lat": 29.2697051,
+  "lng": -94.8222938,
+  "city": "Galveston",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/191725146",
+  "canonical_name": "New Braunfels Civic/Convention Center",
+  "lat": 29.7001074,
+  "lng": -98.121683,
+  "city": "New Braunfels",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/195169263",
+  "canonical_name": "K.C.I. Expo Center",
+  "lat": 39.3072966,
+  "lng": -94.683053,
+  "city": "Kansas City",
+  "state": "MO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/200830230",
+  "canonical_name": "Nicholas J. Pirro Convention Center",
+  "lat": 43.0436063,
+  "lng": -76.1482253,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "tourism": "attraction"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/203404692",
+  "canonical_name": "American Bank Center Convention Center",
+  "lat": 27.8083551,
+  "lng": -97.3939187,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/206171501",
+  "canonical_name": "Five Sullivan Brothers Convention Center",
+  "lat": 42.4951555,
+  "lng": -92.3408301,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/209289531",
+  "canonical_name": "Phoenix Convention Center West",
+  "lat": 33.4497436,
+  "lng": -112.0706767,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/214500080",
+  "canonical_name": "Royal Plaza Trade Center",
+  "lat": 42.3408496,
+  "lng": -71.5936287,
+  "city": "Marlborough",
+  "state": "MA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Best Western Royal Plaza Hotel"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/214799833",
+  "canonical_name": "Thelma Keller Convention Center",
+  "lat": 39.1382247,
+  "lng": -88.5630365,
+  "city": "Effingham",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel",
+   "tourism": "hotel"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/217525246",
+  "canonical_name": "Judson F. Williams Convention Center",
+  "lat": 31.7575125,
+  "lng": -106.4920044,
+  "city": "El Paso",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/225719636",
+  "canonical_name": "Greenville Convention Center",
+  "lat": 34.852292,
+  "lng": -82.354225,
+  "city": "Greenville",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "TD Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/227073958",
+  "canonical_name": "Gateway Hall",
+  "lat": 37.3026866,
+  "lng": -121.8544356,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/227073959",
+  "canonical_name": "Pavillion Hall",
+  "lat": 37.3017532,
+  "lng": -121.8534329,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/236488135",
+  "canonical_name": "Greater Richmond Convention Center Annex",
+  "lat": 37.5437599,
+  "lng": -77.4375732,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/237058578",
+  "canonical_name": "Ajax Convention Centre",
+  "lat": 43.8571108,
+  "lng": -79.0092524,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/239813217",
+  "canonical_name": "Charlotte Convention Center",
+  "lat": 35.2220913,
+  "lng": -80.84533,
+  "city": null,
+  "state": "NC",
+  "wikidata_qid": "Q5085885",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/240736534",
+  "canonical_name": "Jackson Civic Center",
+  "lat": 35.6107258,
+  "lng": -88.8174818,
+  "city": null,
+  "state": "TN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes;public"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/245499127",
+  "canonical_name": "Lane Events Center - Convention Center",
+  "lat": 44.0439595,
+  "lng": -123.1043725,
+  "city": "Eugene",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/245730379",
+  "canonical_name": "Monroe Convention Center",
+  "lat": 39.1643985,
+  "lng": -86.5355297,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "tourism": "attraction"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/249372634",
+  "canonical_name": "Ocean Shores Convention Center",
+  "lat": 47.0085,
+  "lng": -124.1634264,
+  "city": "Ocean Shores Kites",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/254090073",
+  "canonical_name": "John & Paige Smith Center",
+  "lat": 39.9565623,
+  "lng": -76.7562947,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/257173555",
+  "canonical_name": "Northeast Washington Fair Grounds",
+  "lat": 48.5422425,
+  "lng": -117.9104097,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/262588375",
+  "canonical_name": "Fort Smith Convention Center",
+  "lat": 35.384163,
+  "lng": -94.4255109,
+  "city": "Fort Smith",
+  "state": "AR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/264586437",
+  "canonical_name": "Tinley Park Convention Center",
+  "lat": 41.5553582,
+  "lng": -87.7895927,
+  "city": "Tinley Park",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/264870897",
+  "canonical_name": "Fallon Convention Center",
+  "lat": 39.4773868,
+  "lng": -118.7907502,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/266222215",
+  "canonical_name": "Asbury Park Convention Hall",
+  "lat": 40.2237365,
+  "lng": -73.9980604,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q4803747",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/269740910",
+  "canonical_name": "Glenn F. Stock Arena",
+  "lat": 41.9281476,
+  "lng": -83.4625801,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/269740919",
+  "canonical_name": "First Merchants Bank Expo Center",
+  "lat": 41.9319436,
+  "lng": -83.4619235,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/277547430",
+  "canonical_name": "Atlanta Expo Center (North)",
+  "lat": 33.6557707,
+  "lng": -84.3661261,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/278138634",
+  "canonical_name": "Meadowlands Exposition Center",
+  "lat": 40.7883595,
+  "lng": -74.042218,
+  "city": "Secaucus",
+  "state": "NJ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "ASM Global"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/278353371",
+  "canonical_name": "Jacob K. Javits Convention Center",
+  "lat": 40.7584029,
+  "lng": -74.0021289,
+  "city": "New York",
+  "state": "NY",
+  "wikidata_qid": "Q564793",
+  "start_date": "1986",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/279169951",
+  "canonical_name": "Gatlinburg Convention Center",
+  "lat": 35.70912,
+  "lng": -83.5188221,
+  "city": "Gatlinburg",
+  "state": "TN",
+  "wikidata_qid": "Q19461926",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel",
+   "operator": "City of Gatlinburg"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/279198740",
+  "canonical_name": "Atlanta Expo Center (South)",
+  "lat": 33.6509178,
+  "lng": -84.3635965,
+  "city": "Atlanta",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/279514754",
+  "canonical_name": "Suburban Collection Showplace",
+  "lat": 42.4894595,
+  "lng": -83.5031145,
+  "city": "Novi",
+  "state": "MI",
+  "wikidata_qid": "Q22025573",
+  "start_date": "2005",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/284336272",
+  "canonical_name": "Tonopah Convention Center",
+  "lat": 38.0679992,
+  "lng": -117.2323795,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/288716387",
+  "canonical_name": "Moscone Convention Center Ballroom",
+  "lat": 37.783756,
+  "lng": -122.4000243,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/293604721",
+  "canonical_name": "The Dome Center",
+  "lat": 43.0659164,
+  "lng": -77.6122682,
+  "city": "Henrietta",
+  "state": "NY",
+  "wikidata_qid": "Q14707431",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/301587415",
+  "canonical_name": "Glendale Convention Center",
+  "lat": 33.5313611,
+  "lng": -112.2638464,
+  "city": "Glendale",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/304520240",
+  "canonical_name": "William T. Harris Agricultural Hall",
+  "lat": 40.6004892,
+  "lng": -75.5009192,
+  "city": "Allentown",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/310537613",
+  "canonical_name": "William Bill Cherry Agricultural Exposition Center",
+  "lat": 36.6166999,
+  "lng": -88.3389344,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Murray State Expo Center"
+  ],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Murray State University"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/317894294",
+  "canonical_name": "Highland Convention Center",
+  "lat": 43.6905841,
+  "lng": -98.0074319,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/331939009",
+  "canonical_name": "Orange County Convention Center",
+  "lat": 28.424722,
+  "lng": -81.4693361,
+  "city": "Orlando",
+  "state": "FL",
+  "wikidata_qid": "Q7099553",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/331939984",
+  "canonical_name": "Orange County Convention Center North",
+  "lat": 28.4288199,
+  "lng": -81.461978,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7099553",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "warehouse"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/332721445",
+  "canonical_name": "Sioux Falls Convention Center",
+  "lat": 43.561624,
+  "lng": -96.7501107,
+  "city": "Sioux Falls",
+  "state": "SD",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "ASM Global"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/333301774",
+  "canonical_name": "Ocean Center Convention Hall",
+  "lat": 29.2284494,
+  "lng": -81.0110827,
+  "city": "Daytona Beach",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/334624612",
+  "canonical_name": "Charleston Civic Center",
+  "lat": 38.3561869,
+  "lng": -81.6407975,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q5084115",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/337088563",
+  "canonical_name": "Baltimore Convention Center",
+  "lat": 39.2851992,
+  "lng": -76.6170632,
+  "city": "Baltimore",
+  "state": "MD",
+  "wikidata_qid": "Q2881656",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/344183572",
+  "canonical_name": "Creech Convention Center",
+  "lat": 37.0794045,
+  "lng": -76.3446426,
+  "city": "Hampton",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/345308137",
+  "canonical_name": "Contemporary Convention Center",
+  "lat": 28.4142183,
+  "lng": -81.5753634,
+  "city": "Lake Buena Vista",
+  "state": "FL",
+  "wikidata_qid": "Q2919960",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/346115493",
+  "canonical_name": "Prime F. Osborn III Convention Center",
+  "lat": 30.3277643,
+  "lng": -81.6721251,
+  "city": "Jacksonville",
+  "state": "FL",
+  "wikidata_qid": "Q6118042",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/364840680",
+  "canonical_name": "Siegel Suites Select - Convention Center",
+  "lat": 36.1334488,
+  "lng": -115.1608534,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/365793380",
+  "canonical_name": "Greenville Convention Center",
+  "lat": 35.5729537,
+  "lng": -77.391122,
+  "city": "Greenville",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/366520648",
+  "canonical_name": "Bismarck-Mandan Convention and Visitors Bureau",
+  "lat": 46.8309799,
+  "lng": -100.8184863,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/368945333",
+  "canonical_name": "Convention Centre",
+  "lat": 25.069531,
+  "lng": -77.3994747,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "stadium"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/370815444",
+  "canonical_name": "Expo Hall",
+  "lat": 29.4291652,
+  "lng": -98.4402383,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/378320557",
+  "canonical_name": "Knoxville Convention Center",
+  "lat": 35.9611041,
+  "lng": -83.9223063,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q6423660",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Knoxville"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/388598107",
+  "canonical_name": "Hampton Roads Convention Center",
+  "lat": 37.0371486,
+  "lng": -76.3820376,
+  "city": "Hampton",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/389561033",
+  "canonical_name": "Apollo Convention Centre",
+  "lat": 43.6454624,
+  "lng": -79.6870219,
+  "city": "Mississauga",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/392365875",
+  "canonical_name": "Gas South Convention Center",
+  "lat": 33.9889516,
+  "lng": -84.0938673,
+  "city": "Duluth",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/393292762",
+  "canonical_name": "Niagara Falls Convention Center",
+  "lat": 43.0857335,
+  "lng": -79.060331,
+  "city": "Niagara Falls",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "The Conference & Event Center",
+   "NFCC"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/397358143",
+  "canonical_name": "Cabarrus County Convention and Visitors Bureau",
+  "lat": 35.3630394,
+  "lng": -80.7123265,
+  "city": "Concord",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/402406660",
+  "canonical_name": "Virginia Beach Convention Center",
+  "lat": 36.8460136,
+  "lng": -75.9873231,
+  "city": "Virginia Beach",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": "2006",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/405371309",
+  "canonical_name": "Andrews County Expo",
+  "lat": 32.3237582,
+  "lng": -102.5242703,
+  "city": "Andrews",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/426708093",
+  "canonical_name": "George R Moscone Convention Center",
+  "lat": 37.7843818,
+  "lng": -122.4006059,
+  "city": null,
+  "state": "CA",
+  "wikidata_qid": "Q1752484",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/438479460",
+  "canonical_name": "Socorro Convention Center",
+  "lat": 34.0351849,
+  "lng": -106.9133302,
+  "city": "Socorro",
+  "state": "NM",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/451375517",
+  "canonical_name": "Hot Springs Convention Center",
+  "lat": 34.5095659,
+  "lng": -93.0501371,
+  "city": "Hot Springs",
+  "state": "AR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/457375302",
+  "canonical_name": "Beltrami County Fairgrounds",
+  "lat": 47.5395592,
+  "lng": -94.8975056,
+  "city": "Bemidji",
+  "state": "MN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "no"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/461695150",
+  "canonical_name": "Augusta Convention Center",
+  "lat": 33.4780779,
+  "lng": -81.9673396,
+  "city": "Augusta",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/464379931",
+  "canonical_name": "Mayo Civic Center",
+  "lat": 44.022453,
+  "lng": -92.4586474,
+  "city": "Rochester",
+  "state": "MN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/490145056",
+  "canonical_name": "Reeves County Civic Center",
+  "lat": 31.4121573,
+  "lng": -103.4869301,
+  "city": "Pecos",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/492440734",
+  "canonical_name": "Gaylord Rockies Convention Center",
+  "lat": 39.8187038,
+  "lng": -104.7511028,
+  "city": "Aurora",
+  "state": "CO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "Marriott Corporation"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/499314166",
+  "canonical_name": "Irving Convention Center at Las Colinas",
+  "lat": 32.8780043,
+  "lng": -96.9432025,
+  "city": "Irving",
+  "state": "TX",
+  "wikidata_qid": "Q6074525",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/502072804",
+  "canonical_name": "Bellagio Convention Area",
+  "lat": 36.1116964,
+  "lng": -115.1784683,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/502266762",
+  "canonical_name": "Horseshoe Convention Center",
+  "lat": 36.1140815,
+  "lng": -115.1681204,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/509478409",
+  "canonical_name": "Cape May Convention Hall",
+  "lat": 38.9301554,
+  "lng": -74.9174186,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/525247690",
+  "canonical_name": "Tampa Convention Center",
+  "lat": 27.9419599,
+  "lng": -82.4567992,
+  "city": "Tampa",
+  "state": "FL",
+  "wikidata_qid": "Q7681709",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/528518742",
+  "canonical_name": "Lake Charles Civic Center",
+  "lat": 30.2285903,
+  "lng": -93.2212293,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/543948800",
+  "canonical_name": "Creative Arts Center",
+  "lat": 35.1200071,
+  "lng": -89.982726,
+  "city": "Memphis",
+  "state": "TN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/545534188",
+  "canonical_name": "Minett Hall",
+  "lat": 43.0655657,
+  "lng": -77.6133589,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/546746236",
+  "canonical_name": "Owensboro Convention Center",
+  "lat": 37.7757177,
+  "lng": -87.1168847,
+  "city": "Owensboro",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/549089332",
+  "canonical_name": "Orange County Convention Center",
+  "lat": 28.4291488,
+  "lng": -81.4587079,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/549089333",
+  "canonical_name": "Orange County Convention Center West Concourse",
+  "lat": 28.4252356,
+  "lng": -81.4695306,
+  "city": "Orlando",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/549234867",
+  "canonical_name": "Hickory Metro Convention Center",
+  "lat": 35.7091764,
+  "lng": -81.303947,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/550343205",
+  "canonical_name": "Willow Place Convention Center",
+  "lat": 36.1673757,
+  "lng": -85.5119631,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/550565538",
+  "canonical_name": "Emerald Coast Convention Center",
+  "lat": 30.3977434,
+  "lng": -86.5950553,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/552430594",
+  "canonical_name": "Fox Cities Exhibition Center",
+  "lat": 44.2602299,
+  "lng": -88.4099516,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q29613413",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Paper Valley Hotel and City of Appleton"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/592192390",
+  "canonical_name": "Expo Center",
+  "lat": 39.7220236,
+  "lng": -92.4638449,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/598582482",
+  "canonical_name": "Oxford Conference Center",
+  "lat": 34.3713662,
+  "lng": -89.4996491,
+  "city": "Oxford",
+  "state": "MS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/614113994",
+  "canonical_name": "Wildwoods Convention Center",
+  "lat": 38.9814918,
+  "lng": -74.8166364,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q8001588",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/631377855",
+  "canonical_name": "Macomb Sports & Expo Center (P Building)",
+  "lat": 42.5034157,
+  "lng": -82.9707388,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q6724806",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "college"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/633478799",
+  "canonical_name": "Omni Amelia Island Convention Cener",
+  "lat": 30.5544575,
+  "lng": -81.4447774,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/652147623",
+  "canonical_name": "Bradley Convention Centre",
+  "lat": 42.3908356,
+  "lng": -82.2016477,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/653264599",
+  "canonical_name": "Grapevine Convention Center",
+  "lat": 32.9288458,
+  "lng": -97.0762266,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/659134918",
+  "canonical_name": "Garland Convention & Reception Center",
+  "lat": 32.8931672,
+  "lng": -96.604608,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/663002410",
+  "canonical_name": "Wisconsin Exposition Center",
+  "lat": 43.0181329,
+  "lng": -88.0144511,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q8027169",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/663233760",
+  "canonical_name": "Mesquite Convention Center",
+  "lat": 32.7616873,
+  "lng": -96.6239206,
+  "city": "Mesquite",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/668623337",
+  "canonical_name": "Phoenix Convention Center",
+  "lat": 33.4493727,
+  "lng": -112.0689119,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7186823",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/671813637",
+  "canonical_name": "McCormack Hall",
+  "lat": 38.1402834,
+  "lng": -122.2236027,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/679634876",
+  "canonical_name": "Stormont Vail Events Center",
+  "lat": 39.0333266,
+  "lng": -95.685265,
+  "city": "Topeka",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Kansas Expocentre"
+  ],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/683245783",
+  "canonical_name": "PhoenixMart",
+  "lat": 32.8871228,
+  "lng": -111.6331355,
+  "city": "Casa Grande",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "AZ Sourcing, LLC"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/683439741",
+  "canonical_name": "Wilmington Convention Center",
+  "lat": 34.2426774,
+  "lng": -77.9512588,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/686982329",
+  "canonical_name": "Huntington Place",
+  "lat": 42.3267586,
+  "lng": -83.0491092,
+  "city": "Detroit",
+  "state": "MI",
+  "wikidata_qid": "Q1104711",
+  "start_date": "1960",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "SMG"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/697267126",
+  "canonical_name": "North Dakota State Fair Center",
+  "lat": 48.2358914,
+  "lng": -101.2629107,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/699022314",
+  "canonical_name": "Raton Convention Center",
+  "lat": 36.8923975,
+  "lng": -104.4435998,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/705823297",
+  "canonical_name": "City of Miner Convention Center",
+  "lat": 36.8932292,
+  "lng": -89.5352513,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/710753475",
+  "canonical_name": "Venus Civic Center",
+  "lat": 32.4324594,
+  "lng": -97.1034458,
+  "city": "Venus",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/713756531",
+  "canonical_name": "Forest Hill Civic and Convention Center",
+  "lat": 32.655749,
+  "lng": -97.282192,
+  "city": "Forest Hill",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/717803144",
+  "canonical_name": "Ellis County Expo Center",
+  "lat": 32.432558,
+  "lng": -96.8858795,
+  "city": "Waxahachie",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/730941161",
+  "canonical_name": "Crockett County Fair Park Convention Center",
+  "lat": 30.7080186,
+  "lng": -101.195308,
+  "city": "Ozona",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/734275001",
+  "canonical_name": "Nolam County Coliseum",
+  "lat": 32.4856277,
+  "lng": -100.4130329,
+  "city": "Sweetwater",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/734541704",
+  "canonical_name": "Center Convention Center",
+  "lat": 31.806122,
+  "lng": -94.1939896,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/736384128",
+  "canonical_name": "Wingspan Event and Conference Center",
+  "lat": 45.5292558,
+  "lng": -122.9478104,
+  "city": "Hillsboro",
+  "state": "OR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Washington County"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/738888663",
+  "canonical_name": "Lake of the Torches Convention Center",
+  "lat": 45.9742521,
+  "lng": -89.8925366,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Lac du Flambeau Band of Lake Superior Chippewa Indians"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/750316578",
+  "canonical_name": "Bossier City Civic Center",
+  "lat": 32.5246182,
+  "lng": -93.7135036,
+  "city": "Bossier City",
+  "state": "LA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/758091670",
+  "canonical_name": "Ernest N. Morial Convention Center",
+  "lat": 29.9395413,
+  "lng": -90.0632998,
+  "city": "New Orleans",
+  "state": "LA",
+  "wikidata_qid": "Q3361075",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/758176178",
+  "canonical_name": "Taj Park Convention Centre",
+  "lat": 49.1583976,
+  "lng": -122.8548304,
+  "city": "Surrey",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/766148000",
+  "canonical_name": "Carthage Civic Center",
+  "lat": 32.1329882,
+  "lng": -94.3479449,
+  "city": "Carthage",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/814626015",
+  "canonical_name": "Bayfront Convention Center",
+  "lat": 42.1368313,
+  "lng": -80.0939771,
+  "city": "Erie",
+  "state": "PA",
+  "wikidata_qid": "Q4874522",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/823014143",
+  "canonical_name": "Ho-Chunk Convention Center",
+  "lat": 43.5288931,
+  "lng": -89.7745428,
+  "city": "Baraboo",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "Ho-Chunk Nation"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/829899964",
+  "canonical_name": "Winnemucca Events Complex",
+  "lat": 40.981093,
+  "lng": -117.7149251,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/830426188",
+  "canonical_name": "Dalton Convention Center",
+  "lat": 34.7591677,
+  "lng": -85.00526,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/835351107",
+  "canonical_name": "Convention Center",
+  "lat": 43.2353961,
+  "lng": -86.2551136,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/851552320",
+  "canonical_name": "Seaboard Triumph Foods Expo Center",
+  "lat": 42.4835116,
+  "lng": -96.3893391,
+  "city": "Sioux City",
+  "state": "IA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Siouxland Expo Center",
+   "Expo Center"
+  ],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Sioux City Parks & Recreation"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/857969886",
+  "canonical_name": "Menominee Convention Center",
+  "lat": 44.8625484,
+  "lng": -88.6313662,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Menominee Conference Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/860136873",
+  "canonical_name": "World\u2019s Fair Exhibition Hall",
+  "lat": 35.9633046,
+  "lng": -83.9235598,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "City of Knoxville"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/864635036",
+  "canonical_name": "Appalachian Wireless Arena",
+  "lat": 37.4778406,
+  "lng": -82.517232,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "City of Pikeville"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/865432381",
+  "canonical_name": "Ardmore Convention Center",
+  "lat": 34.1989419,
+  "lng": -97.1621402,
+  "city": "Ardmore",
+  "state": "OK",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/872013377",
+  "canonical_name": "Tucson Convention Center",
+  "lat": 32.218631,
+  "lng": -110.9749694,
+  "city": "Tucson",
+  "state": "AZ",
+  "wikidata_qid": "Q7851149",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/875640010",
+  "canonical_name": "QCCA Expo Center",
+  "lat": 41.5093498,
+  "lng": -90.5618867,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/881080522",
+  "canonical_name": "Resch Expo Center",
+  "lat": 44.500028,
+  "lng": -88.0564931,
+  "city": "Green Bay",
+  "state": "WI",
+  "wikidata_qid": "Q63057670",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/891389327",
+  "canonical_name": "Seattle Convention Center Summit",
+  "lat": 47.6145708,
+  "lng": -122.3313931,
+  "city": "Seattle",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": "2023",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/896060844",
+  "canonical_name": "Arizona Grand Convention Center",
+  "lat": 33.3752389,
+  "lng": -111.9714034,
+  "city": "Phoenix",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/909462783",
+  "canonical_name": "Expo Center 1",
+  "lat": 29.1991905,
+  "lng": -82.2649989,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/909462784",
+  "canonical_name": "Expo Center 2",
+  "lat": 29.2046601,
+  "lng": -82.2656683,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/912914923",
+  "canonical_name": "Great Smoky Mountains Expo Center",
+  "lat": 36.129675,
+  "lng": -83.2936661,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Walters State Community College"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/922304968",
+  "canonical_name": "The Danele Shipley Memorial Arena",
+  "lat": 39.5578724,
+  "lng": -76.9995881,
+  "city": "Westminster",
+  "state": "MD",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Carroll County Agricultural Center"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/938771500",
+  "canonical_name": "Oklahoma City Convention Center",
+  "lat": 35.4600827,
+  "lng": -97.5150243,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/939499950",
+  "canonical_name": "Harlingen Convention Center",
+  "lat": 26.1991084,
+  "lng": -97.7250112,
+  "city": "Harlingen",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City Of Harlingen"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/942690547",
+  "canonical_name": "Deschutes County Fairgrounds Expo Center",
+  "lat": 44.2367364,
+  "lng": -121.1842176,
+  "city": "Redmond",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/942921919",
+  "canonical_name": "Texarkana Convention Center",
+  "lat": 33.4573086,
+  "lng": -94.0747517,
+  "city": "Texarkana",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/943915595",
+  "canonical_name": "Texarkana Convention Center",
+  "lat": 33.4732081,
+  "lng": -94.0363174,
+  "city": "Texarkana",
+  "state": "AR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/953792931",
+  "canonical_name": "Elko Convention Center",
+  "lat": 40.8444735,
+  "lng": -115.7540408,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/956325652",
+  "canonical_name": "Bend XPO",
+  "lat": 41.5188189,
+  "lng": -90.4537831,
+  "city": "East Moline",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/956961496",
+  "canonical_name": "Canterbury Expo Center",
+  "lat": 44.7918331,
+  "lng": -93.482642,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/959174650",
+  "canonical_name": "Ballard Convention Center",
+  "lat": 37.330612,
+  "lng": -87.4875057,
+  "city": "Madisonville",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/959633768",
+  "canonical_name": "Winkler County Expo Center",
+  "lat": 31.7613319,
+  "lng": -103.1557829,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/967603086",
+  "canonical_name": "Ike Hamilton Expo Center",
+  "lat": 32.5052917,
+  "lng": -92.1811799,
+  "city": "West Monroe",
+  "state": "LA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/968189144",
+  "canonical_name": "Huron County Expo Center",
+  "lat": 43.795584,
+  "lng": -83.0048405,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/971420684",
+  "canonical_name": "Exposition Gardens",
+  "lat": 40.7653045,
+  "lng": -89.6190089,
+  "city": "Peoria",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Expo Gardens"
+  ],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/976810310",
+  "canonical_name": "Salado Civic Center",
+  "lat": 30.9518939,
+  "lng": -97.5349738,
+  "city": "Salado",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/981858364",
+  "canonical_name": "West Monroe Convention Center",
+  "lat": 32.5208151,
+  "lng": -92.1496145,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/988473331",
+  "canonical_name": "Centennial Hall",
+  "lat": 38.6342656,
+  "lng": -92.5598147,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/990901763",
+  "canonical_name": "Gateway Convention Center",
+  "lat": 38.6812937,
+  "lng": -90.0175081,
+  "city": "Collinsville",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1008269302",
+  "canonical_name": "Lind Lions Club Arena",
+  "lat": 46.9712165,
+  "lng": -118.5931352,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1015759650",
+  "canonical_name": "Bernice Civic Center",
+  "lat": 32.8105457,
+  "lng": -92.6531259,
+  "city": "Bernice",
+  "state": "LA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1026269633",
+  "canonical_name": "Penticton Trade and Convention Centre",
+  "lat": 49.4964763,
+  "lng": -119.6057063,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1036344247",
+  "canonical_name": "Nichols Hall",
+  "lat": 42.1475013,
+  "lng": -87.7901413,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1036344251",
+  "canonical_name": "Burnstein Hall",
+  "lat": 42.147827,
+  "lng": -87.7900322,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1036353031",
+  "canonical_name": "Navarro County Expo Center",
+  "lat": 32.0849936,
+  "lng": -96.5212729,
+  "city": "Corsicana",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1036473390",
+  "canonical_name": "Pershing County Convention Center",
+  "lat": 40.1769162,
+  "lng": -118.4812896,
+  "city": "Lovelock",
+  "state": "NV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1039901426",
+  "canonical_name": "Ochiltree County Expo Center",
+  "lat": 36.395936,
+  "lng": -100.8191194,
+  "city": "Perryton",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1064228914",
+  "canonical_name": "Granville County Convention & Expo Center",
+  "lat": 36.2461333,
+  "lng": -78.6169826,
+  "city": "Oxford",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Granville County"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1067500792",
+  "canonical_name": "Long Cane Convention Center",
+  "lat": 33.8819384,
+  "lng": -82.4149255,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1070028038",
+  "canonical_name": "Happy State Bank Expo Hall",
+  "lat": 30.0087411,
+  "lng": -99.1122348,
+  "city": "Kerrville",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1082576092",
+  "canonical_name": "Rosewood Interpretive Center",
+  "lat": 42.1684307,
+  "lng": -87.77037,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Park District of Highland Park"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1085732177",
+  "canonical_name": "Missouri River Valley Steam Engine Fairgrounds",
+  "lat": 38.9380294,
+  "lng": -92.5978128,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1106078638",
+  "canonical_name": "Winnemucca Convention Center West Hall",
+  "lat": 40.9735081,
+  "lng": -117.7361073,
+  "city": "Winnemucca",
+  "state": "NV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1138630892",
+  "canonical_name": "Central City Convention Center",
+  "lat": 37.2902646,
+  "lng": -87.1342317,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1154310420",
+  "canonical_name": "Expo Center West",
+  "lat": 41.4359427,
+  "lng": -87.0244618,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1154321101",
+  "canonical_name": "Expo Center East",
+  "lat": 41.4359386,
+  "lng": -87.0236879,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1169251097",
+  "canonical_name": "State Fair of West Virginia",
+  "lat": 37.7772584,
+  "lng": -80.4619186,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "tourism": "theme_park"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1185835964",
+  "canonical_name": "Williamson County AG Expo Park",
+  "lat": 35.8650383,
+  "lng": -86.8278528,
+  "city": "Franklin",
+  "state": "TN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1186640053",
+  "canonical_name": "Elk City Convention Center",
+  "lat": 35.4209415,
+  "lng": -99.390067,
+  "city": "Elk City",
+  "state": "OK",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1210996415",
+  "canonical_name": "Exhibition Center",
+  "lat": 40.1723597,
+  "lng": -76.3904632,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1224477267",
+  "canonical_name": "Vermilion County Fair Expo",
+  "lat": 40.1218218,
+  "lng": -87.7270284,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1239524314",
+  "canonical_name": "Expo Barn",
+  "lat": 35.8777092,
+  "lng": -84.6207323,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1247694711",
+  "canonical_name": "Visalia Convention Center",
+  "lat": 36.3285003,
+  "lng": -119.2904781,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1254740035",
+  "canonical_name": "McKenna Yost Convention Center",
+  "lat": 39.4834993,
+  "lng": -88.3090289,
+  "city": "Mattoon",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1255456389",
+  "canonical_name": "Cochrane Agricultural Society Fair grounds",
+  "lat": 49.0690405,
+  "lng": -81.0336389,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Cochrane Agricultural Society"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1259267592",
+  "canonical_name": "Terre Haute Convention Center",
+  "lat": 39.466847,
+  "lng": -87.4058179,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1267291462",
+  "canonical_name": "Bonner County Fairgrounds",
+  "lat": 48.3111279,
+  "lng": -116.5599165,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1278016240",
+  "canonical_name": "Stillwater County Civic Center",
+  "lat": 45.6503645,
+  "lng": -109.250916,
+  "city": "Columbus",
+  "state": "MT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Stillwater County"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1279570807",
+  "canonical_name": "Pecos County Civic Center",
+  "lat": 30.9062979,
+  "lng": -102.916646,
+  "city": "Fort Stockton",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1285682364",
+  "canonical_name": "The Veranda Hotel & Resort Convention Center",
+  "lat": 34.8547656,
+  "lng": -90.2850796,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1288122555",
+  "canonical_name": "GWL Convention Center",
+  "lat": 44.738997,
+  "lng": -85.6459909,
+  "city": "Traverse City",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Great Wolf Lodge"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1303723231",
+  "canonical_name": "Chula Vista Convention Center",
+  "lat": 32.6288242,
+  "lng": -117.1035014,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Gaylord Hotels"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1306969005",
+  "canonical_name": "Winnemucca Convention Center East Hall",
+  "lat": 40.9735432,
+  "lng": -117.7353753,
+  "city": "Winnemucca",
+  "state": "NV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1330276707",
+  "canonical_name": "Emerald Queen Casino & Hotel Convention Center",
+  "lat": 47.2424694,
+  "lng": -122.3549142,
+  "city": "Fife",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1336071460",
+  "canonical_name": "Cooper County Youth Fairgrounds",
+  "lat": 38.9322884,
+  "lng": -92.8122946,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1340966124",
+  "canonical_name": "Kansas City Convention Center",
+  "lat": 39.0973732,
+  "lng": -94.5879392,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "City of Kansas City"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1366291330",
+  "canonical_name": "Youth Expo",
+  "lat": 39.7215861,
+  "lng": -92.4602389,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1384911042",
+  "canonical_name": "Daphne Civic Center",
+  "lat": 30.6170292,
+  "lng": -87.9059221,
+  "city": "Daphne",
+  "state": "AL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1423565435",
+  "canonical_name": "Grand Praire Events & Convention Center",
+  "lat": 32.7033037,
+  "lng": -97.026552,
+  "city": "Grand Prairie",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": "2023-12-7",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Concord Hospitality"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1431077783",
+  "canonical_name": "Wharton County Fair Grounds",
+  "lat": 29.3158875,
+  "lng": -96.2226816,
+  "city": "Wharton",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes",
+   "operator": "Wharton County Youth Fair"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1435802463",
+  "canonical_name": "Centro de Exposiciones y Convenciones de Delicias",
+  "lat": 28.1820303,
+  "lng": -105.49668,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "industrial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1452726976",
+  "canonical_name": "Ed Charles Exhibition Hall",
+  "lat": 40.6003242,
+  "lng": -75.500884,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/1486188378",
+  "canonical_name": "Pasadena Convention Center",
+  "lat": 34.1437327,
+  "lng": -118.1444246,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q1660503",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/1748169",
+  "canonical_name": "Birmingham Jefferson Convention Complex",
+  "lat": 33.5249479,
+  "lng": -86.8120401,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/4784289",
+  "canonical_name": "Lubbock Memorial Civic Center",
+  "lat": 33.588558,
+  "lng": -101.8512419,
+  "city": "Lubbock",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/6092746",
+  "canonical_name": "Skagit Valley Inn and Convention Center",
+  "lat": 48.4423801,
+  "lng": -122.3363869,
+  "city": "Mount Vernon",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/6550236",
+  "canonical_name": "Long Beach Convention & Entertainment Center",
+  "lat": 33.7650286,
+  "lng": -118.1898796,
+  "city": "Long Beach",
+  "state": "CA",
+  "wikidata_qid": "Q1757660",
+  "start_date": null,
+  "alt_names": [
+   "LBCEC"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "ASM Global/Legends"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/7692012",
+  "canonical_name": "Georgia World Congress Center",
+  "lat": 33.7607264,
+  "lng": -84.3990686,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": "Q3103783",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/8033634",
+  "canonical_name": "Pennsylvania Farm Show Complex and Expo Center",
+  "lat": 40.2858193,
+  "lng": -76.8831516,
+  "city": "Harrisburg",
+  "state": "PA",
+  "wikidata_qid": "Q2069133",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "commercial",
+   "operator": "Pennsylvania Department of Agriculture"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/8849615",
+  "canonical_name": "Crowne Plaza Convention Center",
+  "lat": 39.7718684,
+  "lng": -104.8068835,
+  "city": "Aurora",
+  "state": "CO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Crowne Plaza"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/9212538",
+  "canonical_name": "Exposition Hall",
+  "lat": 40.6922169,
+  "lng": -89.5945854,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/9680937",
+  "canonical_name": "Indiana Convention Center",
+  "lat": 39.7636943,
+  "lng": -86.1643912,
+  "city": "Indianapolis",
+  "state": "IN",
+  "wikidata_qid": "Q6023120",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/10667965",
+  "canonical_name": "McCormick Place Convention Center",
+  "lat": 41.8520291,
+  "lng": -87.6162937,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": "Q2072805",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "exposition_hall",
+   "operator": "Metropolitan Pier and Exposition Authority"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/11628918",
+  "canonical_name": "Cadence Bank Center",
+  "lat": 31.0297064,
+  "lng": -97.4803261,
+  "city": "Belton",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/12225302",
+  "canonical_name": "Overland Park Convention Center",
+  "lat": 38.9285273,
+  "lng": -94.6552448,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7113736",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "roof;yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/13534007",
+  "canonical_name": "Exposition Hall",
+  "lat": 37.30279,
+  "lng": -121.8523533,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Fairgrounds Expo Hall"
+  ],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/15437772",
+  "canonical_name": "Market Hall",
+  "lat": 32.8033609,
+  "lng": -96.829527,
+  "city": "Dallas",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/16828197",
+  "canonical_name": "Somervell County Expo Center",
+  "lat": 32.2478341,
+  "lng": -97.7416392,
+  "city": "Glen Rose",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/17041129",
+  "canonical_name": "Walter E. Washington Convention Center",
+  "lat": 38.9051398,
+  "lng": -77.0229439,
+  "city": "Washington",
+  "state": "DC",
+  "wikidata_qid": "Q7806370",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/17438041",
+  "canonical_name": "Henry/Stafford East Tennessee Agricultural Exposition Center",
+  "lat": 35.8785788,
+  "lng": -84.6205934,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/17647195",
+  "canonical_name": "McCormick Place",
+  "lat": 41.8519996,
+  "lng": -87.6162937,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": "Q2072805",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "exhibition_centre",
+   "operator": "Metropolitan Pier and Exposition Authority"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/18889572",
+  "canonical_name": "Hynes Convention Center",
+  "lat": 42.3471511,
+  "lng": -71.0839191,
+  "city": "Boston",
+  "state": "MA",
+  "wikidata_qid": "Q5956986",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/19515850",
+  "canonical_name": "Las Vegas Convention Center West Hall Expansion",
+  "lat": 36.134244,
+  "lng": -115.1573991,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/20619946",
+  "canonical_name": "St. Charles Convention Center",
+  "lat": 38.7689553,
+  "lng": -90.5022997,
+  "city": "St. Charles",
+  "state": "MO",
+  "wikidata_qid": "Q7587512",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/28587526",
+  "canonical_name": "William A. Egan Civic & Convention Center",
+  "lat": 61.2178485,
+  "lng": -149.8925293,
+  "city": "Anchorage",
+  "state": "AK",
+  "wikidata_qid": "Q8003942",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Alaska Convention Centers"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/136457465",
+  "canonical_name": "Nome Mini-Convention Center",
+  "lat": 64.4982049,
+  "lng": -165.4135078,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/352432667",
+  "canonical_name": "Dena'ina Civic & Convention Center",
+  "lat": 61.215079,
+  "lng": -149.8945266,
+  "city": "Anchorage",
+  "state": "AK",
+  "wikidata_qid": "Q5256535",
+  "start_date": "2008-09",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/365972436",
+  "canonical_name": "Yukon Convention Centre",
+  "lat": 60.7144338,
+  "lng": -135.051361,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/385054765",
+  "canonical_name": "St. Elias Convention Centre",
+  "lat": 60.7543804,
+  "lng": -137.5080938,
+  "city": "Haines Junction",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/514868223",
+  "canonical_name": "Valdez Convention and Civic Center",
+  "lat": 61.1264138,
+  "lng": -146.3571999,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/61720485",
+  "canonical_name": "Hawaii Convention Center",
+  "lat": 21.2896706,
+  "lng": -157.8365443,
+  "city": "Honolulu",
+  "state": null,
+  "wikidata_qid": "Q5684281",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "City and County of Honolulu"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "way/66833116",
+  "canonical_name": "Neil S. Blaisdell Exhibition Hall",
+  "lat": 21.2998865,
+  "lng": -157.850905,
+  "city": "Honolulu",
+  "state": "HI",
+  "wikidata_qid": "Q6984182",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City and County of Honolulu"
+  },
+  "venue_type": "convention_center"
+ },
+ {
+  "osm_id": "relation/7335926",
+  "canonical_name": "Hawaii Convention Center",
+  "lat": 21.2896706,
+  "lng": -157.8365443,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q5684281",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  },
+  "venue_type": "convention_center"
+ }
+]

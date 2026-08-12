@@ -1,0 +1,42 @@
+{
+  "label": "usb_fixture",
+  "source": "/Users/elianechavarria/Downloads/SNZMap/pipeline/fixtures/usb",
+  "collected_at": "2026-08-12T11:49:29",
+  "dry_run": false,
+  "copied": [
+    {
+      "source_file": "_rehearsal/raw/usb_fixture/2005/postdispatch_nexis.txt",
+      "original_path": "/Users/elianechavarria/Downloads/SNZMap/pipeline/fixtures/usb/2005/postdispatch_nexis.txt",
+      "sha256": "0ddc90ae6536debb234eeb850812d98f64e63b11fdb12a14b4df1851428abba7",
+      "bytes": 2097,
+      "suffix": ".txt"
+    },
+    {
+      "source_file": "_rehearsal/raw/usb_fixture/2019/proquest_export.txt",
+      "original_path": "/Users/elianechavarria/Downloads/SNZMap/pipeline/fixtures/usb/2019/proquest_export.txt",
+      "sha256": "4b1fdf65ef6a1e7a90238c687383cd601e4540b8966d2e654f31af5a6cb3940c",
+      "bytes": 2172,
+      "suffix": ".txt"
+    },
+    {
+      "source_file": "_rehearsal/raw/usb_fixture/2024/uniontribune_clipping.html",
+      "original_path": "/Users/elianechavarria/Downloads/SNZMap/pipeline/fixtures/usb/2024/uniontribune_clipping.html",
+      "sha256": "b6b845d85a10c246b578b1121d28cf1db12fa75ebbda201d44a60c93f367e894",
+      "bytes": 1004,
+      "suffix": ".html"
+    }
+  ],
+  "duplicates": [
+    {
+      "path": "resaved/postdispatch_nexis (1).txt",
+      "same_as": "2005/postdispatch_nexis.txt",
+      "sha256": "0ddc90ae6536debb234eeb850812d98f64e63b11fdb12a14b4df1851428abba7"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "notes/coverage_notes.doc",
+      "reason": "unhandled suffix '.doc'"
+    }
+  ]
+}

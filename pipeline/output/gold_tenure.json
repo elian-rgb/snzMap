@@ -1,0 +1,33 @@
+[
+  {
+    "record": {
+      "venue_name": "Coors Field",
+      "venue_type": "stadium",
+      "city": "Denver",
+      "state": "CO",
+      "lat": 39.7559,
+      "lng": -104.9942,
+      "operator": "Aramark",
+      "start_date": "1995-01-01",
+      "start_precision": "year",
+      "end_date": null,
+      "end_precision": null,
+      "end_status": "ongoing",
+      "exit_mode": null,
+      "source": "personal knowledge, verify",
+      "notes": "Concessionaire since ballpark opened; verify still current",
+      "extras": null,
+      "tenure_id": "gold-556c35b83d",
+      "venue_id": "wd-Q1129916",
+      "operator_normalized": "Aramark",
+      "derived_from": []
+    },
+    "excel_row": 2,
+    "venue_match": "exact",
+    "venue_candidates": [],
+    "operator_relation": "exact",
+    "warnings": [],
+    "problems": [],
+    "verified": false
+  }
+]

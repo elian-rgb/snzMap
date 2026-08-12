@@ -1,0 +1,196 @@
+{
+ "source": {
+  "url": "https://labordata.bunkum.us/whisard.json",
+  "note": "Independent Datasette mirror of the DOL Wage and Hour Division's WHISARD database (rebuilt by github.com/labordata/whd-compliance). Public-domain federal data, but not served by dol.gov \u2014 DOL's own API requires a registered key.",
+  "fetched_at": "2026-08-11T16:43:46+00:00",
+  "candidate_rows": 840,
+  "sha256": "06a2a07cbf797a9986b6a4f8aa7b6824d2bb3bd618d2e9a5ba0a8cb7c06611cf"
+ },
+ "venue_join": "No case here is attached to a venue. WHISARD records an employer establishment address and never a venue name, so the only thing to join on is ZIP \u2014 which put the 179 geocodable cases across 420 distinct venues.",
+ "cases_in_scope": 231,
+ "back_wages_total": 2146786.81,
+ "employees_total": 2459,
+ "penalties_total": 78661.25,
+ "by_operator": [
+  {
+   "operator": "Sodexo",
+   "cases": 59,
+   "back_wages": 793347.32,
+   "employees_due_back_wages": 754,
+   "civil_penalties": 11955.0,
+   "repeat_violator_cases": 3,
+   "first_year": 2003,
+   "last_year": 2022
+  },
+  {
+   "operator": "Compass",
+   "cases": 73,
+   "back_wages": 787548.48,
+   "employees_due_back_wages": 1010,
+   "civil_penalties": 37993.0,
+   "repeat_violator_cases": 17,
+   "first_year": 2002,
+   "last_year": 2024
+  },
+  {
+   "operator": "Aramark",
+   "cases": 67,
+   "back_wages": 426942.47,
+   "employees_due_back_wages": 447,
+   "civil_penalties": 16066.25,
+   "repeat_violator_cases": 16,
+   "first_year": 2001,
+   "last_year": 2024
+  },
+  {
+   "operator": "Thompson Hospitality",
+   "cases": 6,
+   "back_wages": 114947.41,
+   "employees_due_back_wages": 11,
+   "civil_penalties": 0.0,
+   "repeat_violator_cases": 1,
+   "first_year": 2005,
+   "last_year": 2016
+  },
+  {
+   "operator": "Levy",
+   "cases": 12,
+   "back_wages": 9032.93,
+   "employees_due_back_wages": 108,
+   "civil_penalties": 0.0,
+   "repeat_violator_cases": 2,
+   "first_year": 2003,
+   "last_year": 2021
+  },
+  {
+   "operator": "Centerplate",
+   "cases": 4,
+   "back_wages": 8428.51,
+   "employees_due_back_wages": 42,
+   "civil_penalties": 2497.0,
+   "repeat_violator_cases": 0,
+   "first_year": 2004,
+   "last_year": 2020
+  },
+  {
+   "operator": "Delaware North",
+   "cases": 7,
+   "back_wages": 4648.0,
+   "employees_due_back_wages": 84,
+   "civil_penalties": 10150.0,
+   "repeat_violator_cases": 0,
+   "first_year": 2006,
+   "last_year": 2016
+  },
+  {
+   "operator": "Whitsons Culinary Group",
+   "cases": 1,
+   "back_wages": 1891.69,
+   "employees_due_back_wages": 3,
+   "civil_penalties": 0.0,
+   "repeat_violator_cases": 0,
+   "first_year": 2022,
+   "last_year": 2022
+  },
+  {
+   "operator": "Metz Culinary Management",
+   "cases": 2,
+   "back_wages": 0.0,
+   "employees_due_back_wages": 0,
+   "civil_penalties": 0.0,
+   "repeat_violator_cases": 0,
+   "first_year": 2011,
+   "last_year": 2021
+  }
+ ],
+ "scope_counts": {
+  "excluded_other_line": 114,
+  "excluded_remote_site": 2,
+  "in_scope": 231,
+  "rejected_not_an_operator": 493
+ },
+ "excluded_other_line_top": [
+  {
+   "naics_description": "Janitorial Services",
+   "cases": 22
+  },
+  {
+   "naics_description": "Facilities Support Services",
+   "cases": 18
+  },
+  {
+   "naics_description": "Vending Machine Operators",
+   "cases": 10
+  },
+  {
+   "naics_description": "Linen and Uniform Supply",
+   "cases": 7
+  },
+  {
+   "naics_description": "Other Direct Selling Establishments",
+   "cases": 7
+  },
+  {
+   "naics_description": "Industrial Launderers",
+   "cases": 4
+  },
+  {
+   "naics_description": "Management of Companies and Enterprises",
+   "cases": 4
+  },
+  {
+   "naics_description": "Office Administrative Services",
+   "cases": 4
+  },
+  {
+   "naics_description": "Temporary Help Services",
+   "cases": 3
+  },
+  {
+   "naics_description": "Hotels (except Casino Hotels) and Motels",
+   "cases": 2
+  }
+ ],
+ "rejected_names_top": [
+  {
+   "legal_name": "Compass Bank",
+   "cases": 80
+  },
+  {
+   "legal_name": "",
+   "cases": 6
+  },
+  {
+   "legal_name": "Foodarama Supermarkets, Inc. and Subsidiaries",
+   "cases": 5
+  },
+  {
+   "legal_name": "Foodarama Supermarkets, Inc. & Subsidiaries",
+   "cases": 3
+  },
+  {
+   "legal_name": "Compass USA, Inc.",
+   "cases": 2
+  },
+  {
+   "legal_name": "Contract Transport Services, Inc.",
+   "cases": 2
+  },
+  {
+   "legal_name": "Rogers Entertainment, LTD",
+   "cases": 2
+  },
+  {
+   "legal_name": "Total Compassionate Care, Inc.",
+   "cases": 2
+  },
+  {
+   "legal_name": "Chef Lalanne, LLC",
+   "cases": 2
+  },
+  {
+   "legal_name": "A&E Transport Services, Inc.",
+   "cases": 2
+  }
+ ]
+}

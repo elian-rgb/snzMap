@@ -1,0 +1,67 @@
+{
+  "label": "usb1",
+  "source": "/Volumes/NO NAME",
+  "collected_at": "2026-08-12T11:29:31",
+  "dry_run": false,
+  "copied": [
+    {
+      "source_file": "articles/raw/usb1/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "original_path": "/Volumes/NO NAME/Aramark/ProQuestDocuments-2026-07-29 (1).rtf",
+      "sha256": "8ecfbee4b9e5e36de523cc435c9735af25f59956f5223d22d2d786edb5ed6d81",
+      "bytes": 757591991,
+      "suffix": ".rtf"
+    },
+    {
+      "source_file": "articles/raw/usb1/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "original_path": "/Volumes/NO NAME/Sodexho/ProQuestDocuments-2026-07-29.rtf",
+      "sha256": "fcf3aef7acda62c48d2373d57134b3fc903b4f82f3c48a799982fb41a9d527ce",
+      "bytes": 241060001,
+      "suffix": ".rtf"
+    },
+    {
+      "source_file": "articles/raw/usb1/compass/EBSCO-Metadata-07_29_2026 (1).docx",
+      "original_path": "/Volumes/NO NAME/compass/EBSCO-Metadata-07_29_2026 (1).docx",
+      "sha256": "b0320f4cd06bb91ba23605cb1bb6b7915b8963287c201f35bc1ed7dda53730da",
+      "bytes": 22685,
+      "suffix": ".docx"
+    },
+    {
+      "source_file": "articles/raw/usb1/compass/EBSCO-Metadata-07_29_2026.docx",
+      "original_path": "/Volumes/NO NAME/compass/EBSCO-Metadata-07_29_2026.docx",
+      "sha256": "0eb2096b099d05524503755b6070352ee6c111354f96a027a55b3b1a7ec23b81",
+      "bytes": 25434,
+      "suffix": ".docx"
+    }
+  ],
+  "duplicates": [],
+  "skipped": [
+    {
+      "path": ".fseventsd/fseventsd-uuid",
+      "reason": "unhandled suffix ''"
+    },
+    {
+      "path": "Aramark NYSE ARMK Investment Analysis Direct Investments.xls",
+      "reason": "unhandled suffix '.xls'"
+    },
+    {
+      "path": "Compass Group PLC LSE CPG Investment Analysis Direct Investments.xls",
+      "reason": "unhandled suffix '.xls'"
+    },
+    {
+      "path": "Sodexo S A ENXTPA SW Investment Analysis Co Investors.xls",
+      "reason": "unhandled suffix '.xls'"
+    },
+    {
+      "path": "Sodexo S A ENXTPA SW Investment Analysis Direct Investments.xls",
+      "reason": "unhandled suffix '.xls'"
+    },
+    {
+      "path": "System Volume Information/IndexerVolumeGuid",
+      "reason": "unhandled suffix ''"
+    },
+    {
+      "path": "System Volume Information/WPSettings.dat",
+      "reason": "unhandled suffix '.dat'"
+    }
+  ]
+}

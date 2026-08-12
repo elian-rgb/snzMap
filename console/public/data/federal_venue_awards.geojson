@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_12314418P0077_1205_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0229439,
+          38.9051398
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_12314418P0077_1205_-NONE-_-NONE-",
+        "piid": "12314418P0077",
+        "venue_id": "osm-way-55316481",
+        "venue_name": "Walter E. Washington Convention Center",
+        "city": "Washington",
+        "state": "DC",
+        "operator": "Centerplate",
+        "operator_raw": "CENTERPLATE, INC.",
+        "awarding_agency": "Department of Agriculture",
+        "awarding_sub_agency": "Office of the Chief Financial Officer",
+        "fiscal_year": 2018,
+        "start_date": "2018-05-21",
+        "end_date": "2018-05-23",
+        "obligated_amount": 16757.92,
+        "description": "BANQUET SERVICES TO BE PROVIDED, AT THE FINANCIAL MANAGEMENT TRAINING (FMT) EVENT TO BE HELD MAY 21-23, 2018, AT THE WALTER E. WASHINGTON CONVENTION CENTER.",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_AG3144P160082_1205_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0229439,
+          38.9051398
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_AG3144P160082_1205_-NONE-_-NONE-",
+        "piid": "AG3144P160082",
+        "venue_id": "osm-way-55316481",
+        "venue_name": "Walter E. Washington Convention Center",
+        "city": "Washington",
+        "state": "DC",
+        "operator": "Centerplate",
+        "operator_raw": "CENTERPLATE, INC.",
+        "awarding_agency": "Department of Agriculture",
+        "awarding_sub_agency": "Office of the Chief Financial Officer",
+        "fiscal_year": 2016,
+        "start_date": "2016-06-03",
+        "end_date": "2016-06-08",
+        "obligated_amount": 22856.34,
+        "description": "REFRESHMENTS TO BE PROVIDED, AT THE FINANCIAL MANAGEMENT TRAINING (FMT) EVENT TO BE HELD JUNE 6-8, 2016, AT THE WALTER E. WASHINGTON CONVENTION CENTER, WASHINGTON DC.",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_AG3144P170102_1205_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0229439,
+          38.9051398
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_AG3144P170102_1205_-NONE-_-NONE-",
+        "piid": "AG3144P170102",
+        "venue_id": "osm-way-55316481",
+        "venue_name": "Walter E. Washington Convention Center",
+        "city": "Washington",
+        "state": "DC",
+        "operator": "Centerplate",
+        "operator_raw": "CENTERPLATE, INC.",
+        "awarding_agency": "Department of Agriculture",
+        "awarding_sub_agency": "Office of the Chief Financial Officer",
+        "fiscal_year": 2017,
+        "start_date": "2017-08-29",
+        "end_date": "2017-08-31",
+        "obligated_amount": 21903.88,
+        "description": "REFRESHMENTS TO BE PROVIDED, AT THE FINANCIAL MANAGEMENT TRAINING (FMT) EVENT TO BE HELD AUGUST 29-31, 2017, AT THE WALTER E. WASHINGTON CONVENTION CENTER.",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_6923G218P000026_6938_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.763611111,
+          40.812222222
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_6923G218P000026_6938_-NONE-_-NONE-",
+        "piid": "6923G218P000026",
+        "venue_id": "wd-Q1806541",
+        "venue_name": "United States Merchant Marine Academy",
+        "city": "Kings Point",
+        "state": "NY",
+        "operator": "Aramark",
+        "operator_raw": "ARAMARK SERVICES, INC.",
+        "awarding_agency": "Department of Transportation",
+        "awarding_sub_agency": "Maritime Administration",
+        "fiscal_year": 2018,
+        "start_date": "2017-11-07",
+        "end_date": "2017-11-08",
+        "obligated_amount": 4750.0,
+        "description": "IGF::OT::IGF  PURCHASE 500 BOXED DINNERS @$9.50 EACH FROM ARAMARK FOOD SERVICES DUNS# 622893279 TO SERVE TO THE REGIMENT OF MIDSHIPMEN RETURNING TO USMMA FROM THE SECRETARY'S CUP FOOTBALL GAME AT USCGA, NEW LONDON, CT TOTAL $4,750.00",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_70Z03919PPTT03400_7008_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.098614,
+          41.372856
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_70Z03919PPTT03400_7008_-NONE-_-NONE-",
+        "piid": "70Z03919PPTT03400",
+        "venue_id": "wd-Q650935",
+        "venue_name": "United States Coast Guard Academy",
+        "city": "Connecticut",
+        "state": "CT",
+        "operator": "Aramark",
+        "operator_raw": "ARAMARK SERVICES, INC.",
+        "awarding_agency": "Department of Homeland Security",
+        "awarding_sub_agency": "U.S. Coast Guard",
+        "fiscal_year": 2019,
+        "start_date": "2018-10-15",
+        "end_date": "2019-09-30",
+        "obligated_amount": 9992.25,
+        "description": "IGF::OT::IGF USCGA ADMISSIONS CAMPUS PROGRAMS MEALS FOR PROSPECTIVE STUDENTS",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_DTMA95P1600202_6938_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.763611111,
+          40.812222222
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_DTMA95P1600202_6938_-NONE-_-NONE-",
+        "piid": "DTMA95P1600202",
+        "venue_id": "wd-Q1806541",
+        "venue_name": "United States Merchant Marine Academy",
+        "city": "Kings Point",
+        "state": "NY",
+        "operator": "Aramark",
+        "operator_raw": "ARAMARK SERVICES, INC.",
+        "awarding_agency": "Department of Transportation",
+        "awarding_sub_agency": "Maritime Administration",
+        "fiscal_year": 2016,
+        "start_date": "2016-09-09",
+        "end_date": "2016-09-10",
+        "obligated_amount": 11340.0,
+        "description": "IGF::OT::IGF  OBTAIN FUNDS TO PROCURE 540 BBQ LUNCH BOXES @ $11.00 EACH AND 540 BOXED DINNERS @ $10.00 EACH FOR USMMA MIDSHIPMEN FOR 2016 SECRETARY'S CUP FOOTBALL GAME AT USCGA ON SATURDAY, SEPTEMBER 10, 2016.  MEALS WILL BE PROVIDE BY USCGA FOOD VENDOR ARAMARK, DUNS # 622893279.  TOTAL COST : $11,340.00 X 1.7% CONVENIENCE CHECK FEE = $192.78",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_DTMA95P20140288_6938_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.763611111,
+          40.812222222
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_DTMA95P20140288_6938_-NONE-_-NONE-",
+        "piid": "DTMA95P20140288",
+        "venue_id": "wd-Q1806541",
+        "venue_name": "United States Merchant Marine Academy",
+        "city": "Kings Point",
+        "state": "NY",
+        "operator": "Aramark",
+        "operator_raw": "ARAMARK SERVICES, INC.",
+        "awarding_agency": "Department of Transportation",
+        "awarding_sub_agency": "Maritime Administration",
+        "fiscal_year": 2014,
+        "start_date": "2014-09-12",
+        "end_date": "2014-09-13",
+        "obligated_amount": 9993.08,
+        "description": "600 LUNCH BUFFET AND BOXED DINNERS FOR USMMA MIDSHIPMEN FOR 2014 SECRETARIES CUP AT USGA ON SEPTEMBER 13 2014.  MEALS WILL BE PROVIDED BY USGA'S FOOD VENDOR ARAMARK, DUNS: 622893279 ''IGF::OT::IGF''",
+        "venue_match": "name_and_zip"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONT_AWD_HSCG3917PPTT005_7008_-NONE-_-NONE-",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.098614,
+          41.372856
+        ]
+      },
+      "properties": {
+        "award_id": "CONT_AWD_HSCG3917PPTT005_7008_-NONE-_-NONE-",
+        "piid": "HSCG3917PPTT005",
+        "venue_id": "wd-Q650935",
+        "venue_name": "United States Coast Guard Academy",
+        "city": "Connecticut",
+        "state": "CT",
+        "operator": "Aramark",
+        "operator_raw": "ARAMARK SERVICES, INC.",
+        "awarding_agency": "Department of Homeland Security",
+        "awarding_sub_agency": "U.S. Coast Guard",
+        "fiscal_year": 2017,
+        "start_date": "2016-11-22",
+        "end_date": "2017-04-30",
+        "obligated_amount": 7001.25,
+        "description": "IGF::OT::IGF USCGA ADMISSIONS MEAL PR FOR CAMPUS RECRUITING PROGRAMS.",
+        "venue_match": "name_and_zip"
+      }
+    }
+  ]
+}

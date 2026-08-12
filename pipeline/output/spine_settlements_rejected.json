@@ -1,0 +1,146 @@
+[
+  {
+    "venue_id": "wd-Q100",
+    "canonical_name": "Boston",
+    "types": [
+      "big city",
+      "city in the United States"
+    ]
+  },
+  {
+    "venue_id": "wd-Q1297",
+    "canonical_name": "Chicago",
+    "types": [
+      "big city",
+      "city of Illinois",
+      "global city"
+    ]
+  },
+  {
+    "venue_id": "wd-Q187805",
+    "canonical_name": "Spokane",
+    "types": [
+      "big city",
+      "city in the United States",
+      "county seat"
+    ]
+  },
+  {
+    "venue_id": "wd-Q18013",
+    "canonical_name": "Sacramento",
+    "types": [
+      "big city",
+      "charter city",
+      "city in the United States",
+      "county seat"
+    ]
+  },
+  {
+    "venue_id": "wd-Q2246041",
+    "canonical_name": "Erda",
+    "types": [
+      "census-designated place in the United States",
+      "city"
+    ]
+  },
+  {
+    "venue_id": "wd-Q23556",
+    "canonical_name": "Atlanta",
+    "types": [
+      "big city",
+      "city in the United States",
+      "county seat",
+      "municipality of Georgia"
+    ]
+  },
+  {
+    "venue_id": "wd-Q26754",
+    "canonical_name": "Weber County",
+    "types": [
+      "county of Utah"
+    ]
+  },
+  {
+    "venue_id": "wd-Q27416",
+    "canonical_name": "Marblehead",
+    "types": [
+      "New England town"
+    ]
+  },
+  {
+    "venue_id": "wd-Q482993",
+    "canonical_name": "Park City",
+    "types": [
+      "city in the United States"
+    ]
+  },
+  {
+    "venue_id": "wd-Q491350",
+    "canonical_name": "Orange",
+    "types": [
+      "big city",
+      "city of California"
+    ]
+  },
+  {
+    "venue_id": "wd-Q5195851",
+    "canonical_name": "Curtis Park",
+    "types": [
+      "neighborhood"
+    ]
+  },
+  {
+    "venue_id": "wd-Q5092",
+    "canonical_name": "Baltimore",
+    "types": [
+      "independent city in the United States"
+    ]
+  },
+  {
+    "venue_id": "wd-Q60",
+    "canonical_name": "New York City",
+    "types": [
+      "big city",
+      "city",
+      "city in the United States",
+      "city in the state of New York",
+      "global city",
+      "largest city",
+      "megacity",
+      "metropolis",
+      "port city"
+    ]
+  },
+  {
+    "venue_id": "wd-Q6106",
+    "canonical_name": "Portland",
+    "types": [
+      "big city",
+      "city of Oregon",
+      "county seat"
+    ]
+  },
+  {
+    "venue_id": "wd-Q65",
+    "canonical_name": "Los Angeles",
+    "types": [
+      "charter city"
+    ]
+  },
+  {
+    "venue_id": "wd-Q986867",
+    "canonical_name": "Burlingame",
+    "types": [
+      "city of California"
+    ]
+  },
+  {
+    "venue_id": "wd-Q80517",
+    "canonical_name": "Shreveport",
+    "types": [
+      "big city",
+      "city in the United States",
+      "county seat"
+    ]
+  }
+]

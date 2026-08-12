@@ -1,0 +1,121 @@
+{
+ "probe": "MLB parks 2004-2024",
+ "total": 77,
+ "matched": 70,
+ "recall": 0.909,
+ "missing": [
+  {
+   "name": "Rogers Centre",
+   "state": null
+  },
+  {
+   "name": "Land Shark Stadium",
+   "state": "FL"
+  },
+  {
+   "name": "Hiram Bithorn Stadium",
+   "state": null
+  },
+  {
+   "name": "Estadio de B\u00e9isbol Monterrey",
+   "state": null
+  },
+  {
+   "name": "Fort Bragg Field",
+   "state": "NC"
+  },
+  {
+   "name": "Williamsport Little League Classic",
+   "state": "PA"
+  },
+  {
+   "name": "London Stadium",
+   "state": null
+  }
+ ],
+ "ambiguous": [
+  {
+   "name": "Busch Stadium",
+   "state": "MO",
+   "venue_ids": [
+    "wd-Q1017286",
+    "wd-Q253546"
+   ]
+  },
+  {
+   "name": "Chase Field",
+   "state": "AZ",
+   "venue_ids": [
+    "wd-Q1068011",
+    "wd-Q104904686"
+   ]
+  },
+  {
+   "name": "Wrigley Field",
+   "state": "IL",
+   "venue_ids": [
+    "wd-Q1052807",
+    "wd-Q3297716"
+   ]
+  },
+  {
+   "name": "Shea Stadium",
+   "state": "NY",
+   "venue_ids": [
+    "wd-Q1056326",
+    "wd-Q7492148"
+   ]
+  },
+  {
+   "name": "Veterans Stadium",
+   "state": "PA",
+   "venue_ids": [
+    "wd-Q1115773",
+    "wd-Q1545870"
+   ]
+  },
+  {
+   "name": "Turner Field",
+   "state": "GA",
+   "venue_ids": [
+    "wd-Q1150936",
+    "wd-Q28449162"
+   ]
+  },
+  {
+   "name": "Olympic Stadium",
+   "state": null,
+   "venue_ids": [
+    "wd-Q7089134",
+    "wd-Q795345"
+   ]
+  },
+  {
+   "name": "Comiskey Park",
+   "state": "IL",
+   "venue_ids": [
+    "wd-Q1114772",
+    "wd-Q633613"
+   ]
+  },
+  {
+   "name": "Field of Dreams",
+   "state": "IA",
+   "venue_ids": [
+    "wd-Q135683765",
+    "wd-Q5447096"
+   ]
+  },
+  {
+   "name": "BB&T Ballpark",
+   "state": "NC",
+   "venue_ids": [
+    "wd-Q4834718",
+    "wd-Q4834719",
+    "wd-Q4951307"
+   ]
+  }
+ ],
+ "alias_probes_passed": 6,
+ "alias_probes_total": 8
+}

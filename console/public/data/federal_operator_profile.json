@@ -1,0 +1,440 @@
+{
+  "awards": 393,
+  "rows_loaded": 9672,
+  "scope_counts": {
+    "remote_sites": 8909,
+    "in_scope": 393,
+    "foreign_performance": 230,
+    "not_food_service": 140
+  },
+  "obligated_total": 5041869154.11,
+  "by_operator": [
+    {
+      "operator": "Sodexo",
+      "awards": 249,
+      "obligated": 4992628763.78
+    },
+    {
+      "operator": "Aramark",
+      "awards": 12,
+      "obligated": 32056074.49
+    },
+    {
+      "operator": "Compass",
+      "awards": 112,
+      "obligated": 16757657.14
+    },
+    {
+      "operator": "Centerplate",
+      "awards": 20,
+      "obligated": 426658.7
+    }
+  ],
+  "by_fiscal_year": [
+    {
+      "fiscal_year": 2000,
+      "operators": {
+        "Compass": 0.0
+      }
+    },
+    {
+      "fiscal_year": 2003,
+      "operators": {
+        "Compass": 562073.0,
+        "Sodexo": 1242140176.36
+      }
+    },
+    {
+      "fiscal_year": 2004,
+      "operators": {
+        "Compass": 0.0,
+        "Sodexo": 0.0
+      }
+    },
+    {
+      "fiscal_year": 2006,
+      "operators": {
+        "Compass": 51398.07,
+        "Sodexo": 0.0
+      }
+    },
+    {
+      "fiscal_year": 2007,
+      "operators": {
+        "Compass": 6410211.15,
+        "Sodexo": 104404.7
+      }
+    },
+    {
+      "fiscal_year": 2008,
+      "operators": {
+        "Aramark": 3048.0,
+        "Compass": 776204.15,
+        "Sodexo": 48872671.15
+      }
+    },
+    {
+      "fiscal_year": 2009,
+      "operators": {
+        "Compass": 425189.21,
+        "Sodexo": 1127452.94
+      }
+    },
+    {
+      "fiscal_year": 2010,
+      "operators": {
+        "Aramark": 2824.25,
+        "Compass": 215181.52,
+        "Sodexo": 381756.07
+      }
+    },
+    {
+      "fiscal_year": 2011,
+      "operators": {
+        "Centerplate": 5653.69,
+        "Compass": 196707.39,
+        "Sodexo": 1743569793.19
+      }
+    },
+    {
+      "fiscal_year": 2012,
+      "operators": {
+        "Aramark": 10752.5,
+        "Centerplate": 273323.03,
+        "Compass": 482836.35,
+        "Sodexo": 119420.41
+      }
+    },
+    {
+      "fiscal_year": 2013,
+      "operators": {
+        "Compass": 337389.52,
+        "Sodexo": 17910304.49
+      }
+    },
+    {
+      "fiscal_year": 2014,
+      "operators": {
+        "Aramark": 9993.08,
+        "Centerplate": 8216.56,
+        "Compass": 237419.55,
+        "Sodexo": 26201014.62
+      }
+    },
+    {
+      "fiscal_year": 2015,
+      "operators": {
+        "Centerplate": 7569.58,
+        "Compass": 198279.65,
+        "Sodexo": 41546869.63
+      }
+    },
+    {
+      "fiscal_year": 2016,
+      "operators": {
+        "Aramark": 31943220.96,
+        "Centerplate": 30383.74,
+        "Compass": 13677.5,
+        "Sodexo": 82702.57
+      }
+    },
+    {
+      "fiscal_year": 2017,
+      "operators": {
+        "Aramark": 7001.25,
+        "Centerplate": 29565.48,
+        "Compass": 39730.98,
+        "Sodexo": 140153.12
+      }
+    },
+    {
+      "fiscal_year": 2018,
+      "operators": {
+        "Aramark": 16989.25,
+        "Centerplate": 60550.66,
+        "Sodexo": 1812407269.69
+      }
+    },
+    {
+      "fiscal_year": 2019,
+      "operators": {
+        "Aramark": 9992.25,
+        "Centerplate": 11395.96,
+        "Compass": 9086.1,
+        "Sodexo": 154765.28
+      }
+    },
+    {
+      "fiscal_year": 2020,
+      "operators": {
+        "Aramark": 6578.85,
+        "Centerplate": 0.0,
+        "Compass": 403049.44,
+        "Sodexo": 5893481.31
+      }
+    },
+    {
+      "fiscal_year": 2021,
+      "operators": {
+        "Compass": 2393672.44,
+        "Sodexo": 47338628.69
+      }
+    },
+    {
+      "fiscal_year": 2022,
+      "operators": {
+        "Sodexo": 39611.01
+      }
+    },
+    {
+      "fiscal_year": 2023,
+      "operators": {
+        "Aramark": 45674.1,
+        "Compass": 96240.0,
+        "Sodexo": 68311.59
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "operators": {
+        "Compass": 55132.75
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "operators": {
+        "Compass": 2724995.18,
+        "Sodexo": 18948.95
+      }
+    },
+    {
+      "fiscal_year": 2026,
+      "operators": {
+        "Compass": 1129183.19,
+        "Sodexo": 4511028.01
+      }
+    }
+  ],
+  "by_agency": [
+    {
+      "agency": "Department of the Navy",
+      "awards": 35,
+      "obligated": 4798405483.66
+    },
+    {
+      "agency": "Department of the Army",
+      "awards": 74,
+      "obligated": 151303065.53
+    },
+    {
+      "agency": "Defense Commissary Agency",
+      "awards": 47,
+      "obligated": 37180951.16
+    },
+    {
+      "agency": "U.S. Coast Guard",
+      "awards": 5,
+      "obligated": 31967692.56
+    },
+    {
+      "agency": "Office of the Comptroller of the Currency",
+      "awards": 1,
+      "obligated": 6347693.42
+    },
+    {
+      "agency": "Public Buildings Service",
+      "awards": 29,
+      "obligated": 4883877.14
+    },
+    {
+      "agency": "National Institutes of Health",
+      "awards": 42,
+      "obligated": 3035540.72
+    },
+    {
+      "agency": "Defense Health Agency",
+      "awards": 1,
+      "obligated": 2591304.03
+    },
+    {
+      "agency": "Department of Veterans Affairs",
+      "awards": 16,
+      "obligated": 2102611.46
+    },
+    {
+      "agency": "U.S. Patent and Trademark Office",
+      "awards": 10,
+      "obligated": 1315027.9
+    },
+    {
+      "agency": "Federal Bureau of Investigation",
+      "awards": 14,
+      "obligated": 887031.55
+    },
+    {
+      "agency": "National Aeronautics and Space Administration",
+      "awards": 4,
+      "obligated": 289915.32
+    },
+    {
+      "agency": "Office of Personnel Management",
+      "awards": 8,
+      "obligated": 234912.94
+    },
+    {
+      "agency": "U.S. Immigration and Customs Enforcement",
+      "awards": 3,
+      "obligated": 233377.06
+    },
+    {
+      "agency": "Defense Threat Reduction Agency",
+      "awards": 5,
+      "obligated": 174928.33
+    },
+    {
+      "agency": "Federal Highway Administration",
+      "awards": 11,
+      "obligated": 127298.3
+    },
+    {
+      "agency": "Office of the Chief Financial Officer",
+      "awards": 7,
+      "obligated": 126346.74
+    },
+    {
+      "agency": "Departmental Offices",
+      "awards": 1,
+      "obligated": 96589.05
+    },
+    {
+      "agency": "Immediate Office of the Secretary of Transportation",
+      "awards": 7,
+      "obligated": 91418.67
+    },
+    {
+      "agency": "District of Columbia Courts",
+      "awards": 2,
+      "obligated": 67315.48
+    },
+    {
+      "agency": "U.S. Marshals Service",
+      "awards": 2,
+      "obligated": 55932.5
+    },
+    {
+      "agency": "Farm Service Agency",
+      "awards": 4,
+      "obligated": 50109.59
+    },
+    {
+      "agency": "Securities and Exchange Commission",
+      "awards": 8,
+      "obligated": 43381.83
+    },
+    {
+      "agency": "Smithsonian Institution",
+      "awards": 3,
+      "obligated": 38404.5
+    },
+    {
+      "agency": "Maritime Administration",
+      "awards": 5,
+      "obligated": 37935.58
+    },
+    {
+      "agency": "Food and Drug Administration",
+      "awards": 5,
+      "obligated": 34531.4
+    },
+    {
+      "agency": "Executive Office of the President",
+      "awards": 2,
+      "obligated": 32306.05
+    },
+    {
+      "agency": "Office of Federal Housing Enterprise Oversight",
+      "awards": 3,
+      "obligated": 18556.5
+    },
+    {
+      "agency": "Bureau of the Fiscal Service",
+      "awards": 1,
+      "obligated": 14154.18
+    },
+    {
+      "agency": "Department of the Air Force",
+      "awards": 2,
+      "obligated": 12160.25
+    },
+    {
+      "agency": "Department of State",
+      "awards": 16,
+      "obligated": 10920.99
+    },
+    {
+      "agency": "Defense Counterintelligence and Security Agency",
+      "awards": 1,
+      "obligated": 10312.0
+    },
+    {
+      "agency": "Office of the Assistant Secretary for Administration",
+      "awards": 2,
+      "obligated": 8432.0
+    },
+    {
+      "agency": "Animal and Plant Health Inspection Service",
+      "awards": 2,
+      "obligated": 6953.98
+    },
+    {
+      "agency": "Office of the Assistant Secretary for Administration and Management",
+      "awards": 1,
+      "obligated": 6814.8
+    },
+    {
+      "agency": "Forest Service",
+      "awards": 3,
+      "obligated": 6261.88
+    },
+    {
+      "agency": "Drug Enforcement Administration",
+      "awards": 1,
+      "obligated": 5660.0
+    },
+    {
+      "agency": "Office of Assistant Secretary for Preparedness and Response",
+      "awards": 1,
+      "obligated": 5653.69
+    },
+    {
+      "agency": "Financial Management Service",
+      "awards": 3,
+      "obligated": 3529.5
+    },
+    {
+      "agency": "Environmental Protection Agency",
+      "awards": 1,
+      "obligated": 2824.25
+    },
+    {
+      "agency": "Defense Logistics Agency",
+      "awards": 2,
+      "obligated": 1937.62
+    },
+    {
+      "agency": "Department of Education",
+      "awards": 1,
+      "obligated": 0.0
+    },
+    {
+      "agency": "Equal Employment Opportunity Commission",
+      "awards": 1,
+      "obligated": 0.0
+    },
+    {
+      "agency": "U.S. Geological Survey",
+      "awards": 1,
+      "obligated": 0.0
+    }
+  ]
+}

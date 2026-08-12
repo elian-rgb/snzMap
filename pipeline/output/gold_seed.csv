@@ -1,0 +1,5 @@
+venue_name,venue_type,city,state,lat,lng,operator,start_date,start_precision,end_date,end_precision,end_status,exit_mode,source,notes,extras
+Coors Field,stadium,Denver,CO,39.756111111,-104.994166666,,,,,,,,,,
+Madison Square Garden,arena,Manhattan,NY,40.750501,-73.993453,,,,,,,,,,
+Busch Stadium,stadium,St. Louis,MO,38.6225,-90.193056,,,,,,,,,,
+Wrigley Field,stadium,Chicago,IL,41.948055555,-87.655555555,,,,,,,,,,

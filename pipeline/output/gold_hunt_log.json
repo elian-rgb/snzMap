@@ -1,0 +1,16 @@
+[
+  {
+    "record": {
+      "venue_or_operator": "Coors Field",
+      "period_searched": "2005-2012",
+      "where_searched": "ProQuest: Denver Post archive",
+      "date_of_search": "2026-07-30",
+      "result": "nothing_found",
+      "notes": "No coverage of concession operator in this window \u2014 gap is documented, not just empty",
+      "search_id": "hunt-932e5b64f6",
+      "query_used": null
+    },
+    "excel_row": 2,
+    "problems": []
+  }
+]

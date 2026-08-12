@@ -1,0 +1,164 @@
+[
+  {
+    "tenure_id": "sp-716f1499d6",
+    "venue_id": null,
+    "venue_name": "Whitmore College",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ac865719d52a4e9f"
+    ],
+    "source": "Springfield Register; Springfield, Mo. 2019-09-12",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (strike) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2019-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-41f1197ed2",
+    "venue_id": "wd-Q1194586",
+    "venue_name": "Petco Park",
+    "venue_type": "stadium",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.707333,
+    "lng": -117.156944,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2024-06-10",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "ongoing",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f736950a00ef38f7"
+    ],
+    "source": "The San Diego Union-Tribune 2024-06-10",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "2024-06-10",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-81d6039fa5",
+    "venue_id": "wd-Q253546",
+    "venue_name": "Busch Stadium",
+    "venue_type": "stadium",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.6225,
+    "lng": -90.193056,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2005-11-01",
+    "start_precision": "exact",
+    "end_date": "2019-03-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "unknown",
+    "derived_from": [
+      "ev_8e9b1b86cf057d3a"
+    ],
+    "source": "St. Louis Post-Dispatch 2005-11-02",
+    "notes": "end date inferred from Delaware North's run starting 2019-03-01; no article reported this run ending",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "end inferred from succession, not reported"
+      ],
+      "known_through": "2005-11-01",
+      "end_inferred_from": "succession",
+      "succeeded_by": "Delaware North",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-79c9aac9a0",
+    "venue_id": "wd-Q253546",
+    "venue_name": "Busch Stadium",
+    "venue_type": "stadium",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.6225,
+    "lng": -90.193056,
+    "operator": "Delaware North",
+    "operator_normalized": "Delaware North",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2005-11-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_295478b746075249"
+    ],
+    "source": "St. Louis Post-Dispatch 2005-11-02",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown"
+      ],
+      "known_through": "2005-11-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Sportservice"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-6f9818f970",
+    "venue_id": "wd-Q253546",
+    "venue_name": "Busch Stadium",
+    "venue_type": "stadium",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.6225,
+    "lng": -90.193056,
+    "operator": "Delaware North",
+    "operator_normalized": "Delaware North",
+    "start_date": "2019-03-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_b0120358f3594527"
+    ],
+    "source": "St. Louis Business Journal; St. Louis, Mo. 2019-03-05",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "2019-03-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Sportservice"
+      ]
+    }
+  }
+]

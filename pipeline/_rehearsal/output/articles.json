@@ -1,0 +1,66 @@
+[
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2005/postdispatch_nexis.txt",
+    "source_offset": 95,
+    "source_publication": "St. Louis Post-Dispatch",
+    "source_date": "2005-11-02",
+    "source_date_raw": "November 2, 2005",
+    "source_title": "Cardinals pick concessionaire for new ballpark",
+    "body_text": "The Cardinals said Tuesday that Aramark Corp. will run concessions at the new Busch\nStadium when it opens for the 2006 season, ending a four-decade run by Sportservice at\nthe old park. The 10-year deal is worth about $30 million over its life, according to two\npeople briefed on the terms who spoke on condition of anonymity because the contract has\nnot been made public.\n\nLevy Restaurants and Centerplate also bid for the work. Team officials said the decision\nturned on Aramark's proposal for the club level rather than on price alone.",
+    "problems": []
+  },
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2005/postdispatch_nexis.txt",
+    "source_offset": 848,
+    "source_publication": "The Denver Post",
+    "source_date": "2011-04-18",
+    "source_date_raw": "April 18, 2011 Monday",
+    "source_title": null,
+    "body_text": "Roughly 200 concession workers at Coors Field walked off the job before Sunday's game,\nthe second work stoppage this season against Aramark, the company that has held the\nstadium's food service contract for years. The union said the dispute is over health\ncoverage for part-time staff, most of whom work fewer than twenty games a season.\n\nAn Aramark spokeswoman said the company was disappointed and that stands would remain\nopen with management staffing them. The Rockies declined to comment on the contract.",
+    "problems": [
+      "no headline found"
+    ]
+  },
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2005/postdispatch_nexis.txt",
+    "source_offset": 1529,
+    "source_publication": "Suburban Journals",
+    "source_date": null,
+    "source_date_raw": null,
+    "source_title": "Ballpark Village vendors named",
+    "body_text": "Several vendors were named this week for the retail spaces adjoining the ballpark. A\nspokesman said the leases run through the end of the decade and that further tenants\nwould be announced once the second phase of construction is financed and under way. No\nfood service contractor for the stadium itself was named in the announcement, and the\nteam declined to say whether the existing agreement would be extended.",
+    "problems": [
+      "no publication date found"
+    ]
+  },
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2019/proquest_export.txt",
+    "source_offset": 62,
+    "source_publication": "St. Louis Business Journal; St. Louis, Mo.",
+    "source_date": "2019-03-05",
+    "source_date_raw": "05 Mar 2019",
+    "source_title": "Delaware North takes over Busch Stadium concessions",
+    "body_text": "Delaware North's Sportservice unit will take over food and beverage service at\nBusch Stadium beginning with the 2019 season, the Cardinals confirmed Monday, replacing\nAramark after thirteen years. Terms were not disclosed. The club said the change had been\nunder discussion since the previous fall and that most hourly staff would be retained.\n\nSportservice ran concessions at the old Busch Stadium until 2005, so the award returns the\ncompany to a ballpark it left fourteen years ago. An Aramark spokesman said the company\nwas proud of its work in St. Louis and would continue to serve other Missouri accounts.",
+    "problems": []
+  },
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2019/proquest_export.txt",
+    "source_offset": 1203,
+    "source_publication": "Springfield Register; Springfield, Mo.",
+    "source_date": "2019-09-12",
+    "source_date_raw": "12 Sep 2019",
+    "source_title": "Dining workers at Whitmore College ratify first contract",
+    "body_text": "Dining hall workers at Whitmore College have ratified their first contract with\nCompass Group, the company that has run food service on the campus since the college\noutsourced its dining halls. The three-year agreement raises the starting wage and adds\npaid sick leave for workers who average more than twenty hours a week during the term.\n\nThe college declined to say what it pays Compass. A spokeswoman said the arrangement had\nbeen in place long enough that the college no longer maintained its own kitchen staff.",
+    "problems": []
+  },
+  {
+    "source_file": "_rehearsal/raw/usb_fixture/2024/uniontribune_clipping.html",
+    "source_offset": 0,
+    "source_publication": "The San Diego Union-Tribune",
+    "source_date": "2024-06-10",
+    "source_date_raw": "June 10, 2024",
+    "source_title": "Padres award Petco Park food contract to Sodexo",
+    "body_text": "The Padres have awarded the concessions contract at Petco Park to Sodexo, the club\n    said Monday, ending a run by the previous operator that began when the ballpark opened.\n    The agreement runs seven years with an option for three more, and takes effect at the\n    start of the 2025 season.\n\nSodexo said it would keep the ballpark's local-vendor program and add a commissary\n    on the east side of the park. The club would not say what the contract is worth.",
+    "problems": []
+  }
+]

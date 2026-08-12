@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+dist/
+.env
+pipeline/raw/
+pipeline/articles/raw/
+__pycache__/
+*.pyc
+
+# 366 articles of ProQuest full text, read through an NYPL subscription. The pipeline that
+# builds this file is in the repo, so anyone holding the same USB can regenerate it — but
+# the licensed prose is not ours to republish and this repo is public.
+pipeline/output/articles.json
+
+# Local tool permissions, not project configuration.
+.claude/settings.local.json

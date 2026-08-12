@@ -1,0 +1,3 @@
+Kiki's search notes, saved as .doc by mistake. There is no adapter for this suffix, so
+collect.py must list it as skipped rather than pass over it silently — a file full of
+articles that nobody noticed is a hole in the corpus.

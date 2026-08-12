@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; height: 100%; }
+
+/* Duplicates SURFACE in theme.ts, which CSS cannot import. It is only visible in the frame
+   before React mounts, but if it disagrees with the app the page flashes the old theme. */
+body { background: #ffffff; }
+
+/* The zoom control's dark overrides are gone rather than re-tinted. MapLibre ships it as a
+   white button with dark icons, which is already correct here — and the overrides only ever
+   set the background, so on the dark theme they were dark icons on a #0b1120 button. That
+   control has been unreadable this whole time; on light it fixes itself by being left alone. */

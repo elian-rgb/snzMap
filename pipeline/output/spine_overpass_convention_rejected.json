@@ -1,0 +1,6519 @@
+[
+ {
+  "osm_id": "node/357780920",
+  "canonical_name": "Camp Oak Hill",
+  "lat": 36.487086,
+  "lng": -78.7222269,
+  "city": "Oxford",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Oak HIll Fellowship Center Inc."
+  }
+ },
+ {
+  "osm_id": "node/358275845",
+  "canonical_name": "Hume New England Christian Camp",
+  "lat": 42.1648045,
+  "lng": -73.1760961,
+  "city": "Monterey",
+  "state": "MA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/358364845",
+  "canonical_name": "Acadian Baptist Center",
+  "lat": 30.4295316,
+  "lng": -92.3206125,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/358945893",
+  "canonical_name": "Carbondale Third Street Center",
+  "lat": 39.3949833,
+  "lng": -107.2106071,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/596976996",
+  "canonical_name": "Whispering Oaks Terrace",
+  "lat": 33.4292336,
+  "lng": -117.0890142,
+  "city": "Pala",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/1029129965",
+  "canonical_name": "Hearst social hall",
+  "lat": 36.6189649,
+  "lng": -121.9377447,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/1418752292",
+  "canonical_name": "GTRI Conference Center",
+  "lat": 33.7856197,
+  "lng": -84.3950197,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "George Tech Research Institute Conference Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/1431404113",
+  "canonical_name": "Silvertree Conference Center",
+  "lat": 39.2059526,
+  "lng": -106.953972,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2090159755",
+  "canonical_name": "Ft. Wm. Henry Conference Center",
+  "lat": 43.4194971,
+  "lng": -73.713107,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2342299368",
+  "canonical_name": "Mission Bay Conference Center at UCSF",
+  "lat": 37.7681571,
+  "lng": -122.392929,
+  "city": "San Francisco",
+  "state": null,
+  "wikidata_qid": "Q111528606",
+  "start_date": null,
+  "alt_names": [
+   "Mission Bay Conference Center",
+   "Mission Bay Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2411125406",
+  "canonical_name": "Yellowstone Conference Center",
+  "lat": 45.2852381,
+  "lng": -111.400525,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2433234769",
+  "canonical_name": "Illinois Conference Center",
+  "lat": 40.0937331,
+  "lng": -88.2370639,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2462428080",
+  "canonical_name": "Nordby Conference Center",
+  "lat": 47.6550135,
+  "lng": -122.3793052,
+  "city": "Seattle",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2925511978",
+  "canonical_name": "Camp Au Sable",
+  "lat": 44.6493046,
+  "lng": -84.6872466,
+  "city": "Grayling",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/2925511979",
+  "canonical_name": "Camp CoBeAc",
+  "lat": 44.26517,
+  "lng": -84.6999401,
+  "city": "Prudenville",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/3175006613",
+  "canonical_name": "Red Pine Inn & Conference Centre",
+  "lat": 44.1588724,
+  "lng": -79.8440693,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/3502370815",
+  "canonical_name": "Lake Doniphan Conference & Retreat Center",
+  "lat": 39.3256707,
+  "lng": -94.1946833,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/3707200703",
+  "canonical_name": "Education & Research Center",
+  "lat": 41.5882626,
+  "lng": -93.6359001,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/4120975689",
+  "canonical_name": "Yakima Valley Hotel and Conference Center",
+  "lat": 46.621258,
+  "lng": -120.511404,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "tourism": "hotel"
+  }
+ },
+ {
+  "osm_id": "node/4630512220",
+  "canonical_name": "Stoweflake Conference Center",
+  "lat": 44.4743276,
+  "lng": -72.7107245,
+  "city": "Stowe",
+  "state": "VT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/4654746333",
+  "canonical_name": "Esplanade Conference Center",
+  "lat": 41.830615,
+  "lng": -88.0335111,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/5343706931",
+  "canonical_name": "Benson & Edith Ford Conference Center",
+  "lat": 42.3680145,
+  "lng": -83.0748092,
+  "city": "Detroit",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/5613955377",
+  "canonical_name": "Washington Street Conference Center",
+  "lat": 45.5211952,
+  "lng": -122.9901812,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/5745465012",
+  "canonical_name": "New Kent Forestry Center",
+  "lat": 37.4277201,
+  "lng": -76.9929877,
+  "city": "Providence Forge",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/6654270044",
+  "canonical_name": "Leo Griego Auditorium",
+  "lat": 35.6583707,
+  "lng": -105.9843089,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/6814286193",
+  "canonical_name": "Universal Center",
+  "lat": 28.4800757,
+  "lng": -81.4571527,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "DoubleTree by Hilton"
+  }
+ },
+ {
+  "osm_id": "node/6935219407",
+  "canonical_name": "A-1 Quick Stop",
+  "lat": 40.6049022,
+  "lng": -75.4731488,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/6935609317",
+  "canonical_name": "(20) Red Seminar Barn",
+  "lat": 31.6662157,
+  "lng": -97.153792,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7025202848",
+  "canonical_name": "Conference Center at Lake Placid",
+  "lat": 44.28461,
+  "lng": -73.9849404,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7037618880",
+  "canonical_name": "Memorial Auditorium",
+  "lat": 34.680237,
+  "lng": -82.8374903,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7154990655",
+  "canonical_name": "Bonanza Club Room",
+  "lat": 44.823891,
+  "lng": -120.4836681,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7209636582",
+  "canonical_name": "Auditorio Facultad de Economia y Relaciones Internacionales",
+  "lat": 32.5323187,
+  "lng": -116.9596164,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7668166103",
+  "canonical_name": "J&J Swagat Banquet Halls",
+  "lat": 43.8305855,
+  "lng": -79.3279463,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7668645017",
+  "canonical_name": "Missoula Conference Center",
+  "lat": 46.9043611,
+  "lng": -114.0372405,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7682673134",
+  "canonical_name": "Goodie Bag",
+  "lat": 43.7029067,
+  "lng": -79.3881851,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7714891108",
+  "canonical_name": "Ambassador Center",
+  "lat": 42.0497498,
+  "lng": -80.0841769,
+  "city": "Erie",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7725581777",
+  "canonical_name": "Exhibits On Time, LLC",
+  "lat": 33.409382,
+  "lng": -111.8469751,
+  "city": "Mesa",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7741988459",
+  "canonical_name": "Decatur Conference Center",
+  "lat": 33.776882,
+  "lng": -84.297736,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7851387792",
+  "canonical_name": "Hemlock Farms Conference Center",
+  "lat": 41.2949552,
+  "lng": -75.051538,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/7964143169",
+  "canonical_name": "Verizon Executive Education Center",
+  "lat": 40.7557846,
+  "lng": -73.9556069,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8004688918",
+  "canonical_name": "Ironwood Meeting Room",
+  "lat": 33.6447015,
+  "lng": -111.9181456,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8016620167",
+  "canonical_name": "Presbyterian Sandia Conference Grounds",
+  "lat": 35.22681,
+  "lng": -106.4189655,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "leisure": "summer_camp"
+  }
+ },
+ {
+  "osm_id": "node/8063398512",
+  "canonical_name": "Antiochian Village Conference and Retreat Center",
+  "lat": 40.2999644,
+  "lng": -79.1516582,
+  "city": "Bolivar",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Antiochian Orthodox Christian Archdiocese of North America"
+  }
+ },
+ {
+  "osm_id": "node/8185909742",
+  "canonical_name": "Eagle Conference Center",
+  "lat": 36.6418915,
+  "lng": -87.4513938,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8225562336",
+  "canonical_name": "LHS Auditorium",
+  "lat": 35.9114679,
+  "lng": -81.5434694,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8358184748",
+  "canonical_name": "Exhibit Hall",
+  "lat": 38.0034697,
+  "lng": -122.5310331,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8398624588",
+  "canonical_name": "Blaire Conference Room",
+  "lat": 29.7180506,
+  "lng": -95.4021011,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8398624596",
+  "canonical_name": "Second Floor Conference Room",
+  "lat": 29.7179283,
+  "lng": -95.4018101,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8430417358",
+  "canonical_name": "West48",
+  "lat": 41.5964328,
+  "lng": -93.7683088,
+  "city": "West Des Moines",
+  "state": "IA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8458612268",
+  "canonical_name": "Union Grace Conference Center",
+  "lat": 42.3629643,
+  "lng": -83.0920674,
+  "city": "Detroit",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8601383592",
+  "canonical_name": "Glacier Conference Center",
+  "lat": 48.2142827,
+  "lng": -114.3274298,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8689502160",
+  "canonical_name": "Nancy J Dembowski Knox Community Center",
+  "lat": 41.2975982,
+  "lng": -86.6221838,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8723386875",
+  "canonical_name": "Rizzo Conference Center at Meadowmont",
+  "lat": 35.9119479,
+  "lng": -79.0052526,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8724110815",
+  "canonical_name": "Hurst Conference Center",
+  "lat": 32.8411869,
+  "lng": -97.1921715,
+  "city": "Hurst",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8763491499",
+  "canonical_name": "Texas Health HEB Conference Center",
+  "lat": 32.836216,
+  "lng": -97.123188,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8865982887",
+  "canonical_name": "Swanson Conference Center",
+  "lat": 41.3045418,
+  "lng": -95.9596296,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8875045797",
+  "canonical_name": "New London Conference Center",
+  "lat": 37.3047414,
+  "lng": -79.2783792,
+  "city": "Lynchburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/8893015213",
+  "canonical_name": "Kanab Center",
+  "lat": 37.0484146,
+  "lng": -112.5255678,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9056995087",
+  "canonical_name": "Grappone Conference Center",
+  "lat": 43.2183614,
+  "lng": -71.5367569,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9098708643",
+  "canonical_name": "McGlinn Conference Center",
+  "lat": 40.3109302,
+  "lng": -75.9348798,
+  "city": "Reading",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Bernardine Franciscan Sisters"
+  }
+ },
+ {
+  "osm_id": "node/9121651764",
+  "canonical_name": "Lecture Hall",
+  "lat": 35.875052,
+  "lng": -106.3254939,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9131631448",
+  "canonical_name": "Novant Health Conference Center",
+  "lat": 35.2119029,
+  "lng": -80.8215216,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Novant Health"
+  }
+ },
+ {
+  "osm_id": "node/9429264045",
+  "canonical_name": "Lakeside Talks",
+  "lat": 38.4648454,
+  "lng": -122.9933864,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9446355894",
+  "canonical_name": "Field Circle",
+  "lat": 38.4657821,
+  "lng": -122.9910898,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9501717948",
+  "canonical_name": "JCPS West Campus Conference Center",
+  "lat": 35.4998015,
+  "lng": -78.3121552,
+  "city": "Smithfield",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9536590587",
+  "canonical_name": "Huntington Place",
+  "lat": 42.3265187,
+  "lng": -83.0487484,
+  "city": "Detroit",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9571342518",
+  "canonical_name": "Summersville Arena & Conference Center",
+  "lat": 38.3038848,
+  "lng": -80.8279623,
+  "city": "Summersville",
+  "state": "WV",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9818882767",
+  "canonical_name": "Bay State Conference Center",
+  "lat": 41.7394627,
+  "lng": -70.6260789,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9902678366",
+  "canonical_name": "Convene",
+  "lat": 38.8977691,
+  "lng": -77.0324462,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9919476795",
+  "canonical_name": "801 Event Center",
+  "lat": 40.7710992,
+  "lng": -111.9219538,
+  "city": "Salt Lake City",
+  "state": "UT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9980967471",
+  "canonical_name": "Letchworth State Park Conference Center",
+  "lat": 42.5887978,
+  "lng": -78.0408726,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/9992997771",
+  "canonical_name": "Marcell Family Center",
+  "lat": 47.5887614,
+  "lng": -93.6880488,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10032766307",
+  "canonical_name": "El Dorado Conference Center",
+  "lat": 33.2100543,
+  "lng": -92.6650858,
+  "city": "El Dorado",
+  "state": "AR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10039484856",
+  "canonical_name": "Centre Mont-Royal",
+  "lat": 45.5025813,
+  "lng": -73.5747409,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10064402340",
+  "canonical_name": "GCI Conference Center",
+  "lat": 43.0838042,
+  "lng": -77.6802368,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "RIT"
+  }
+ },
+ {
+  "osm_id": "node/10288502608",
+  "canonical_name": "Exhibit Place",
+  "lat": 33.376874,
+  "lng": -111.9775911,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10573597629",
+  "canonical_name": "Great Hall",
+  "lat": 44.9727284,
+  "lng": -93.2356554,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10586424150",
+  "canonical_name": "Domenici Center Auditorium",
+  "lat": 35.0910463,
+  "lng": -106.6179552,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/10588057825",
+  "canonical_name": "Lecture Hall",
+  "lat": 35.8857827,
+  "lng": -106.3193716,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11114519855",
+  "canonical_name": "Wisner Auditorium",
+  "lat": 41.986005,
+  "lng": -96.9155375,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11148358975",
+  "canonical_name": "Michindoh",
+  "lat": 41.9094296,
+  "lng": -84.5622162,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11169979037",
+  "canonical_name": "Freedom Practice Learning Center",
+  "lat": 26.5832705,
+  "lng": -81.8806508,
+  "city": "Fort Myers",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "The Freedom Practice"
+  }
+ },
+ {
+  "osm_id": "node/11223068775",
+  "canonical_name": "Palacio Catering and Conference Center",
+  "lat": 41.3751443,
+  "lng": -74.2917019,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11225252039",
+  "canonical_name": "Deicke Auditorium",
+  "lat": 26.1237368,
+  "lng": -80.2255173,
+  "city": "Plantation",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "City of Plantation"
+  }
+ },
+ {
+  "osm_id": "node/11336429484",
+  "canonical_name": "Arapahoe-Centennial Meeting & Conference Center",
+  "lat": 39.595643,
+  "lng": -104.8421663,
+  "city": "Centennial",
+  "state": "CO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11384460558",
+  "canonical_name": "Tuscarora Conference Center",
+  "lat": 40.881586,
+  "lng": -75.0643808,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11438796332",
+  "canonical_name": "Ridgecrest Conference Center",
+  "lat": 35.6225213,
+  "lng": -82.2754595,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11792928544",
+  "canonical_name": "Bethany Hills Camp",
+  "lat": 36.1016431,
+  "lng": -87.1683686,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11815244791",
+  "canonical_name": "Theibaud Auditorium",
+  "lat": 37.4936333,
+  "lng": -94.2750541,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11844772405",
+  "canonical_name": "Dayton Hamvention",
+  "lat": 39.7000094,
+  "lng": -83.939697,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11860349944",
+  "canonical_name": "Caraway Conference Center",
+  "lat": 35.771279,
+  "lng": -79.8940721,
+  "city": "Sophia",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11871631593",
+  "canonical_name": "Lion King Ministries",
+  "lat": 30.7076644,
+  "lng": -90.6910145,
+  "city": "Amite City",
+  "state": "LA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11876774545",
+  "canonical_name": "Beersheba Springs Assembly",
+  "lat": 35.4678496,
+  "lng": -85.6529078,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/11950886149",
+  "canonical_name": "Desert Willow Conference Center",
+  "lat": 33.4037661,
+  "lng": -111.9890592,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12096794448",
+  "canonical_name": "Loosemore Auditorium - Grand Valley State University",
+  "lat": 42.9645108,
+  "lng": -85.6805133,
+  "city": "Grand Rapids",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12122366594",
+  "canonical_name": "The Times Center",
+  "lat": 40.7560001,
+  "lng": -73.9892319,
+  "city": "New York",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "The New York Times"
+  }
+ },
+ {
+  "osm_id": "node/12154555826",
+  "canonical_name": "Ray Terry Center",
+  "lat": 33.7960382,
+  "lng": -78.7436172,
+  "city": "North Myrtle Beach",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12156931067",
+  "canonical_name": "Charter Center of North Beach",
+  "lat": 33.7959099,
+  "lng": -78.7418052,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12156931068",
+  "canonical_name": "Preview Center",
+  "lat": 33.7958787,
+  "lng": -78.7418884,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12197425615",
+  "canonical_name": "Cantey Building",
+  "lat": 33.9776824,
+  "lng": -81.0208264,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12197425616",
+  "canonical_name": "Goodman Building",
+  "lat": 33.9774461,
+  "lng": -81.0203089,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12205703268",
+  "canonical_name": "Harborview Conference Center",
+  "lat": 41.6994157,
+  "lng": -70.3046345,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12205703269",
+  "canonical_name": "Mary Pat Flynn Conference Center",
+  "lat": 41.6992812,
+  "lng": -70.3040688,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12240152276",
+  "canonical_name": "Dennard Conference Center",
+  "lat": 33.7117175,
+  "lng": -84.4056357,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12277618638",
+  "canonical_name": "Marriott Marquis",
+  "lat": 33.7614435,
+  "lng": -84.385766,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12277647293",
+  "canonical_name": "Hilton",
+  "lat": 33.7612874,
+  "lng": -84.3840341,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12277647295",
+  "canonical_name": "Westin",
+  "lat": 33.7595386,
+  "lng": -84.3883949,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12284191093",
+  "canonical_name": "Southeast Kansas Impact Conference Center",
+  "lat": 37.6761283,
+  "lng": -95.4753948,
+  "city": "Chanute",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12297379242",
+  "canonical_name": "Apex Conference Center",
+  "lat": 42.7558706,
+  "lng": -71.4890801,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12452659195",
+  "canonical_name": "Viticus Center - Oquendo Campus",
+  "lat": 36.0820107,
+  "lng": -115.117942,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12473740043",
+  "canonical_name": "The Boardroom",
+  "lat": 30.8709046,
+  "lng": -83.2824945,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12639873401",
+  "canonical_name": "The Eagle Institute",
+  "lat": 32.3784386,
+  "lng": -86.3081839,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12716340864",
+  "canonical_name": "Thompson Conference Center",
+  "lat": 38.696445,
+  "lng": -93.2670982,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "State Fair Community College"
+  }
+ },
+ {
+  "osm_id": "node/12736665467",
+  "canonical_name": "Ithaca Downtown Conference Center",
+  "lat": 42.4388283,
+  "lng": -76.4977676,
+  "city": "Ithaca",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "ASM Global"
+  }
+ },
+ {
+  "osm_id": "node/12740070250",
+  "canonical_name": "Knight Auditorium",
+  "lat": 40.107449,
+  "lng": -88.2208868,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "University of Illinois"
+  }
+ },
+ {
+  "osm_id": "node/12807078684",
+  "canonical_name": "The Fives",
+  "lat": 39.9726391,
+  "lng": -83.0178904,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12848893393",
+  "canonical_name": "Waterfront Conference Center",
+  "lat": 39.3848984,
+  "lng": -74.4303491,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": "2015-09-17",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Harrah's Resort Atlantic City"
+  }
+ },
+ {
+  "osm_id": "node/12854255406",
+  "canonical_name": "John T. Hazel, MD Conference Center",
+  "lat": 38.8890927,
+  "lng": -77.1281402,
+  "city": "arlin",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12871918460",
+  "canonical_name": "Gamble Auditorium",
+  "lat": 42.2566338,
+  "lng": -72.5727022,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12875875402",
+  "canonical_name": "Frederick County Workforce Services",
+  "lat": 39.4133448,
+  "lng": -77.3892413,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12876508177",
+  "canonical_name": "Miller-Murphy-Howard Building",
+  "lat": 32.4394177,
+  "lng": -83.7520808,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12876508179",
+  "canonical_name": "McGill MarketPlace",
+  "lat": 32.4396896,
+  "lng": -83.7507143,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12876508181",
+  "canonical_name": "Roquemore Conference Center",
+  "lat": 32.4394996,
+  "lng": -83.7511044,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12876508182",
+  "canonical_name": "Heritage Hall",
+  "lat": 32.4391258,
+  "lng": -83.7512266,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12876508184",
+  "canonical_name": "Georgia Grown Building",
+  "lat": 32.4384861,
+  "lng": -83.7507477,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/12887385444",
+  "canonical_name": "STC - SUNY Technology Conference",
+  "lat": 44.2843488,
+  "lng": -73.9850562,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13062661672",
+  "canonical_name": "Rural Development Center",
+  "lat": 31.4799501,
+  "lng": -83.5213508,
+  "city": "Tifton",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "University of Georgia"
+  }
+ },
+ {
+  "osm_id": "node/13176753428",
+  "canonical_name": "Civic Hall",
+  "lat": 40.7336511,
+  "lng": -73.9887397,
+  "city": "New York",
+  "state": "NY",
+  "wikidata_qid": "Q124546307",
+  "start_date": null,
+  "alt_names": [
+   "Civic Hall at Union Square"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "The Fedcap Group"
+  }
+ },
+ {
+  "osm_id": "node/13184322284",
+  "canonical_name": "Auditorium-Armory",
+  "lat": 44.3075123,
+  "lng": -96.799004,
+  "city": "Brookings",
+  "state": "SD",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13260487660",
+  "canonical_name": "Sobrato Community Conference Center",
+  "lat": 37.428643,
+  "lng": -121.916407,
+  "city": "Milpitas",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13333360601",
+  "canonical_name": "Wisdom House Retreat & Conference Center",
+  "lat": 41.7584004,
+  "lng": -73.1512597,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13343287902",
+  "canonical_name": "Augusta Expo",
+  "lat": 38.0908798,
+  "lng": -79.0002319,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13433771501",
+  "canonical_name": "Centre de Foires de Sherbrooke",
+  "lat": 45.4213296,
+  "lng": -71.9629775,
+  "city": "Sherbrooke",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13547264785",
+  "canonical_name": "Steger Center",
+  "lat": 47.956595,
+  "lng": -91.8069916,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13671621601",
+  "canonical_name": "Advent Health field house and conference center",
+  "lat": 28.0027946,
+  "lng": -81.7300015,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13730228801",
+  "canonical_name": "Mill Brook Place",
+  "lat": 41.7680698,
+  "lng": -72.3027509,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "node/13746369405",
+  "canonical_name": "Jay Conference Chelsea",
+  "lat": 40.7448194,
+  "lng": -73.9930565,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/27897924",
+  "canonical_name": "MGM Grand Conference Center",
+  "lat": 36.1045537,
+  "lng": -115.1648144,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/28938494",
+  "canonical_name": "Beanfield Centre",
+  "lat": 43.6337679,
+  "lng": -79.4104944,
+  "city": "Toronto",
+  "state": null,
+  "wikidata_qid": "Q21188126",
+  "start_date": null,
+  "alt_names": [
+   "Automotive Building"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/30793749",
+  "canonical_name": "Grand Wayne Center",
+  "lat": 41.076472,
+  "lng": -85.1406501,
+  "city": "Fort Wayne",
+  "state": "IN",
+  "wikidata_qid": "Q5595248",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "tourism": "attraction"
+  }
+ },
+ {
+  "osm_id": "way/32019100",
+  "canonical_name": "Harry T. Wilks Conference Center",
+  "lat": 39.3785623,
+  "lng": -84.5627287,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "university"
+  }
+ },
+ {
+  "osm_id": "way/32947354",
+  "canonical_name": "First Financial Center",
+  "lat": 39.101157,
+  "lng": -84.5180269,
+  "city": null,
+  "state": "OH",
+  "wikidata_qid": "Q5312775",
+  "start_date": null,
+  "alt_names": [
+   "Cincinnati Convention Center",
+   "Duke Energy Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public"
+  }
+ },
+ {
+  "osm_id": "way/37890913",
+  "canonical_name": "Liberty Station Conference Center",
+  "lat": 32.7293148,
+  "lng": -117.2172863,
+  "city": "San Diego",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/38500669",
+  "canonical_name": "Bartle Hall",
+  "lat": 39.0974738,
+  "lng": -94.5878188,
+  "city": "Kansas City",
+  "state": "MO",
+  "wikidata_qid": "Q4865353",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/39353473",
+  "canonical_name": "Fredericksburg Expo & Conference Center",
+  "lat": 38.3158613,
+  "lng": -77.507407,
+  "city": "Fredericksburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/39419840",
+  "canonical_name": "Buena Vista (estate)",
+  "lat": 39.6341635,
+  "lng": -75.6368097,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "State of Delaware"
+  }
+ },
+ {
+  "osm_id": "way/40806849",
+  "canonical_name": "AmericasMart Atlanta",
+  "lat": 33.7616363,
+  "lng": -84.389796,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Atlanta Market Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/40808010",
+  "canonical_name": "Hyatt Regency Atlanta",
+  "lat": 33.7616092,
+  "lng": -84.3867788,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": "Q5952861",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel",
+   "operator": "Hyatt",
+   "tourism": "hotel"
+  }
+ },
+ {
+  "osm_id": "way/41172060",
+  "canonical_name": "Redwood Christian Park",
+  "lat": 37.1494523,
+  "lng": -122.1216427,
+  "city": "Boulder Creek",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/43055135",
+  "canonical_name": "NRG Center",
+  "lat": 29.6875452,
+  "lng": -95.4063443,
+  "city": "Houston",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/46865447",
+  "canonical_name": "Ch\u00e2teau Royal",
+  "lat": 45.5504615,
+  "lng": -73.7472946,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/66486835",
+  "canonical_name": "Zoofari Conference Center",
+  "lat": 43.0344677,
+  "lng": -88.0344532,
+  "city": "Milwaukee",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/67479875",
+  "canonical_name": "Cobb Galleria Centre",
+  "lat": 33.8839367,
+  "lng": -84.4662479,
+  "city": "Atlanta",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "The Galleria",
+   "Cobb Galleria"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/67790587",
+  "canonical_name": "Bingemans Conference Centre",
+  "lat": 43.4748142,
+  "lng": -80.4528073,
+  "city": "Kitchener",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/68211299",
+  "canonical_name": "The Glen Ivy Center",
+  "lat": 33.7572648,
+  "lng": -117.4960886,
+  "city": "Corona",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "leisure": "resort"
+  }
+ },
+ {
+  "osm_id": "way/77087424",
+  "canonical_name": "HAPO Center",
+  "lat": 46.2693167,
+  "lng": -119.1759167,
+  "city": "Pasco",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/88557117",
+  "canonical_name": "Riverfront Center",
+  "lat": 31.3133997,
+  "lng": -92.4459107,
+  "city": "Alexandria",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public"
+  }
+ },
+ {
+  "osm_id": "way/90231775",
+  "canonical_name": "Dixie Center",
+  "lat": 37.0771227,
+  "lng": -113.582399,
+  "city": "St. George",
+  "state": "UT",
+  "wikidata_qid": "Q18706063",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/91662919",
+  "canonical_name": "Indiana Wesleyan University - Cincinnati Education and Conference Center",
+  "lat": 39.3203949,
+  "lng": -84.4275612,
+  "city": "West Chester Township",
+  "state": "OH",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/92905847",
+  "canonical_name": "Minneapolis Event Centers",
+  "lat": 44.9845917,
+  "lng": -93.2543207,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/96906441",
+  "canonical_name": "Arlington Museum of Art",
+  "lat": 32.7553669,
+  "lng": -97.0818852,
+  "city": "Arlington",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/99477169",
+  "canonical_name": "Ford Experience Center (FXC)",
+  "lat": 42.3022508,
+  "lng": -83.2312564,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "Ford Motor Company"
+  }
+ },
+ {
+  "osm_id": "way/103242254",
+  "canonical_name": "Fluno Center",
+  "lat": 43.0728115,
+  "lng": -89.3965273,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/105660094",
+  "canonical_name": "Indian Wells Conference Center",
+  "lat": 33.7229265,
+  "lng": -116.3315571,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/108046479",
+  "canonical_name": "Gaylord Texan",
+  "lat": 32.9528007,
+  "lng": -97.0643676,
+  "city": "Grapevine",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/108703651",
+  "canonical_name": "Alliant Energy Center",
+  "lat": 43.0443729,
+  "lng": -89.3801678,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q4732497",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/111367819",
+  "canonical_name": "Venetian Expo",
+  "lat": 36.1218977,
+  "lng": -115.16623,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7416896",
+  "start_date": null,
+  "alt_names": [
+   "Sands Expo"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "tourism": "yes"
+  }
+ },
+ {
+  "osm_id": "way/121929013",
+  "canonical_name": "University Conference Center",
+  "lat": 40.2642792,
+  "lng": -76.68178,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "industrial",
+   "operator": "Penn State College of Medicine"
+  }
+ },
+ {
+  "osm_id": "way/124694809",
+  "canonical_name": "McLean Estate",
+  "lat": 43.724102,
+  "lng": -79.370587,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "detached"
+  }
+ },
+ {
+  "osm_id": "way/125367067",
+  "canonical_name": "Benedict Castle",
+  "lat": 33.9504353,
+  "lng": -117.3476725,
+  "city": "Riverside",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/129478117",
+  "canonical_name": "Cashman Center",
+  "lat": 36.1800353,
+  "lng": -115.1311582,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q5048757",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/130585549",
+  "canonical_name": "World Market Center",
+  "lat": 36.1688249,
+  "lng": -115.156476,
+  "city": "Las Vegas",
+  "state": "NV",
+  "wikidata_qid": "Q8035944",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/133758151",
+  "canonical_name": "Virgin Hotels Conference Center",
+  "lat": 36.1107121,
+  "lng": -115.1548623,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/136340574",
+  "canonical_name": "McCormick Place Lakeside Center",
+  "lat": 41.853095,
+  "lng": -87.6122685,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "exhibition_hall"
+  }
+ },
+ {
+  "osm_id": "way/150212768",
+  "canonical_name": "Westin Harbour Conference Centre",
+  "lat": 43.6418179,
+  "lng": -79.376662,
+  "city": "Toronto",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/155824760",
+  "canonical_name": "Deloitte University",
+  "lat": 32.9831084,
+  "lng": -97.2044577,
+  "city": "Westlake",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/163762268",
+  "canonical_name": "Gruenhagen Conference Center and Residence Life",
+  "lat": 44.0222473,
+  "lng": -88.5486863,
+  "city": "Oshkosh",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "University of Wisconsin-Oshkosh"
+  }
+ },
+ {
+  "osm_id": "way/163859028",
+  "canonical_name": "Vaughan Estate",
+  "lat": 43.7248935,
+  "lng": -79.3737645,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "detached"
+  }
+ },
+ {
+  "osm_id": "way/169315837",
+  "canonical_name": "523",
+  "lat": 38.1041855,
+  "lng": -122.2786291,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": "1941",
+  "alt_names": [
+   "California Coliseum"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/186035187",
+  "canonical_name": "Redding Civic Auditorium",
+  "lat": 40.589578,
+  "lng": -122.3801514,
+  "city": "Redding",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/187668223",
+  "canonical_name": "Palmer Events Center",
+  "lat": 30.2606237,
+  "lng": -97.7528265,
+  "city": "Austin",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/188484607",
+  "canonical_name": "Conference Center at Sheppard Pratt",
+  "lat": 39.3893182,
+  "lng": -76.6201097,
+  "city": "Towson",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/198106111",
+  "canonical_name": "Cleburne Conference Center",
+  "lat": 32.3395289,
+  "lng": -97.4092758,
+  "city": "Cleburne",
+  "state": "TX",
+  "wikidata_qid": "Q123819239",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Cleburne"
+  }
+ },
+ {
+  "osm_id": "way/199697597",
+  "canonical_name": "Annenberg Presidential Conference Center",
+  "lat": 30.597372,
+  "lng": -96.3536224,
+  "city": "College Station",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/200392533",
+  "canonical_name": "High Country Conference Center",
+  "lat": 35.1944632,
+  "lng": -111.6538618,
+  "city": "Flagstaff",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "58"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Northern Arizona University"
+  }
+ },
+ {
+  "osm_id": "way/202373110",
+  "canonical_name": "UIC Dorin Forum",
+  "lat": 41.8667143,
+  "lng": -87.645831,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": "Q117354677",
+  "start_date": "2007",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "university",
+   "operator": "University of Illinois at Chicago"
+  }
+ },
+ {
+  "osm_id": "way/204886155",
+  "canonical_name": "McCormick Place South Building",
+  "lat": 41.8500407,
+  "lng": -87.6160027,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "exhibition_hall"
+  }
+ },
+ {
+  "osm_id": "way/211413190",
+  "canonical_name": "James Center for the Preforming Arts",
+  "lat": 48.0821143,
+  "lng": -123.0843095,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/211413193",
+  "canonical_name": "Guy Cole Event Center",
+  "lat": 48.0807561,
+  "lng": -123.0831402,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Sequim City Parks"
+  }
+ },
+ {
+  "osm_id": "way/212037715",
+  "canonical_name": "Meeting Place at Endicott",
+  "lat": 42.5527296,
+  "lng": -70.8486149,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/214508842",
+  "canonical_name": "Brain Center",
+  "lat": 41.5594081,
+  "lng": -70.4856336,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/216282309",
+  "canonical_name": "Fuller Conference Center",
+  "lat": 42.1083813,
+  "lng": -72.0980768,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Old Sturbridge Village"
+  }
+ },
+ {
+  "osm_id": "way/218798274",
+  "canonical_name": "Fountains Conference Center",
+  "lat": 38.605093,
+  "lng": -89.9825047,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Radisson"
+  }
+ },
+ {
+  "osm_id": "way/219068343",
+  "canonical_name": "UCLA Lake Arrowhead Conference Center",
+  "lat": 34.2656905,
+  "lng": -117.1869748,
+  "city": "Lake Arrowhead",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/220185274",
+  "canonical_name": "GreenTree Conference Center",
+  "lat": 33.408646,
+  "lng": -111.9788066,
+  "city": "Phoenix",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/220369150",
+  "canonical_name": "Lynnwood Event Center",
+  "lat": 47.8214847,
+  "lng": -122.2837199,
+  "city": "Lynnwood",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Lynnwood Convention Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/220669953",
+  "canonical_name": "Saratoga Springs City Center",
+  "lat": 43.0849124,
+  "lng": -73.7832355,
+  "city": "Saratoga Springs",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/221073170",
+  "canonical_name": "Kelly C. Sandy III Auditorium",
+  "lat": 47.6862156,
+  "lng": -122.2568454,
+  "city": "Seattle",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "National Oceanic and Atmospheric Administration"
+  }
+ },
+ {
+  "osm_id": "way/226663089",
+  "canonical_name": "Nk'Mip Conference Centre",
+  "lat": 49.0394937,
+  "lng": -119.4332817,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Hyatt"
+  }
+ },
+ {
+  "osm_id": "way/227711309",
+  "canonical_name": "Enercare Centre",
+  "lat": 43.6353131,
+  "lng": -79.4132135,
+  "city": "Toronto",
+  "state": null,
+  "wikidata_qid": "Q5280268",
+  "start_date": null,
+  "alt_names": [
+   "Direct Energy Centre",
+   "National Trade Centre"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/228612201",
+  "canonical_name": "Ray Clymer Exhibit Hall",
+  "lat": 33.9155231,
+  "lng": -98.4991528,
+  "city": "Wichita Falls",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/232798783",
+  "canonical_name": "APS Conference Center (402)",
+  "lat": 41.7057609,
+  "lng": -87.9878759,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": "1996",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/234436233",
+  "canonical_name": "Bell Harbor International Conference Center",
+  "lat": 47.6111493,
+  "lng": -122.3493272,
+  "city": "Seattle",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Bell Harbor"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Columbia Hospitality"
+  }
+ },
+ {
+  "osm_id": "way/237954382",
+  "canonical_name": "Marriott Conference Center",
+  "lat": 28.4028767,
+  "lng": -81.4278647,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/237954383",
+  "canonical_name": "The Ritz-Carlton Conference Center",
+  "lat": 28.4045007,
+  "lng": -81.4285321,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/247658226",
+  "canonical_name": "Academy Conference Center",
+  "lat": 41.5120169,
+  "lng": -112.0152003,
+  "city": "Brigham City",
+  "state": "UT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/259445295",
+  "canonical_name": "River Lodge Conference Center",
+  "lat": 40.576895,
+  "lng": -124.1540019,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/261268621",
+  "canonical_name": "West Bay Conference Center",
+  "lat": 37.7812692,
+  "lng": -122.4319152,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/261980816",
+  "canonical_name": "Shared Visions Retreat Center",
+  "lat": 36.0289211,
+  "lng": -79.0148043,
+  "city": "Durham",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Murphey School"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/263867268",
+  "canonical_name": "The Chateau",
+  "lat": 41.9161069,
+  "lng": -74.0140182,
+  "city": "Kingston",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/264371210",
+  "canonical_name": "La Crosse Center",
+  "lat": 43.8119808,
+  "lng": -91.2557624,
+  "city": "La Crosse",
+  "state": "WI",
+  "wikidata_qid": "Q6462066",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/264535169",
+  "canonical_name": "Rogers Centre",
+  "lat": 45.42425,
+  "lng": -75.6911966,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q4340145",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/273136641",
+  "canonical_name": "Expoforum",
+  "lat": 29.0465608,
+  "lng": -110.9589152,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "no"
+  }
+ },
+ {
+  "osm_id": "way/280503777",
+  "canonical_name": "Seth Pounds Auditorium",
+  "lat": 34.6679805,
+  "lng": -88.5618665,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/286196269",
+  "canonical_name": "Mission Point Resort Conference Center",
+  "lat": 45.8509227,
+  "lng": -84.6063061,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q6724494",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/295271408",
+  "canonical_name": "Auditorio municipal",
+  "lat": 26.0630403,
+  "lng": -98.3584822,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/296130078",
+  "canonical_name": "MetraPark Arena",
+  "lat": 45.7999938,
+  "lng": -108.4771095,
+  "city": "Billings",
+  "state": "MT",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/312156716",
+  "canonical_name": "Russell County Conference Center",
+  "lat": 36.9040662,
+  "lng": -82.0702701,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/312595360",
+  "canonical_name": "Chesapeake Conference Center",
+  "lat": 36.7891774,
+  "lng": -76.2324734,
+  "city": "Chesapeake",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/319767166",
+  "canonical_name": "Pivot Point Conference Center",
+  "lat": 32.7267356,
+  "lng": -114.620425,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/328809114",
+  "canonical_name": "W.A. Carr Conference Center",
+  "lat": 34.8271642,
+  "lng": -82.6100821,
+  "city": "Easley",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "school"
+  }
+ },
+ {
+  "osm_id": "way/338711180",
+  "canonical_name": "Towers Conference Center",
+  "lat": 37.7239751,
+  "lng": -122.4825209,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/344183594",
+  "canonical_name": "Quesada Hall",
+  "lat": 37.0786396,
+  "lng": -76.3451314,
+  "city": "Hampton",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/353737907",
+  "canonical_name": "Waterville Valley Conference Center",
+  "lat": 43.9485054,
+  "lng": -71.5062766,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/364434855",
+  "canonical_name": "Save Mart Center",
+  "lat": 36.809685,
+  "lng": -119.7385104,
+  "city": "Fresno",
+  "state": "CA",
+  "wikidata_qid": "Q3474506",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/371817891",
+  "canonical_name": "DeKoven Center",
+  "lat": 42.7060056,
+  "lng": -87.785883,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "DeKoven Foundation"
+  }
+ },
+ {
+  "osm_id": "way/373695070",
+  "canonical_name": "PE Monroe Auditorium",
+  "lat": 35.7409333,
+  "lng": -81.3270208,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/373851843",
+  "canonical_name": "Clarion Hotel & Conference Centre",
+  "lat": 49.036756,
+  "lng": -122.2269859,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Clarion Hotel by Choice Hotels",
+   "Quality Hotel & Conference Centre Abbotsford",
+   "Clarion Abbotsford"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "tourism": "hotel"
+  }
+ },
+ {
+  "osm_id": "way/373851845",
+  "canonical_name": "Conference Centre",
+  "lat": 49.0365407,
+  "lng": -122.2276986,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/374041242",
+  "canonical_name": "Enoch Beckford Auditorium",
+  "lat": 25.0149965,
+  "lng": -77.3894457,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "church"
+  }
+ },
+ {
+  "osm_id": "way/375275375",
+  "canonical_name": "Centro Convex",
+  "lat": 25.6645898,
+  "lng": -100.3303948,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/377805364",
+  "canonical_name": "William Thompson Auditorium",
+  "lat": 25.047674,
+  "lng": -77.3154928,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/379022413",
+  "canonical_name": "Century Center",
+  "lat": 41.6759501,
+  "lng": -86.2476338,
+  "city": "South Bend",
+  "state": "IN",
+  "wikidata_qid": "Q5063138",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/382673743",
+  "canonical_name": "Reed Conference Center",
+  "lat": 35.4466958,
+  "lng": -97.420438,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/391937307",
+  "canonical_name": "Sheriton Fairplex Conference Center",
+  "lat": 34.0815034,
+  "lng": -117.7620751,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/393873135",
+  "canonical_name": "Shingle Creek Conference Centre",
+  "lat": 28.4244693,
+  "lng": -81.4363265,
+  "city": "Orlando",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/398284109",
+  "canonical_name": "Red River Conference Center",
+  "lat": 36.7073977,
+  "lng": -105.4075883,
+  "city": "Red River",
+  "state": "NM",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Rebecca Warner"
+  }
+ },
+ {
+  "osm_id": "way/403512422",
+  "canonical_name": "The National Conference Center",
+  "lat": 39.0945191,
+  "lng": -77.4851915,
+  "city": "Leesburg",
+  "state": "VA",
+  "wikidata_qid": "Q7753161",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/406853423",
+  "canonical_name": "Unity Hall",
+  "lat": 43.4358344,
+  "lng": -83.9359048,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "The Dow Event Center"
+  }
+ },
+ {
+  "osm_id": "way/407792633",
+  "canonical_name": "The Beehive",
+  "lat": 33.9853576,
+  "lng": -118.257457,
+  "city": "Los Angeles",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": "2020",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "SoLA Impact"
+  }
+ },
+ {
+  "osm_id": "way/408470348",
+  "canonical_name": "Marriott Conference Center",
+  "lat": 36.8456942,
+  "lng": -76.2911672,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/417264111",
+  "canonical_name": "Goldsboro Golf Course",
+  "lat": 35.3619658,
+  "lng": -77.9932529,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/421949782",
+  "canonical_name": "Longview Exhibit Center",
+  "lat": 32.4916425,
+  "lng": -94.7633253,
+  "city": "Longview",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/423963238",
+  "canonical_name": "Plano ISD Sockwell Center",
+  "lat": 33.0322831,
+  "lng": -96.8370092,
+  "city": "Plano",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Plano Independent School District"
+  }
+ },
+ {
+  "osm_id": "way/437469794",
+  "canonical_name": "The Council House",
+  "lat": 42.771116,
+  "lng": -87.7788561,
+  "city": "Racine",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "S.C. Johnson and Son"
+  }
+ },
+ {
+  "osm_id": "way/440341732",
+  "canonical_name": "Albany Capital Center",
+  "lat": 42.6498255,
+  "lng": -73.7560527,
+  "city": "Albany",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/441025431",
+  "canonical_name": "Rubenstein Forum",
+  "lat": 41.7857286,
+  "lng": -87.5958033,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "university",
+   "operator": "University of Chicago"
+  }
+ },
+ {
+  "osm_id": "way/444772120",
+  "canonical_name": "Edenvale Retreat & Conference Centre",
+  "lat": 49.0809764,
+  "lng": -122.424336,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "tourism": "resort"
+  }
+ },
+ {
+  "osm_id": "way/446845439",
+  "canonical_name": "Clarence Brown Conference Center",
+  "lat": 34.2047637,
+  "lng": -84.7830696,
+  "city": "Cartersville",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic",
+   "operator": "Cartersville-Bartow County Convention & Visitors Bureau"
+  }
+ },
+ {
+  "osm_id": "way/471745644",
+  "canonical_name": "Lanterman Auditorium",
+  "lat": 34.2051701,
+  "lng": -118.2041703,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/472307473",
+  "canonical_name": "The 1918 Club",
+  "lat": 32.3629425,
+  "lng": -84.9598295,
+  "city": "Fort Benning",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Benning Club"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "military"
+  }
+ },
+ {
+  "osm_id": "way/481896277",
+  "canonical_name": "The Conference Center at OCLC",
+  "lat": 40.1042042,
+  "lng": -83.122373,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/482012847",
+  "canonical_name": "Glacier Canyon Conference Center",
+  "lat": 43.5865636,
+  "lng": -89.7749713,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/487536511",
+  "canonical_name": "Okemos Conference Center",
+  "lat": 42.6794979,
+  "lng": -84.4295986,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/492679470",
+  "canonical_name": "Hughes Conference Center",
+  "lat": 32.7878544,
+  "lng": -105.561145,
+  "city": "Sacramento",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/495245272",
+  "canonical_name": "Westwood Conference Center",
+  "lat": 44.9727435,
+  "lng": -89.6591444,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/508622052",
+  "canonical_name": "Palomino Ballroom & Conference Center",
+  "lat": 33.6462488,
+  "lng": -111.9189105,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/508622055",
+  "canonical_name": "Princess Ballroom & Conference Center",
+  "lat": 33.6455445,
+  "lng": -111.9182007,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/513670460",
+  "canonical_name": "Modesto Center Plaza",
+  "lat": 37.6419034,
+  "lng": -121.0021487,
+  "city": "Modesto",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Modesto"
+  }
+ },
+ {
+  "osm_id": "way/524713210",
+  "canonical_name": "Liberty Mountain Conference Center",
+  "lat": 37.3624863,
+  "lng": -79.1706023,
+  "city": "Lynchburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "university"
+  }
+ },
+ {
+  "osm_id": "way/539870310",
+  "canonical_name": "Jim Whelan Boardwalk Hall",
+  "lat": 39.3547944,
+  "lng": -74.4384326,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q887566",
+  "start_date": null,
+  "alt_names": [
+   "Historic Atlantic City Convention Hall"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/544452751",
+  "canonical_name": "Hilton Garden Inn Conference Center",
+  "lat": 32.4410719,
+  "lng": -97.7796591,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/552152745",
+  "canonical_name": "Professional Development Center",
+  "lat": 36.580144,
+  "lng": -115.6767923,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/553131189",
+  "canonical_name": "RiverCenter",
+  "lat": 41.5220418,
+  "lng": -90.572065,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/553131190",
+  "canonical_name": "River Center",
+  "lat": 41.5227495,
+  "lng": -90.5728696,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/553775566",
+  "canonical_name": "Gilkey Convenience Center",
+  "lat": 35.4499438,
+  "lng": -81.9808221,
+  "city": "Rutherfordton",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/569212582",
+  "canonical_name": "Monterey Conference Center",
+  "lat": 36.6014237,
+  "lng": -121.8948963,
+  "city": "Monterey",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel"
+  }
+ },
+ {
+  "osm_id": "way/574696554",
+  "canonical_name": "Century II",
+  "lat": 37.6833265,
+  "lng": -97.3410944,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/575141677",
+  "canonical_name": "Kovalchick Complex",
+  "lat": 40.6124669,
+  "lng": -79.1600111,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q6434830",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/576846523",
+  "canonical_name": "Villa La Paz",
+  "lat": 35.2298634,
+  "lng": -118.5600017,
+  "city": "Keene",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Kern County Preventorium"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "National Chavez Center"
+  }
+ },
+ {
+  "osm_id": "way/579956345",
+  "canonical_name": "Christ the King Retreat House and Conference Center",
+  "lat": 43.0340519,
+  "lng": -76.0973353,
+  "city": "Syracuse",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/588481463",
+  "canonical_name": "Circle k",
+  "lat": 32.1486047,
+  "lng": -110.7716241,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/600817038",
+  "canonical_name": "Ottawa Conference & Event Centre",
+  "lat": 45.4207805,
+  "lng": -75.6567488,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/611726954",
+  "canonical_name": "Marriott Hall",
+  "lat": 32.7091381,
+  "lng": -117.1660991,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/622141409",
+  "canonical_name": "Inn Conference Center",
+  "lat": 30.0570054,
+  "lng": -99.1648361,
+  "city": "Kerrville",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/627051024",
+  "canonical_name": "Cannon Beach Conference Center",
+  "lat": 45.9003137,
+  "lng": -123.9586603,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/627657869",
+  "canonical_name": "The Pavillion",
+  "lat": 37.7547664,
+  "lng": -88.9768036,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/648499961",
+  "canonical_name": "LeConte Center",
+  "lat": 35.7975379,
+  "lng": -83.5621023,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/654787786",
+  "canonical_name": "Decatur Conference Center",
+  "lat": 33.2341311,
+  "lng": -97.6124297,
+  "city": "Decatur",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/664774509",
+  "canonical_name": "Marina Village Conference Center",
+  "lat": 32.7615798,
+  "lng": -117.2341304,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/671282390",
+  "canonical_name": "The Addison Park",
+  "lat": 40.4432085,
+  "lng": -74.2283931,
+  "city": "Keyport",
+  "state": "NJ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/684519463",
+  "canonical_name": "RockRidge Canyon",
+  "lat": 49.4049548,
+  "lng": -120.4107892,
+  "city": "Princeton",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "leisure": "summer_camp",
+   "operator": "Young Life of Canada"
+  }
+ },
+ {
+  "osm_id": "way/686962435",
+  "canonical_name": "Clark Wayne Roberts Auditorium",
+  "lat": 32.2296165,
+  "lng": -95.0590925,
+  "city": "Arp",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "school",
+   "operator": "Arp ISD"
+  }
+ },
+ {
+  "osm_id": "way/687396218",
+  "canonical_name": "Grand River Center",
+  "lat": 42.4980722,
+  "lng": -90.6553834,
+  "city": "Dubuque",
+  "state": "IA",
+  "wikidata_qid": "Q5595047",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "City of Dubuque"
+  }
+ },
+ {
+  "osm_id": "way/688027997",
+  "canonical_name": "Centro de Exposiciones de Chihuahua",
+  "lat": 28.6541356,
+  "lng": -106.0741367,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/695488098",
+  "canonical_name": "Plano Event Center",
+  "lat": 33.0541024,
+  "lng": -96.6844141,
+  "city": "Plano",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/705841381",
+  "canonical_name": "Montrose Mansion",
+  "lat": 40.051434,
+  "lng": -75.3493144,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "The Inn at Villanova University"
+  }
+ },
+ {
+  "osm_id": "way/705841383",
+  "canonical_name": "The Inn at Villanova University",
+  "lat": 40.0511947,
+  "lng": -75.3490098,
+  "city": "Radnor Township",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Villanova University"
+  }
+ },
+ {
+  "osm_id": "way/707913146",
+  "canonical_name": "Angel Conference Center",
+  "lat": 33.1841107,
+  "lng": -97.0359601,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/714000289",
+  "canonical_name": "The Kirkwood Center",
+  "lat": 41.9037249,
+  "lng": -91.655401,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/720652335",
+  "canonical_name": "Georgia Baptist Conference Center - Norman Park",
+  "lat": 31.2698265,
+  "lng": -83.6877313,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/721027309",
+  "canonical_name": "Hadley Farms Meeting House",
+  "lat": 42.3389358,
+  "lng": -72.6059275,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/726631810",
+  "canonical_name": "Historic Anchor Inn",
+  "lat": 44.9327479,
+  "lng": -124.0215166,
+  "city": "Lincoln City",
+  "state": "OR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/730914069",
+  "canonical_name": "Seig Center",
+  "lat": 40.9888235,
+  "lng": -77.4974309,
+  "city": "Lamar",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/734871385",
+  "canonical_name": "KPMG Lakehouse",
+  "lat": 28.3988288,
+  "lng": -81.2628054,
+  "city": "Orlando",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": "2020-01-31",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Hyatt"
+  }
+ },
+ {
+  "osm_id": "way/735277847",
+  "canonical_name": "Auditorio Municipal",
+  "lat": 25.0181832,
+  "lng": -100.0732279,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/746015690",
+  "canonical_name": "(3) Seminar Tent",
+  "lat": 31.6648948,
+  "lng": -97.1557739,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/746015695",
+  "canonical_name": "(20) Red Seminar Barn",
+  "lat": 31.6661784,
+  "lng": -97.1537814,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/747472407",
+  "canonical_name": "Auditorio Municipal",
+  "lat": 25.7567969,
+  "lng": -102.9836495,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/749116637",
+  "canonical_name": "Conference Center",
+  "lat": 39.3494424,
+  "lng": -76.133283,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "YMCA Camp Tockwogh"
+  }
+ },
+ {
+  "osm_id": "way/754961927",
+  "canonical_name": "Rainwater Conference Center",
+  "lat": 30.822505,
+  "lng": -83.3170803,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/757674102",
+  "canonical_name": "Van Horne Ballroom",
+  "lat": 45.0798541,
+  "lng": -67.0540483,
+  "city": "Saint Andrews",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/758060217",
+  "canonical_name": "Sal\u00f3n Municipal Doctor Gonz\u00e1lez",
+  "lat": 25.8572597,
+  "lng": -99.9505846,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/758572902",
+  "canonical_name": "Morehead Conference Center",
+  "lat": 38.1812483,
+  "lng": -83.4340608,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/761866464",
+  "canonical_name": "Riverbend Conference Center",
+  "lat": 30.5691302,
+  "lng": -98.277333,
+  "city": "Marble Falls",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/762169780",
+  "canonical_name": "Caesars Forum",
+  "lat": 36.118937,
+  "lng": -115.1661886,
+  "city": "Las Vegas",
+  "state": "NV",
+  "wikidata_qid": "Q107073101",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/766097417",
+  "canonical_name": "Round-Up Club Room",
+  "lat": 44.8344317,
+  "lng": -120.4812688,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/769452748",
+  "canonical_name": "Hyatt Conference Center",
+  "lat": 41.8517389,
+  "lng": -87.619807,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel"
+  }
+ },
+ {
+  "osm_id": "way/769452749",
+  "canonical_name": "McCormick Place North Building",
+  "lat": 41.8535612,
+  "lng": -87.6163329,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "exhibition_hall"
+  }
+ },
+ {
+  "osm_id": "way/769724044",
+  "canonical_name": "Grand Concourse",
+  "lat": 41.8515565,
+  "lng": -87.6161938,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/798545959",
+  "canonical_name": "Stambaugh Auditorium",
+  "lat": 41.1136947,
+  "lng": -80.652069,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/800945676",
+  "canonical_name": "Albert J. Lyon Event Center",
+  "lat": 33.1203358,
+  "lng": -107.2854881,
+  "city": "Truth or Consequences",
+  "state": "NM",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/820913470",
+  "canonical_name": "Crosby Conference Center",
+  "lat": 41.6683749,
+  "lng": -83.671104,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/822924711",
+  "canonical_name": "Lenz Conference Center",
+  "lat": 42.9762172,
+  "lng": -90.6379555,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "college",
+   "operator": "Southwest Wisconsin Technical College"
+  }
+ },
+ {
+  "osm_id": "way/825975958",
+  "canonical_name": "Centrexpo Cogeco",
+  "lat": 45.896421,
+  "lng": -72.5130041,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/829065818",
+  "canonical_name": "Answers Center",
+  "lat": 38.6202883,
+  "lng": -84.5907322,
+  "city": "Williamstown",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": "2019-04",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/831556321",
+  "canonical_name": "Aspen Auditorium",
+  "lat": 35.5956885,
+  "lng": -105.769524,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/831992122",
+  "canonical_name": "Corporate Conference Center",
+  "lat": 44.5272683,
+  "lng": -88.1071898,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "college"
+  }
+ },
+ {
+  "osm_id": "way/837660842",
+  "canonical_name": "Farlow-Kennedy Center",
+  "lat": 35.9868494,
+  "lng": -80.0023312,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Wesleyan Christian Academy"
+  }
+ },
+ {
+  "osm_id": "way/842973432",
+  "canonical_name": "Recreation Center",
+  "lat": 46.8401857,
+  "lng": -122.4603711,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  }
+ },
+ {
+  "osm_id": "way/850329054",
+  "canonical_name": "Firelake Arena",
+  "lat": 35.3021726,
+  "lng": -96.9294769,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Citizen Potawatomi Nation"
+  }
+ },
+ {
+  "osm_id": "way/872835878",
+  "canonical_name": "The Empowerment Center of Harmony Farm",
+  "lat": 41.3859691,
+  "lng": -74.2809602,
+  "city": "Goshen",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/886312194",
+  "canonical_name": "James C. Self Conference Center",
+  "lat": 34.2082717,
+  "lng": -82.1184851,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Piedmont Technical College"
+  }
+ },
+ {
+  "osm_id": "way/893484746",
+  "canonical_name": "Water's Edge Event Center",
+  "lat": 43.6880005,
+  "lng": -116.350946,
+  "city": "Eagle",
+  "state": "ID",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/904149419",
+  "canonical_name": "William R. Starr Camp and Conference Center",
+  "lat": 42.2596699,
+  "lng": -84.8617992,
+  "city": "Marshall",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "tourism": "caravan_site"
+  }
+ },
+ {
+  "osm_id": "way/905109910",
+  "canonical_name": "Grainger Baptist Association",
+  "lat": 36.2825685,
+  "lng": -83.5102179,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/914400647",
+  "canonical_name": "The Park Expo & Conference Center",
+  "lat": 35.206037,
+  "lng": -80.7992208,
+  "city": "Charlotte",
+  "state": "NC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "The Park Expo & Conference Center"
+  }
+ },
+ {
+  "osm_id": "way/917062661",
+  "canonical_name": "Church of Christ of One Cup",
+  "lat": 34.8994564,
+  "lng": -95.6976627,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Church of Christ of One Cup"
+  }
+ },
+ {
+  "osm_id": "way/917194396",
+  "canonical_name": "Charles W. Pinkham Auditorium",
+  "lat": 42.1689573,
+  "lng": -71.1090597,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/922532285",
+  "canonical_name": "Riverview Conference Center",
+  "lat": 42.5439559,
+  "lng": -92.4605821,
+  "city": "Cedar Falls",
+  "state": "IA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/922862504",
+  "canonical_name": "Auditorium",
+  "lat": 40.3749466,
+  "lng": -80.0502154,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/924567732",
+  "canonical_name": "Bowman Lodge",
+  "lat": 46.1761439,
+  "lng": -103.3993138,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "hotel",
+   "tourism": "hotel"
+  }
+ },
+ {
+  "osm_id": "way/928929509",
+  "canonical_name": "Frederica Senior Center",
+  "lat": 39.0061091,
+  "lng": -75.4654527,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/931586262",
+  "canonical_name": "Northwood Technical College-Ashland Conference Center",
+  "lat": 46.5682516,
+  "lng": -90.8834746,
+  "city": "Ashland",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Wisconsin Indianhead Technical College-Ashland Conference Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Northwood Technical College-Ashland"
+  }
+ },
+ {
+  "osm_id": "way/932249723",
+  "canonical_name": "Brookfield Conference Center",
+  "lat": 43.0285495,
+  "lng": -88.109904,
+  "city": "Brookfield",
+  "state": "WI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/943377805",
+  "canonical_name": "Swing Pavilion",
+  "lat": 38.5450926,
+  "lng": -122.8740222,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/954410773",
+  "canonical_name": "NETL - Meeting Facility",
+  "lat": 44.6225792,
+  "lng": -123.1188153,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "National Energy Technology Laboratory"
+  }
+ },
+ {
+  "osm_id": "way/959183440",
+  "canonical_name": "The Bruce",
+  "lat": 36.8056204,
+  "lng": -87.4817818,
+  "city": "Hopkinsville",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/959536865",
+  "canonical_name": "Harlan Center",
+  "lat": 36.8453662,
+  "lng": -83.3226385,
+  "city": "Harlan",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/959550175",
+  "canonical_name": "Paroquets Springs Conference Center",
+  "lat": 37.9858116,
+  "lng": -85.704403,
+  "city": "Shepherdsville",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/964037423",
+  "canonical_name": "PNNL - Discovery Hall (3400)",
+  "lat": 46.3517324,
+  "lng": -119.2770354,
+  "city": "Richland",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "public",
+   "operator": "Battelle Memorial Institute"
+  }
+ },
+ {
+  "osm_id": "way/968388193",
+  "canonical_name": "Crossroads Conference Center",
+  "lat": 42.8437185,
+  "lng": -85.6763093,
+  "city": "Grand Rapids",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/971966325",
+  "canonical_name": "Estes Park Conference Center",
+  "lat": 40.3742084,
+  "lng": -105.5094015,
+  "city": "Estes Park",
+  "state": "CO",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/974785442",
+  "canonical_name": "Poplar Hall",
+  "lat": 44.2622402,
+  "lng": -88.385759,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/994109641",
+  "canonical_name": "Ball Event Center",
+  "lat": 38.8513621,
+  "lng": -94.8317955,
+  "city": "Olathe",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/996891297",
+  "canonical_name": "Senior Center",
+  "lat": 43.4998285,
+  "lng": -88.5481867,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/998325537",
+  "canonical_name": "J Austin White Cultural Center",
+  "lat": 33.1092806,
+  "lng": -91.2622448,
+  "city": "Eudora",
+  "state": "AR",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1008636670",
+  "canonical_name": "Le Centre d'\u00c9v\u00e8nements et de Congr\u00e8s Interactifs (CECi)",
+  "lat": 46.3401071,
+  "lng": -72.5428543,
+  "city": "Trois-Rivi\u00e8res",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Le Centre d'\u00c9v\u00e8nements et de Congr\u00e8s Interactifs (CECi)"
+  }
+ },
+ {
+  "osm_id": "way/1010059431",
+  "canonical_name": "Headwaters Arts & Conference Center",
+  "lat": 43.5361662,
+  "lng": -109.6469828,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1015363261",
+  "canonical_name": "Parkview Mirro Center for Research & Innovation",
+  "lat": 41.1812116,
+  "lng": -85.0969497,
+  "city": "Fort Wayne",
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1020674732",
+  "canonical_name": "Kaminski Conference Center",
+  "lat": 46.5845402,
+  "lng": -120.5323454,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1024959079",
+  "canonical_name": "Auditorium",
+  "lat": 37.0517131,
+  "lng": -122.0590093,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1030582738",
+  "canonical_name": "Numerica Performing Arts Center",
+  "lat": 47.4269737,
+  "lng": -120.312552,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1036068517",
+  "canonical_name": "Leonard E. Merrell Center",
+  "lat": 29.7803573,
+  "lng": -95.8319548,
+  "city": "Katy",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Katy Independent School District"
+  }
+ },
+ {
+  "osm_id": "way/1051060595",
+  "canonical_name": "Bella Sala Event Center",
+  "lat": 41.7018267,
+  "lng": -91.6465478,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1057419681",
+  "canonical_name": "Administration Building",
+  "lat": 35.8812628,
+  "lng": -92.1184162,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1067442400",
+  "canonical_name": "Lowcountry Conference Center",
+  "lat": 33.0446564,
+  "lng": -80.1506508,
+  "city": "Summerville",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1072155227",
+  "canonical_name": "NNU Brandt Center",
+  "lat": 43.56239,
+  "lng": -116.5627045,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Northwest Nazarene University"
+  }
+ },
+ {
+  "osm_id": "way/1078927447",
+  "canonical_name": "Eagle Pass International Center for Trade",
+  "lat": 28.7130739,
+  "lng": -100.4599938,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1086321442",
+  "canonical_name": "La Salle Manor Retreat Center",
+  "lat": 41.7116348,
+  "lng": -88.4975879,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/1087093677",
+  "canonical_name": "ExpoTam",
+  "lat": 26.0478859,
+  "lng": -98.2694645,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1090559947",
+  "canonical_name": "Alachua County Sports and Events Center",
+  "lat": 29.6265067,
+  "lng": -82.3951919,
+  "city": "Gainesville",
+  "state": "FL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/1093657939",
+  "canonical_name": "Friendly Hills Camp and Conference Center",
+  "lat": 40.0299352,
+  "lng": -81.9939629,
+  "city": "Zanesville",
+  "state": "OH",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1094081924",
+  "canonical_name": "Kanuga",
+  "lat": 35.2640746,
+  "lng": -82.5183927,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1094121637",
+  "canonical_name": "Bonclarken Conference Center",
+  "lat": 35.2776433,
+  "lng": -82.4367067,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1094450139",
+  "canonical_name": "Pear Tree Estate",
+  "lat": 40.1935407,
+  "lng": -88.273361,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1120637280",
+  "canonical_name": "Valley Park Conference Center",
+  "lat": 38.4434108,
+  "lng": -81.9955832,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Putnam County Parks"
+  }
+ },
+ {
+  "osm_id": "way/1134076165",
+  "canonical_name": "Officer's Club",
+  "lat": 39.3628658,
+  "lng": -75.0723125,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1143371347",
+  "canonical_name": "Conference Room",
+  "lat": 33.4311049,
+  "lng": -90.9559409,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1150325219",
+  "canonical_name": "Oasis at Sagewood",
+  "lat": 33.6659618,
+  "lng": -111.9818067,
+  "city": "Phoenix",
+  "state": "AZ",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1170387026",
+  "canonical_name": "Priest River Event Center",
+  "lat": 48.1813936,
+  "lng": -116.9254006,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1173372194",
+  "canonical_name": "Claremore Conference Center",
+  "lat": 36.2941433,
+  "lng": -95.6252526,
+  "city": "Claremore",
+  "state": "OK",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1182127236",
+  "canonical_name": "Christ the King Retreat Center",
+  "lat": 45.164284,
+  "lng": -93.8765806,
+  "city": "Buffalo",
+  "state": "MN",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1185571961",
+  "canonical_name": "Orangeburg County Conference Center",
+  "lat": 33.4930286,
+  "lng": -80.8576475,
+  "city": "Orangeburg",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1187577287",
+  "canonical_name": "American Lake Conference Center",
+  "lat": 47.1102472,
+  "lng": -122.5800803,
+  "city": "Tacoma",
+  "state": "WA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1205965016",
+  "canonical_name": "Central Bank Center",
+  "lat": 38.0502621,
+  "lng": -84.5032042,
+  "city": "Lexington",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Lexington Center Corporation"
+  }
+ },
+ {
+  "osm_id": "way/1205965017",
+  "canonical_name": "Central Bank Center",
+  "lat": 38.0499601,
+  "lng": -84.5015846,
+  "city": "Lexington",
+  "state": "KY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Lexington Center Corporation"
+  }
+ },
+ {
+  "osm_id": "way/1214236418",
+  "canonical_name": "Commons Conference Center",
+  "lat": 30.3872046,
+  "lng": -97.7265762,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "The University of Texas at Austin"
+  }
+ },
+ {
+  "osm_id": "way/1222021595",
+  "canonical_name": "The Blair Conference Center",
+  "lat": 41.024871,
+  "lng": -81.9328189,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1222817773",
+  "canonical_name": "Synergia Ranch",
+  "lat": 35.4899907,
+  "lng": -106.094348,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7662380",
+  "start_date": "1969",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "no"
+  }
+ },
+ {
+  "osm_id": "way/1227401461",
+  "canonical_name": "Riverfront Conference Center",
+  "lat": 43.0176694,
+  "lng": -83.6933772,
+  "city": "Flint",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1239016847",
+  "canonical_name": "Wyndham Orlando Conference Center",
+  "lat": 28.4491049,
+  "lng": -81.4688623,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/1240979618",
+  "canonical_name": "Rose Bank Winery",
+  "lat": 40.249606,
+  "lng": -74.9527036,
+  "city": "Newtown",
+  "state": "PA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1240983213",
+  "canonical_name": "Samuel's Grand Manor",
+  "lat": 42.9662605,
+  "lng": -78.6675221,
+  "city": "Buffalo",
+  "state": "NY",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1246749218",
+  "canonical_name": "The Founders Inn Conference Center",
+  "lat": 36.8034638,
+  "lng": -76.1917735,
+  "city": "Virginia Beach",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": "1991",
+  "alt_names": [
+   "The Founders Inn and Conference Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial"
+  }
+ },
+ {
+  "osm_id": "way/1251430712",
+  "canonical_name": "Auditorio ExpoGan",
+  "lat": 29.0413837,
+  "lng": -110.9363371,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Uni\u00f3n Ganadera Regional De Sonora"
+  }
+ },
+ {
+  "osm_id": "way/1259386929",
+  "canonical_name": "Chase Center on the Riverfront",
+  "lat": 39.7310441,
+  "lng": -75.5630783,
+  "city": "Wilmington",
+  "state": "DE",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1263813362",
+  "canonical_name": "Alpena CRTC Collins Center",
+  "lat": 45.0809227,
+  "lng": -83.570262,
+  "city": "Alpena",
+  "state": "MI",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Alpena Combat Readiness Training Center (CRTC)"
+  }
+ },
+ {
+  "osm_id": "way/1270731311",
+  "canonical_name": "Gregory Memorial Auditorium",
+  "lat": 43.2282937,
+  "lng": -99.4302574,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1277728617",
+  "canonical_name": "Waypoint 4180",
+  "lat": 41.0193867,
+  "lng": -80.7266386,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1287254353",
+  "canonical_name": "Orlampa Conference Center",
+  "lat": 28.1696056,
+  "lng": -81.8089355,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1288575194",
+  "canonical_name": "Western Kentucky University, Knicely Conference Center",
+  "lat": 36.9652238,
+  "lng": -86.4686549,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Western Kentucky University"
+  }
+ },
+ {
+  "osm_id": "way/1290999272",
+  "canonical_name": "The Box",
+  "lat": 44.099735,
+  "lng": -103.1456754,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Liv Hospitality"
+  }
+ },
+ {
+  "osm_id": "way/1294818258",
+  "canonical_name": "Campbell Hall",
+  "lat": 29.6440237,
+  "lng": -95.1144707,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1295020371",
+  "canonical_name": "Centro C\u00edvico Municipal",
+  "lat": 26.5663534,
+  "lng": -99.224703,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1302950748",
+  "canonical_name": "The Bunker",
+  "lat": 32.3482808,
+  "lng": -80.6772466,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1304524549",
+  "canonical_name": "Hilton Garden Inn Victorville Conference Center",
+  "lat": 34.4789577,
+  "lng": -117.3369474,
+  "city": "Victorville",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1306263566",
+  "canonical_name": "Casino Ferrocarrilero \"Rina\"",
+  "lat": 30.1653725,
+  "lng": -111.113117,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1312160350",
+  "canonical_name": "Turlock Senior Center",
+  "lat": 37.4975201,
+  "lng": -120.8386755,
+  "city": "Turlock",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1329061739",
+  "canonical_name": "Danville Conference Center",
+  "lat": 36.5956891,
+  "lng": -79.414498,
+  "city": "Danville",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1335728788",
+  "canonical_name": "Centro de Convenciones de Torre\u00f3n",
+  "lat": 25.605534,
+  "lng": -103.4161737,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1350638159",
+  "canonical_name": "Richmond Conference Centre",
+  "lat": 49.1705714,
+  "lng": -123.1427536,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1373835627",
+  "canonical_name": "Centro de Convenciones y Espect\u00e1culos",
+  "lat": 32.65297,
+  "lng": -115.4867783,
+  "city": "Mexicali",
+  "state": "B.C.",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1378644890",
+  "canonical_name": "Osage Center",
+  "lat": 37.3290061,
+  "lng": -89.5695004,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1380304252",
+  "canonical_name": "Auditorium",
+  "lat": 39.2517812,
+  "lng": -89.8336581,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1429415763",
+  "canonical_name": "Stuart Auditorium",
+  "lat": 42.5996728,
+  "lng": -99.1443573,
+  "city": "Stuart",
+  "state": "NE",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1434960716",
+  "canonical_name": "Killeen Civic and Conference Center",
+  "lat": 31.0799484,
+  "lng": -97.7244499,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1448092830",
+  "canonical_name": "Indianola Clubhouse",
+  "lat": 47.748528,
+  "lng": -122.525403,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1468621979",
+  "canonical_name": "Cooper River Room",
+  "lat": 32.8018817,
+  "lng": -79.9022394,
+  "city": "Mount Pleasant",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1486435569",
+  "canonical_name": "Lawrence J. Morrissey Rockford Conference Center",
+  "lat": 42.2681166,
+  "lng": -89.0963343,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1489956632",
+  "canonical_name": "West Monroe Sports And Events",
+  "lat": 32.5086983,
+  "lng": -92.1793594,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1491277881",
+  "canonical_name": "Conference Room",
+  "lat": 37.6642436,
+  "lng": -85.3987796,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "way/1493098861",
+  "canonical_name": "Dewey Gottwald Center",
+  "lat": 37.5620075,
+  "lng": -77.4649776,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "operator": "Science Museum of Virginia"
+  }
+ },
+ {
+  "osm_id": "way/1499778452",
+  "canonical_name": "Dan Ray Conference Center",
+  "lat": 33.2466388,
+  "lng": -80.0268869,
+  "city": "Pinopolis",
+  "state": "SC",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "Wampee Plantation Conference Center"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Santee Cooper"
+  }
+ },
+ {
+  "osm_id": "relation/1371838",
+  "canonical_name": "Victoria Conference Centre",
+  "lat": 48.4215912,
+  "lng": -123.3666956,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q7926658",
+  "start_date": "1989-01-19",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/2075059",
+  "canonical_name": "University of Georgia Center for Continuing Education & Hotel",
+  "lat": 33.9445738,
+  "lng": -83.3776846,
+  "city": "Athens",
+  "state": "GA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "university",
+   "operator": "University of Georgia",
+   "tourism": "hotel"
+  }
+ },
+ {
+  "osm_id": "relation/2418550",
+  "canonical_name": "Skelton Conference Center",
+  "lat": 37.2296195,
+  "lng": -80.4294895,
+  "city": "Blacksburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "operator": "Virginia Tech"
+  }
+ },
+ {
+  "osm_id": "relation/5975317",
+  "canonical_name": "Baird Center",
+  "lat": 43.0401708,
+  "lng": -87.9174441,
+  "city": "Milwaukee",
+  "state": null,
+  "wikidata_qid": "Q5254587",
+  "start_date": "1998",
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "commercial",
+   "tourism": "convention_center"
+  }
+ },
+ {
+  "osm_id": "relation/6048685",
+  "canonical_name": "National Conference Center",
+  "lat": 39.0931142,
+  "lng": -77.4839305,
+  "city": "Leesburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/6048686",
+  "canonical_name": "National Conference Center",
+  "lat": 39.0944707,
+  "lng": -77.4833281,
+  "city": "Leesburg",
+  "state": "VA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/6146196",
+  "canonical_name": "Conference Center",
+  "lat": 40.7726514,
+  "lng": -111.8925043,
+  "city": "Salt Lake City",
+  "state": "UT",
+  "wikidata_qid": "Q1797977",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "The Church of Jesus Christ of Latter-day Saints",
+   "tourism": "attraction"
+  }
+ },
+ {
+  "osm_id": "relation/7473301",
+  "canonical_name": "American Airlines Training & Conference Center",
+  "lat": 32.8304192,
+  "lng": -97.0640942,
+  "city": "Fort Worth",
+  "state": "TX",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/12529717",
+  "canonical_name": "Olathe Conference Center",
+  "lat": 38.9400749,
+  "lng": -94.7963531,
+  "city": "Olathe",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "roof;yes"
+  }
+ },
+ {
+  "osm_id": "relation/12619531",
+  "canonical_name": "San Francisco Scottish Rite Masonic Center",
+  "lat": 37.7352371,
+  "lng": -122.4746272,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/13041337",
+  "canonical_name": "Lenexa Conference Center",
+  "lat": 38.9684489,
+  "lng": -94.7776996,
+  "city": "Lenexa",
+  "state": "KS",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "roof;yes"
+  }
+ },
+ {
+  "osm_id": "relation/13654777",
+  "canonical_name": "The Osthoff Resort Conference Center",
+  "lat": 43.8309052,
+  "lng": -88.015755,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "relation/13812385",
+  "canonical_name": "DCU Center",
+  "lat": 42.2654885,
+  "lng": -71.7989086,
+  "city": "Worcester",
+  "state": "MA",
+  "wikidata_qid": "Q912283",
+  "start_date": "1982-09-02",
+  "alt_names": [
+   "Worcester Centrum"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "leisure": "stadium"
+  }
+ },
+ {
+  "osm_id": "relation/17647196",
+  "canonical_name": "McCormick Place West Building",
+  "lat": 41.8505581,
+  "lng": -87.6203295,
+  "city": "Chicago",
+  "state": "IL",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "exhibition_hall"
+  }
+ },
+ {
+  "osm_id": "relation/18020131",
+  "canonical_name": "Enloe Conference Center",
+  "lat": 39.7426033,
+  "lng": -121.8484662,
+  "city": "Chico",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Enloe Medical Center"
+  }
+ },
+ {
+  "osm_id": "relation/18181715",
+  "canonical_name": "Riverview Ballroom",
+  "lat": 38.7825581,
+  "lng": -77.0178356,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Gaylord"
+  }
+ },
+ {
+  "osm_id": "relation/19113678",
+  "canonical_name": "Monona Terrace",
+  "lat": 43.0716752,
+  "lng": -89.3801804,
+  "city": null,
+  "state": null,
+  "wikidata_qid": "Q6901787",
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "civic"
+  }
+ },
+ {
+  "osm_id": "relation/19130907",
+  "canonical_name": "Camp Wa Wa Sum",
+  "lat": 44.6729282,
+  "lng": -84.6083001,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "leisure": "resort",
+   "operator": "Michigan State University"
+  }
+ },
+ {
+  "osm_id": "relation/19668530",
+  "canonical_name": "El Corazon Multipurpose Room",
+  "lat": 33.2062299,
+  "lng": -117.31524,
+  "city": "Oceanside",
+  "state": "CA",
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [
+   "El Corazon MPR"
+  ],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes",
+   "operator": "Oceanside Parks and Recreation"
+  }
+ },
+ {
+  "osm_id": "relation/19736953",
+  "canonical_name": "Circle T Ranch",
+  "lat": 32.9902945,
+  "lng": -97.1967763,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre",
+   "building": "yes"
+  }
+ },
+ {
+  "osm_id": "node/10174735271",
+  "canonical_name": "Mid-Pacific Conference Center",
+  "lat": 21.2836046,
+  "lng": -157.8370592,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ },
+ {
+  "osm_id": "way/1112158437",
+  "canonical_name": "Tapa Conference Center",
+  "lat": 21.2829621,
+  "lng": -157.8359293,
+  "city": null,
+  "state": null,
+  "wikidata_qid": null,
+  "start_date": null,
+  "alt_names": [],
+  "osm_tags": {
+   "amenity": "conference_centre"
+  }
+ }
+]

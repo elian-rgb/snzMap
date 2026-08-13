@@ -1,0 +1,105 @@
+{
+  "auditor": "pipeline-author",
+  "independent": false,
+  "sample_rows": 20,
+  "verdicts_filled": 20,
+  "unfilled": 0,
+  "unrecognised_verdicts": {},
+  "cant_tell": 0,
+  "judged": 20,
+  "correct": 14,
+  "precision": 0.7,
+  "ci95": [
+    0.481,
+    0.855
+  ],
+  "is_a_measurement": true,
+  "failure_modes": {
+    "wrong_operator": 1,
+    "wrong_date": 2,
+    "out_of_scope": 1,
+    "not_supported": 2
+  },
+  "by_pipeline_flag": {
+    "flagged": {
+      "rows": 18,
+      "judged": 18,
+      "correct": 14,
+      "precision": 0.778,
+      "ci95": [
+        0.548,
+        0.91
+      ]
+    },
+    "not_flagged": {
+      "rows": 2,
+      "judged": 2,
+      "correct": 0,
+      "precision": 0.0,
+      "ci95": [
+        0.0,
+        0.658
+      ]
+    }
+  },
+  "by_map_presence": {
+    "on_the_map": {
+      "rows": 4,
+      "judged": 4,
+      "correct": 1,
+      "precision": 0.25,
+      "ci95": [
+        0.046,
+        0.699
+      ]
+    },
+    "off_the_map": {
+      "rows": 16,
+      "judged": 16,
+      "correct": 13,
+      "precision": 0.812,
+      "ci95": [
+        0.57,
+        0.934
+      ]
+    }
+  },
+  "wrong_rows": [
+    {
+      "event_id": "ev_972e3d50f5b5c142",
+      "verdict": "out_of_scope",
+      "claim": "Aramark Healthcare Services lost the food service contract at Lafayette General Medical Center \u2014 2016-12-12 (exact).",
+      "note": "Extraction is accurate \u2014 Aramark did lose this contract effective Dec 12. But the words \u2018food\u2019 and \u2018dining\u2019 appear NOWHERE in the article; it is about environmental services (housekeeping). Not a food service contract."
+    },
+    {
+      "event_id": "ev_3f56dfa6a6530881",
+      "verdict": "wrong_date",
+      "claim": "Chartwells won the food service contract at University of Texas - Arlington, University of Texas at Arlington \u2014 2016-06-06 (approx).",
+      "note": "Chartwells replacing Aramark at UTA is right. 2016-06-06 is not the contract date \u2014 June 6 is when the Outtakes convenience store opened. Date lifted from the wrong entity in the article."
+    },
+    {
+      "event_id": "ev_7984a6913c9c631d",
+      "verdict": "not_supported",
+      "claim": "Sodexo lost the food service contract at Temple, Temple University \u2014 2016-10-01 (month).",
+      "note": "Article is a year-in-review photo roundup. The only occurrence of Sodexo is a photo caption of a worker at Morgan Hall. Nothing states a contract loss, and nothing supports 2016-10."
+    },
+    {
+      "event_id": "ev_5ff1a8e1a957888c",
+      "verdict": "wrong_date",
+      "claim": "SodexoMagic lost the food service contract at Drexel University \u2014 2016-09-20 (exact).",
+      "note": "SodexoMagic losing Drexel to Aramark is right. The cited article says announced Oct 28, effective Dec 11 \u2014 it does not support 2016-09-20, and the date is asserted at \u2018exact\u2019 precision."
+    },
+    {
+      "event_id": "ev_3eccefa12c893476",
+      "verdict": "not_supported",
+      "claim": "Harry M. Stevens won the food service contract at Veterans Stadium \u2014 1997-01-01 (approx).",
+      "note": "The word \u2018food\u2019 does not appear in this article. It is an interview about winning a minority CLEANING subcontract at Veterans Stadium. Harry M. Stevens was a concessionaire historically, but this article does not claim a food service award, nor the 1997 date. Lowest confidence in the sample (0.45) \u2014 the model\u2019s own uncertainty was right."
+    },
+    {
+      "event_id": "ev_8521b7769abe3a18",
+      "verdict": "wrong_operator",
+      "claim": "Minnesota was replaced by in-house operation at Ramsey County correctional facility, Minnesota \u2014 date unknown.",
+      "note": "Ramsey County self-operating its jail kitchen is supported by the Guardian piece, but the operator was extracted as \u2018Minnesota\u2019 \u2014 a state, not an operator."
+    }
+  ]
+}

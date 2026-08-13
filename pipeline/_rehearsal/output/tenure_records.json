@@ -1,6 +1,6 @@
 [
   {
-    "tenure_id": "sp-716f1499d6",
+    "tenure_id": "sp-cd3697dbe2",
     "venue_id": null,
     "venue_name": "Whitmore College",
     "venue_type": "other",
@@ -33,7 +33,7 @@
     }
   },
   {
-    "tenure_id": "sp-41f1197ed2",
+    "tenure_id": "sp-eb7c04cd6c",
     "venue_id": "wd-Q1194586",
     "venue_name": "Petco Park",
     "venue_type": "stadium",
@@ -62,7 +62,7 @@
     }
   },
   {
-    "tenure_id": "sp-81d6039fa5",
+    "tenure_id": "sp-6ab1211f5a",
     "venue_id": "wd-Q253546",
     "venue_name": "Busch Stadium",
     "venue_type": "stadium",
@@ -95,7 +95,7 @@
     }
   },
   {
-    "tenure_id": "sp-79c9aac9a0",
+    "tenure_id": "sp-dcf0dae2d2",
     "venue_id": "wd-Q253546",
     "venue_name": "Busch Stadium",
     "venue_type": "stadium",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "tenure_id": "sp-6f9818f970",
+    "tenure_id": "sp-4e6900bc12",
     "venue_id": "wd-Q253546",
     "venue_name": "Busch Stadium",
     "venue_type": "stadium",

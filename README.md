@@ -15,9 +15,14 @@ contract events and contract tenure.
 The number that bounds the last two: **31 of 178 events name a venue in this spine, across 7
 venues of 6,884.** The other 147 name prisons, school districts and hospitals — real contracts
 about buildings this map was never a census of. The contract layers are a sample of what the
-corpus supports, labelled as one in the sidebar, not a census. The gold set they would be
-*scored* against is still 1 row of 10–20, so the extractor's accuracy remains unstated rather
-than estimated.
+corpus supports, labelled as one in the sidebar, not a census.
+
+**Precision is now measured; recall still is not.** A random sample of 20 events was judged
+against the article each came from: **14 correct — 48–86% at 95% confidence** (`pipeline/
+audit/`). That figure and its interval are read off `audit_summary.json` by the console, so
+it cannot go stale. Recall needs gold rows written from outside the pipeline and is still
+1 row of 10–20 — **Kiki's to write**. The two are different questions and the console does
+not report them as one number.
 
 New here? [ADDING_DATA.md](ADDING_DATA.md) is the runbook for getting articles or a CSV onto
 the map.
@@ -27,7 +32,8 @@ the map.
 | Phase 0 — venue spine | ✅ 7,494 venues, 6,884 mappable |
 | Console scaffold + spine layer | ✅ renders, no API key needed |
 | Schemas locked (build order 2) | ✅ `pipeline/schema.py` + eval gate |
-| Gold set seeded (build order 2) | ⬜ 1 of 10–20 rows — **Kiki's to write** |
+| Gold set seeded (build order 2) | ⬜ 1 of 10–20 rows — **Kiki's to write** (recall) |
+| Precision audit (`pipeline/audit`) | ✅ 20 sampled, 14 correct, 48–86% CI — author-judged, re-checkable |
 | Extraction prompt + candidate finder | ✅ **real data** — venue join confirmed; 1 prompt defect found by reading rows against articles |
 | Extraction runner (Phase 1.5) | ✅ 17/17 gate + live endpoint verified; 2 silent defects found and fixed |
 | Ingest: collect / formats / parse / run | ✅ **real data** — 600 documents off the USB; 3 silent defects found and fixed |

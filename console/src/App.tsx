@@ -142,7 +142,7 @@ export default function App() {
   // rest: if the extraction has not been run, the section and the rings simply do not appear
   // rather than the map failing.
   useEffect(() => {
-    loadEvidence(LAYER_BY_KEY.contract_events.src!)
+    loadEvidence(LAYER_BY_KEY.contract_events.src!, '/data/audit_summary.json')
       .then(setEvidence)
       .catch(() => setEvidence(null));
   }, []);

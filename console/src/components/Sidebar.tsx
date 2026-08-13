@@ -321,6 +321,29 @@ export function Sidebar({
             school districts and hospitals — real contracts, but not places this map is a
             census of.
           </p>
+          {/* How often the extractor is right, stated as an interval. Every figure is read
+              off audit_summary.json — a hand-typed "70%" would still say 70% after the next
+              corpus grows, and a stale accuracy claim is worse than no accuracy claim. */}
+          <p style={{ ...mutedStyle, fontSize: 11, marginTop: 6, lineHeight: 1.5 }}>
+            {evidence.audit ? (
+              <>
+                Spot-checked against the source articles:{' '}
+                <strong>
+                  {evidence.audit.correct} of {evidence.audit.judged}
+                </strong>{' '}
+                sampled events were supported by the article they came from —{' '}
+                {Math.round((evidence.audit.ci95?.[0] ?? 0) * 100)}–
+                {Math.round((evidence.audit.ci95?.[1] ?? 0) * 100)}% at 95% confidence.
+                {!evidence.audit.independent &&
+                  ' Judged by the pipeline’s author, not independently.'}
+              </>
+            ) : (
+              <>
+                <strong>Unaudited.</strong> Nobody has checked a sample of these events against
+                the articles they came from, so there is no accuracy figure to quote.
+              </>
+            )}
+          </p>
         </Section>
       )}
 

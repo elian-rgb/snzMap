@@ -127,12 +127,46 @@ venue_id not offered   0
 That is the drift indicator. The model is given a candidate list and may only choose from it;
 anything above zero means it invented an ID that was repaired. Zero is what you want.
 
+### 3b. Check whether the extraction is any good
+
+```bash
+.venv/bin/python -m pipeline.audit.sample --n 20      # draws a seeded random sample
+# fill in the `verdict` column of pipeline/output/audit_sample.csv
+.venv/bin/python -m pipeline.audit.score --auditor "your name"
+```
+
+Free, offline, and the only thing standing between "we extracted 178 events" and "we
+extracted 178 events and here is how often they are right."
+
+Each row carries the **article excerpt the claim came from**, so judging one is reading a
+paragraph, not hunting through a 600-article `.rtf`. Allowed verdicts are printed by the
+sample command; `cant_tell` is real and is excluded from the denominator rather than
+counted either way.
+
+Two things this deliberately does **not** do:
+
+- **It does not sample from `review_queue.csv`.** That file holds records the pipeline
+  already doubted; scoring only those would measure the pipeline's self-doubt and report a
+  precision far below the truth. The sample is drawn uniformly from all events.
+- **It does not measure recall.** Precision is "of what we produced, how much is true".
+  Recall is "of what exists, how much did we find", and that needs rows written from
+  outside the pipeline — `pipeline/spans/seed.py` and the workbook, still Kiki's job. The
+  console reports the two separately because they fail for different reasons.
+
+`--auditor` is recorded. An audit run by whoever built the extractor is weaker evidence
+than an independent one, and `audit_summary.json` carries `independent: false` so the
+console can say so out loud instead of letting a reader assume.
+
+The current run: **20 sampled, 14 correct, 48–86% at 95% confidence.** The interval is
+reported because at n=20 the bare "70%" is a wrong big number.
+
 ### 4. Pair, emit, publish
 
 ```bash
 .venv/bin/python -m pipeline.spans.pair      # events -> operator runs
 .venv/bin/python -m pipeline.emit.records    # runs -> geojson + csv
 cp pipeline/output/*.geojson console/public/data/
+cp pipeline/output/audit_summary.json console/public/data/   # the accuracy line
 ```
 
 That last `cp` is the step people forget. Nothing appears on the map until the files are

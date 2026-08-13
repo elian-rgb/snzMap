@@ -52,6 +52,28 @@ export interface LoadedEvidence {
    * saying 178 the next time the corpus grows.
    */
   extractedEvents: number;
+  /** Precision audit, or null if nobody has run one. Null renders as "unaudited". */
+  audit: AuditSummary | null;
+}
+
+/**
+ * Result of `pipeline.audit.score` — a hand-judged random sample of extracted events, each
+ * checked against the article it came from.
+ *
+ * `ci95` is carried and displayed rather than dropped, because the point estimate alone is
+ * not honest at this sample size: 14 of 20 is "70%", but the data only supports "somewhere
+ * between 48% and 86%". Showing the bare 70% would be exactly the wrong-big-number failure
+ * this console exists to avoid.
+ */
+export interface AuditSummary {
+  judged: number;
+  correct: number;
+  precision: number | null;
+  ci95: [number, number] | null;
+  /** False when the pipeline's own author judged the rows. */
+  independent: boolean;
+  /** False when too few rows were judged for the interval to mean anything. */
+  is_a_measurement: boolean;
 }
 
 /**
@@ -75,7 +97,11 @@ type EventFeature = GeoJSON.Feature<GeoJSON.Point, EventProperties>;
  * event: Drexel alone carries 19 of the 31 events, and 19 rings stacked on one point would
  * read as a single heavy blob that overstates how much of the country this layer covers.
  */
-export function buildEvidence(features: EventFeature[], extracted?: number): LoadedEvidence {
+export function buildEvidence(
+  features: EventFeature[],
+  extracted?: number,
+  audit: AuditSummary | null = null
+): LoadedEvidence {
   const byVenue = new Map<string, VenueEvidence>();
 
   for (const f of features) {
@@ -125,16 +151,34 @@ export function buildEvidence(features: EventFeature[], extracted?: number): Loa
     // older geojson renders "31 of 31" — understating the corpus — rather than "31 of 0",
     // which would read as a broken denominator and invite the reader to distrust the rest.
     extractedEvents: extracted ?? features.length,
+    audit,
   };
 }
 
-export async function loadEvidence(src: string): Promise<LoadedEvidence> {
+export async function loadEvidence(src: string, auditSrc?: string): Promise<LoadedEvidence> {
   const res = await fetch(src);
   if (!res.ok) throw new Error(`${src}: ${res.status}`);
   const fc = (await res.json()) as GeoJSON.FeatureCollection<GeoJSON.Point, EventProperties> & {
     extracted?: number;
   };
-  return buildEvidence(fc.features ?? [], fc.extracted);
+
+  // A missing or unreadable audit is not an error — it means nobody has run one, which the
+  // sidebar says out loud. Letting it reject would take the whole evidence layer down with
+  // it and hide 31 real events over a missing quality report.
+  let audit: AuditSummary | null = null;
+  if (auditSrc) {
+    try {
+      const a = await fetch(auditSrc);
+      if (a.ok) {
+        const parsed = (await a.json()) as AuditSummary;
+        audit = parsed.is_a_measurement ? parsed : null;
+      }
+    } catch {
+      audit = null;
+    }
+  }
+
+  return buildEvidence(fc.features ?? [], fc.extracted, audit);
 }
 
 /**

@@ -1,10 +1,9 @@
-import { CATEGORY_LABELS, LAYER_REGISTRY, type LayerCategory } from '../layerRegistry';
+import { CATEGORY_LABELS, LAYER_REGISTRY } from '../layerRegistry';
 import {
   ACCENT,
   ACCENT_SOFT,
   ACCENT_TEXT,
   BORDER,
-  BORDER_STRONG,
   ERROR,
   MUTED,
   MUTED_DIM,
@@ -31,8 +30,12 @@ import {
   type Choropleth,
   type MetricKey,
 } from '../utils/zctaChoropleth';
+import { NeighbourhoodFilter } from './NeighbourhoodFilter';
+import { OperatorLens } from './OperatorLens';
 import { Section } from './Section';
 import { VenueSearch } from './VenueSearch';
+import type { OperatorRow } from '../utils/operatorLens';
+import type { Band, BandKey } from '../utils/venueFilter';
 
 interface SidebarProps {
   spine: GeoJSON.FeatureCollection<GeoJSON.Point, VenueProperties> | null;
@@ -76,6 +79,18 @@ interface SidebarProps {
   onPickState: (state: string | null) => void;
   /** Venues carrying no state at all — 1,085 of 6,884, and named rather than hidden. */
   venuesWithoutState: number;
+  /** Per-operator merge of federal + wage & hour + venue awards. */
+  operatorRows: OperatorRow[];
+  selectedOperator: string | null;
+  onPickOperator: (operator: string | null) => void;
+  /** The ACS band filter — the console's only filter backed by dense data. */
+  band: Band;
+  onPickBand: (key: BandKey) => void;
+  chosenBuckets: number[];
+  onToggleBucket: (i: number) => void;
+  bandCounts: number[];
+  bandUnknown: number;
+  inAcsRange: boolean;
 }
 
 const TYPE_LABELS: Record<string, string> = {
@@ -127,8 +142,18 @@ export function Sidebar({
   selectedState,
   onPickState,
   venuesWithoutState,
+  operatorRows,
+  selectedOperator,
+  onPickOperator,
+  band,
+  onPickBand,
+  chosenBuckets,
+  onToggleBucket,
+  bandCounts,
+  bandUnknown,
+  inAcsRange,
 }: SidebarProps) {
-  const categories = [...new Set(LAYER_REGISTRY.map((l) => l.category))] as LayerCategory[];
+  const plannedLayers = LAYER_REGISTRY.filter((l) => l.status === 'planned');
 
   return (
     <aside style={asideStyle}>
@@ -178,9 +203,15 @@ export function Sidebar({
             )}
             {!selectedState && <div style={{ height: 10 }} />}
             <p style={{ ...mutedStyle, lineHeight: 1.5, marginBottom: 12 }}>
-              {tenureRuns === 0
-                ? 'Every dot is gray because no tenure data exists yet. Each one is a documented gap, not an absence of history.'
-                : `${(visibleVenues - coveredVenues).toLocaleString()} are gray: in the spine, no operator on record in ${year}. That is a documented gap, not an absence of history.`}
+              {/* "Every dot is gray" stops being true the moment a neighbourhood band is
+                  ticked, and a sentence that describes a map the reader is not looking at is
+                  worse than no sentence. Grey still means the same thing in both states —
+                  no operator on record — so the claim is narrowed rather than dropped. */}
+              {chosenBuckets.length > 0 && inAcsRange
+                ? `No dot is colored by operator: no tenure data exists yet, so the colors below are the ${band.label.toLowerCase()} band around each venue. Every venue here is still a documented gap on the operator question.`
+                : tenureRuns === 0
+                  ? 'Every dot is gray because no tenure data exists yet. Each one is a documented gap, not an absence of history.'
+                  : `${(visibleVenues - coveredVenues).toLocaleString()} are gray: in the spine, no operator on record in ${year}. That is a documented gap, not an absence of history.`}
             </p>
             <ul style={listStyle}>
               {typeCounts.map(({ type, count }) => {
@@ -205,6 +236,43 @@ export function Sidebar({
         )}
       </Section>
 
+      {/* Directly under the spine because "which company" is the question this console is
+          named for, and it was previously answerable only by opening two separate panels and
+          joining them by eye. */}
+      <Section
+        title="By company"
+        summary={selectedOperator ?? `${operatorRows.length} operators`}
+      >
+        <OperatorLens
+          rows={operatorRows}
+          selected={selectedOperator}
+          onSelect={onPickOperator}
+          totalVenues={totalVenues}
+          onShowFederal={onShowFederal}
+          onShowLabor={onShowLabor}
+        />
+      </Section>
+
+      <Section
+        title="By neighbourhood"
+        summary={
+          chosenBuckets.length === 0
+            ? 'no filter'
+            : `${band.label}, ${chosenBuckets.length} band${chosenBuckets.length === 1 ? '' : 's'}`
+        }
+      >
+        <NeighbourhoodFilter
+          band={band}
+          onPickBand={onPickBand}
+          chosen={chosenBuckets}
+          onToggleBucket={onToggleBucket}
+          counts={bandCounts}
+          unknownCount={bandUnknown}
+          year={year}
+          inAcsRange={inAcsRange}
+        />
+      </Section>
+
       <Section
         title={`Operators in ${year}`}
         summary={
@@ -215,7 +283,7 @@ export function Sidebar({
         {!tenureError && tenureRuns === 0 && (
           <p style={{ ...mutedStyle, lineHeight: 1.5 }}>
             No runs on record. The pipeline emits this layer already; it stays empty until
-            articles have been through extraction.
+            extracted events are paired into spans and emitted here.
           </p>
         )}
         {!tenureError && tenureRuns > 0 && (
@@ -445,52 +513,41 @@ export function Sidebar({
         )}
       </Section>
 
-      {/* Closed by default. Most of these rows are `planned`, and a long roadmap sat between
-          the reader and nothing — it is a roadmap, not a control. The summary keeps the
-          honest ratio visible without costing a screen, and counts the registry rather than
-          quoting a total that the next layer would falsify. */}
-      <Section
-        title="Layers"
-        defaultOpen={false}
-        summary={`${LAYER_REGISTRY.filter((l) => l.status === 'ready').length} of ${
-          LAYER_REGISTRY.length
-        } ready`}
-      >
-        {categories.map((cat) => (
-          <div key={cat} style={{ marginBottom: 12 }}>
-            <div style={catLabelStyle}>{CATEGORY_LABELS[cat]}</div>
-            <ul style={listStyle}>
-              {LAYER_REGISTRY.filter((l) => l.category === cat).map((layer) => (
-                <li
-                  key={layer.key}
-                  title={`${layer.description}\n\nSource: ${layer.source}`}
-                  // No opacity dimming. It was 0.42, which put `planned` rows at ~2.3:1;
-                  // even at 0.72 the badge measured 3.38:1. Nothing here is decoration to
-                  // fade — most layers here are unbuilt and saying so is the
-                  // point. Status is carried by the dot color and the badge instead, both
-                  // of which pass on their own.
-                  style={{ ...rowStyle, cursor: 'help' }}
-                >
-                  <span
-                    style={{
-                      width: 7,
-                      height: 7,
-                      borderRadius: 99,
-                      background: layer.status === 'ready' ? ACCENT : MUTED_DIM,
-                    }}
-                  />
-                  <span
-                    style={{ flex: 1, color: layer.status === 'ready' ? undefined : MUTED }}
-                  >
-                    {layer.label}
-                  </span>
-                  {layer.status === 'planned' && <span style={badgeStyle}>planned</span>}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </Section>
+      {/* What used to be here was the full 18-row layer registry, 12 of them `planned`. It was
+          a roadmap sitting in a navigation column: nothing in it could be clicked, and reading
+          it top to bottom told you mostly what does not exist. It is gone from the sidebar.
+
+          This one line replaces it, and it is not decoration. The distinction between "this
+          data does not exist" and "nobody attempted this" is the one the whole project is
+          built to keep visible, and a console that silently showed only its finished layers
+          would be claiming completeness it does not have. The count is derived from the
+          registry rather than typed, so it cannot drift when a layer lands. */}
+      <details style={notBuiltStyle}>
+        <summary style={notBuiltSummaryStyle}>
+          {plannedLayers.length} more layers are planned but not built
+        </summary>
+        <p style={{ ...mutedStyle, fontSize: 11, lineHeight: 1.5, margin: '8px 0 6px' }}>
+          Listed so the gap is visible rather than looking like something nobody got to. None
+          of these carry data today.
+        </p>
+        <ul style={{ ...listStyle, margin: 0 }}>
+          {plannedLayers.map((layer) => (
+            <li
+              key={layer.key}
+              title={`${layer.description}\n\nSource: ${layer.source}`}
+              style={{ ...rowStyle, cursor: 'help', fontSize: 12 }}
+            >
+              <span
+                style={{ width: 6, height: 6, borderRadius: 99, background: MUTED_DIM }}
+              />
+              <span style={{ flex: 1, color: MUTED }}>{layer.label}</span>
+              <span style={{ ...mutedStyle, fontSize: 11 }}>
+                {CATEGORY_LABELS[layer.category]}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </details>
     </aside>
   );
 }
@@ -601,15 +658,16 @@ const selectStyle: React.CSSProperties = {
   cursor: 'pointer',
 };
 const errorStyle: React.CSSProperties = { color: ERROR, fontSize: 12, lineHeight: 1.5 };
-const catLabelStyle: React.CSSProperties = {
-  fontSize: 11,
-  color: MUTED_DIM,
-  marginBottom: 3,
+
+const notBuiltStyle: React.CSSProperties = {
+  marginTop: 4,
+  paddingTop: 12,
+  borderTop: `1px solid ${BORDER}`,
 };
-const badgeStyle: React.CSSProperties = {
-  fontSize: 10,
+
+const notBuiltSummaryStyle: React.CSSProperties = {
+  cursor: 'pointer',
+  fontSize: 11,
   color: MUTED,
-  border: `1px solid ${BORDER_STRONG}`,
-  borderRadius: 4,
-  padding: '1px 5px',
+  listStyle: 'revert',
 };

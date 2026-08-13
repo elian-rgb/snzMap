@@ -51,6 +51,13 @@ import {
   stateCounts,
   venuesWithoutState,
 } from './utils/stateFilter';
+import { buildOperatorRows, venueIdsForOperator } from './utils/operatorLens';
+import {
+  applyBands,
+  bandColorsFor,
+  BAND_BY_KEY,
+  type BandKey,
+} from './utils/venueFilter';
 import type { VenueHit } from './utils/venueSearch';
 import { ZctaPanel } from './components/ZctaPanel';
 import {
@@ -99,6 +106,10 @@ export default function App() {
   const [zctaMetric, setZctaMetric] = useState<MetricKey>('median_household_income');
   const [selectedZcta, setSelectedZcta] = useState<string | null>(null);
   const [selectedState, setSelectedState] = useState<string | null>(null);
+  const [selectedOperator, setSelectedOperator] = useState<string | null>(null);
+  const [bandKey, setBandKey] = useState<BandKey>('transit');
+  // Empty means "no band filter", not "exclude everything" — see venueFilter.applyBands.
+  const [chosenBuckets, setChosenBuckets] = useState<number[]>([]);
   const [fitBounds, setFitBounds] = useState<{
     bounds: [[number, number], [number, number]];
     nonce: number;
@@ -270,9 +281,10 @@ export default function App() {
     return ids;
   }, [spine, year, visibleTypes]);
 
-  // The venues actually drawn. Every count in the sidebar is derived from this one set, so
-  // the legend and the totals cannot disagree about what is on screen.
-  const visibleVenueIds = useMemo(() => {
+  // Year, type and state — everything except the neighbourhood band. The band's bucket counts
+  // are measured against this rather than against the final set, for the same reason the state
+  // counts are: a bucket that read (0) the moment it was unticked could never be reasoned about.
+  const preBandVenueIds = useMemo(() => {
     if (!spine || !selectedState) return preStateVenueIds;
     const ids = new Set<string>();
     for (const f of spine.features) {
@@ -282,7 +294,50 @@ export default function App() {
     return ids;
   }, [spine, preStateVenueIds, selectedState]);
 
+  const band = BAND_BY_KEY[bandKey];
+
+  // Read off the ACS payload rather than hardcoding 2011-2024, so the control cannot claim a
+  // range the loaded file does not actually cover.
+  const inAcsRange = useMemo(() => (acs?.years ?? []).includes(year), [acs, year]);
+
+  const bandResult = useMemo(
+    () => applyBands(spine, acs, preBandVenueIds, band, chosenBuckets, year),
+    [spine, acs, preBandVenueIds, band, chosenBuckets, year]
+  );
+
+  /**
+   * The venues actually drawn. Every count in the sidebar is derived from this one set, so the
+   * legend and the totals cannot disagree about what is on screen.
+   *
+   * `unknown` is unioned in, not dropped: a venue with no ACS row for this year has not failed
+   * the filter, it was never eligible for it. Hiding those would thin the map by 1,412 dots in
+   * 1994 and present the result as a finding about commutes. They stay, and the sidebar says
+   * how many and why. With nothing ticked this is exactly `preBandVenueIds`, so the filter is
+   * inert until it is used.
+   */
+  const visibleVenueIds = useMemo(
+    () => new Set([...bandResult.matched, ...bandResult.unknown]),
+    [bandResult]
+  );
+
   const visibleCount = visibleVenueIds.size;
+
+  /**
+   * The id list the map filters on, or null for "no band filter, do not pay for one".
+   *
+   * Null in the two cases where the filter provably removes nothing: no bucket ticked, and
+   * every bucket ticked. The second matters — a reader ticking all four boxes one at a time
+   * passes through it, and it is the most expensive list to build for the least effect.
+   */
+  const bandVenueIds = useMemo(
+    () =>
+      chosenBuckets.length === 0 ||
+      !inAcsRange ||
+      visibleVenueIds.size === preBandVenueIds.size
+        ? null
+        : [...visibleVenueIds],
+    [chosenBuckets, inAcsRange, visibleVenueIds, preBandVenueIds]
+  );
 
   /**
    * How many of the dots on screen are on screen only because nobody knows when they opened.
@@ -323,9 +378,35 @@ export default function App() {
   // Palette is keyed on the whole corpus, not on the current year, so an operator does not
   // change color as the slider moves.
   const palette = useMemo(() => operatorPalette(tenure), [tenure]);
-  const venueColors = useMemo(
+  const tenureColors = useMemo(
     () => venueColorsAt(tenure, year, palette),
     [tenure, year, palette]
+  );
+
+  /**
+   * What each dot is colored by, and the precedence is the point.
+   *
+   * A known operator always wins. Who ran the concessions is a fact about the venue; the
+   * neighbourhood's transit share is a fact about the block it sits on, and the first is what
+   * this project is actually about. Today tenure is empty for all 6,884 venues, so in practice
+   * the band colors are what a reader sees — but the day the pipeline emits a tenure layer,
+   * those venues switch to their operator's color without anything here changing.
+   *
+   * Only colored while a band is ticked. With nothing selected the map stays uniformly grey,
+   * which is the honest default: gray means "no operator on record", and painting every dot by
+   * a neighbourhood statistic nobody asked for would quietly retire that meaning.
+   */
+  const bandColors = useMemo(
+    () =>
+      chosenBuckets.length === 0 || !inAcsRange
+        ? new Map<string, string>()
+        : bandColorsFor(spine, acs, visibleVenueIds, band, year),
+    [spine, acs, visibleVenueIds, band, year, chosenBuckets, inAcsRange]
+  );
+
+  const venueColors = useMemo(
+    () => new Map([...bandColors, ...tenureColors]),
+    [bandColors, tenureColors]
   );
   const legend = useMemo(
     () => operatorLegend(tenure, year, palette, visibleVenueIds),
@@ -339,9 +420,26 @@ export default function App() {
     () => awardsForVenue(federal, selected?.venue_id),
     [federal, selected]
   );
+  const operatorRows = useMemo(
+    () => buildOperatorRows(federalProfile, laborProfile, federal),
+    [federalProfile, laborProfile, federal]
+  );
+
+  /**
+   * What the ring on the map means, and it changes when an operator is picked.
+   *
+   * With no operator selected the ring marks every venue a federal award names. With one
+   * selected it narrows to that operator's venues — which for most of the nine is none, and an
+   * empty ring set is the correct drawing of "no award in this spine names a venue for them".
+   * The operator chips deliberately do not filter the dots: zero of 6,884 venues carry an
+   * operator, so filtering by company would blank the map and imply the company is nowhere.
+   */
   const federalVenueIds = useMemo(
-    () => [...new Set(federal.map((a) => a.venue_id))],
-    [federal]
+    () =>
+      selectedOperator
+        ? [...venueIdsForOperator(federal, selectedOperator)]
+        : [...new Set(federal.map((a) => a.venue_id))],
+    [federal, selectedOperator]
   );
   // The figure the sidebar leads with. Kept distinct from the profile total on purpose —
   // see venueAwardTotals for why the two must never be shown as one number.
@@ -444,6 +542,26 @@ export default function App() {
         selectedState={selectedState}
         onPickState={pickState}
         venuesWithoutState={statelessVenues}
+        operatorRows={operatorRows}
+        selectedOperator={selectedOperator}
+        onPickOperator={setSelectedOperator}
+        band={band}
+        // Switching measure clears the ticks. The buckets are positional, so keeping index 2
+        // across a switch would silently move the reader from "10-30% transit" to "20-35% long
+        // commutes" — a different claim under an unchanged-looking control.
+        onPickBand={(key) => {
+          setBandKey(key);
+          setChosenBuckets([]);
+        }}
+        chosenBuckets={chosenBuckets}
+        onToggleBucket={(i) =>
+          setChosenBuckets((prev) =>
+            prev.includes(i) ? prev.filter((x) => x !== i) : [...prev, i]
+          )
+        }
+        bandCounts={bandResult.counts}
+        bandUnknown={bandResult.unknown.size}
+        inAcsRange={inAcsRange}
       />
 
       <main style={mapWrapStyle}>
@@ -459,6 +577,7 @@ export default function App() {
             fitBounds={fitBounds}
             venueColors={venueColors}
             federalVenueIds={federalVenueIds}
+            bandVenueIds={bandVenueIds}
             flyTo={flyTo}
             // The two panels occupy the same corner, so opening one closes the other. They are
             // answers to different questions — "what is this venue" and "what is this

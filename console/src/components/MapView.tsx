@@ -93,6 +93,14 @@ export interface MapViewProps {
   /** Venues that a federal award names. Drawn as a ring, not as its own dot. */
   federalVenueIds: string[];
   /**
+   * Venue ids the neighbourhood band filter left standing, or null when no band is ticked.
+   *
+   * Null rather than "all the ids" on purpose: `in` over a literal array is a linear scan per
+   * feature, and the default state of this control is off. Passing the full spine every render
+   * would make the common case the expensive one.
+   */
+  bandVenueIds: string[] | null;
+  /**
    * Where search wants the camera. The `nonce` is what makes picking the same venue twice
    * fly again — without it the effect's dependencies are unchanged and the map sits still,
    * which reads as a broken search box.
@@ -123,6 +131,7 @@ export function MapView({
   fitBounds,
   venueColors,
   federalVenueIds,
+  bandVenueIds,
   flyTo,
   onSelectVenue,
   zctaShapes,
@@ -472,6 +481,27 @@ export function MapView({
       // the intended behaviour — the sidebar says so out loud rather than letting them
       // vanish unexplained.
       if (selectedState) clauses.push(['==', ['get', 'state'], selectedState]);
+      // The band filter arrives as an id list because it is computed from ACS rows keyed by
+      // venue, not from anything carried on the feature. Venues with no ACS row for this year
+      // are already in the list — App unions them in rather than letting a missing row read as
+      // a failed test.
+      //
+      // `match` rather than `in`, and this is not a style preference. `in` over a literal
+      // array is a linear scan per feature: at 6,884 features against a 6,469-id list that is
+      // ~44M string comparisons on the main thread, which locked the renderer hard enough that
+      // an eval against the page timed out. `match` compiles its labels to a hash lookup, so
+      // the same filter is O(1) per feature and ticking all four bands is instant.
+      //
+      // An empty list would be an invalid `match`, so it becomes an explicit never-match. That
+      // case should not arise — App sends null when no band is ticked — but a filter that
+      // throws would take the whole spine layer off the map.
+      if (bandVenueIds) {
+        clauses.push(
+          bandVenueIds.length === 0
+            ? ['==', ['get', 'venue_id'], '\u0000']
+            : ['match', ['get', 'venue_id'], bandVenueIds, true, false]
+        );
+      }
       map.setFilter(SPINE_LAYER, clauses as unknown as maplibregl.FilterSpecification);
       // The ring inherits the same visibility rules, so a venue filtered off the map
       // cannot leave its federal ring behind. The clauses are spread rather than nesting
@@ -485,7 +515,7 @@ export function MapView({
 
     if (loadedRef.current) apply();
     else map.once('load', apply);
-  }, [year, visibleTypes, selectedState, federalVenueIds]);
+  }, [year, visibleTypes, selectedState, federalVenueIds, bandVenueIds]);
 
   // ── Frame the state selection ──────────────────────────────────────────────
   // Bounds come from the dots the filter left, not from a state outline, so a state whose

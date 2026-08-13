@@ -1,6 +1,26 @@
 {
+  "Fenway Park": "wd-Q49136",
+  "Wrigley Field": "wd-Q1052807",
+  "Dodger Stadium": "wd-Q247420",
   "Coors Field": "wd-Q1129916",
+  "Citizens Bank Park": "wd-Q912770",
+  "Great American Ball Park": "wd-Q979975",
+  "Petco Park": "wd-Q1194586",
+  "Target Field": "wd-Q1156635",
+  "Truist Park": "wd-Q17003430",
+  "Oracle Park": "wd-Q298585",
+  "Lambeau Field": "wd-Q860790",
+  "Arrowhead Stadium": "wd-Q544553",
+  "Soldier Field": "wd-Q1132413",
+  "Mercedes-Benz Stadium": "wd-Q7007552",
+  "AT&T Stadium": "wd-Q838284",
+  "Gillette Stadium": "wd-Q373355",
+  "Lincoln Financial Field": "wd-Q1052370",
+  "U.S. Bank Stadium": "wd-Q7929512",
+  "Nissan Stadium": "wd-Q1142992",
   "Madison Square Garden": "wd-Q186125",
-  "Busch Stadium": "wd-Q253546",
-  "Wrigley Field": "wd-Q1052807"
+  "Barclays Center": "wd-Q807966",
+  "United Center": "wd-Q639975",
+  "TD Garden": "wd-Q432105",
+  "Little Caesars Arena": "wd-Q18154984"
 }

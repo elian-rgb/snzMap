@@ -237,6 +237,67 @@ they can cite. This is the only place in the project where hand-typed data is ex
 
 ---
 
+## Filling in the gold rows (the one job that is waiting on a person)
+
+**`pipeline/output/gold_seed.csv` is already seeded with 24 venues.** Identity is filled —
+exact spelling, city, state, coordinates. Seven columns are blank because they are the
+actual knowledge being captured:
+
+| Column | What to put |
+|---|---|
+| `operator` | the company, as you would say it — "Aramark", "Levy", "Delaware North" |
+| `start_date` | `YYYY-MM-DD`, or `YYYY-01-01` if you only know the year |
+| `start_precision` | `exact` / `month` / `year` / `approx` — say how sure the date is |
+| `end_date`, `end_precision` | only if the run ended |
+| `end_status` | `ongoing`, `ended`, or `unknown` — see below |
+| `source` | **where you got it.** A URL, an article, a phone call |
+
+Paste the filled rows under the header on the **`tenure_table`** tab of
+`~/Downloads/SNZ_contract_tenure_table.xlsx`, then run:
+
+```bash
+.venv/bin/python -m pipeline.spans.gold        # loads and validates the workbook
+.venv/bin/python -m pipeline.spans.evaluate    # scores the pipeline against it
+```
+
+### Four things that decide whether this measures anything
+
+**1. Do not fill these in from the map, the console, or `tenure_records.csv`.** The gold set
+is the ruler; reading it off the thing being measured makes the ruler agree with itself and
+the resulting number is worthless. Use a source outside this project. If the only place you
+can find a fact is this project's own output, leave the row blank.
+
+**2. `end_status` is not a formality.** `ongoing` asserts they still hold it. `unknown`
+admits you have not found the end. These are opposites and the map paints them differently —
+an `ongoing` run is drawn to today, an `unknown` one stops where the evidence stops. The
+seeder leaves it blank on purpose rather than defaulting it.
+
+**3. Write `verify` in `source` if you are going from memory.** Rows whose `source` contains
+that word are excluded from scoring rather than trusted. A remembered fact is a lead, not
+ground truth, and this is how you record one without it silently becoming evidence.
+
+**4. Fill in all 24, including the ones you expect the pipeline to miss.** The list mixes
+venues the article corpus covers with venues it does not, deliberately. That mix is what
+lets the gate separate *"the extractor failed"* from *"no article in the archive mentions
+this place"* — reported as `misses` and `misses_no_coverage`. Skipping the ones you suspect
+are gaps would delete exactly the rows that make the number interpretable.
+
+### Why these 24 venues
+
+Current MLB, NFL, NBA and NHL home venues that resolve in the spine. The frame is
+**league membership, which is decided outside this project** — not "venues the pipeline
+already found", which would have scored the pipeline against its own successes and reported
+near-perfect recall while measuring nothing. Two of the 24 (U.S. Bank Stadium, Nissan
+Stadium) do appear in the extraction output, by the rule rather than by selection.
+
+These are also venues where a concessionaire is publicly documented, so the rows are
+*fillable* — a gold set nobody can source is not a gold set.
+
+Ten to twenty filled rows makes the gate live. Fewer, and `evaluate.py` prints its numbers
+and explicitly refuses to call itself a gate.
+
+---
+
 ## What someone else actually needs
 
 To hand this to another person today, they need:

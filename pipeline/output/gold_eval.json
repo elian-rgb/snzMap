@@ -1,11 +1,15 @@
 {
   "gold_rows_verified": 0,
   "pipeline_rows": 102,
+  "corpus_articles": 602,
   "hits": 0,
   "date_misses": 0,
   "misses": 0,
+  "misses_no_coverage": 0,
+  "gold_rows_with_coverage": 0,
   "recall": null,
   "recall_incl_date_misses": null,
+  "extraction_recall": null,
   "end_status_agreement": 0,
   "results": []
 }

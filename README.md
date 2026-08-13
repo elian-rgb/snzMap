@@ -7,10 +7,20 @@ Historical map of institutional food service contracts. Two halves, per `SNZ_PLA
 
 ## Status
 
-**The contract chain now runs end to end on real data, at a sample size of 15 articles.**
-Three other layers — federal awards, ACS context and DOL wage & hour — carry real data and are
-live in the console. Nothing extracted from journalism is in the console yet: the 366-article
-corpus run has not been made, and the gold set it would be scored against is 1 row of 10–20.
+**The contract chain runs end to end on the full corpus, and journalism is now on the map.**
+The 366-article run was made on 2026-08-13: 178 events, 0 rejected, $12.85. Six layers carry
+real data in the console — venue spine, federal awards, ACS context, DOL wage & hour, and now
+contract events and contract tenure.
+
+The number that bounds the last two: **31 of 178 events name a venue in this spine, across 7
+venues of 6,884.** The other 147 name prisons, school districts and hospitals — real contracts
+about buildings this map was never a census of. The contract layers are a sample of what the
+corpus supports, labelled as one in the sidebar, not a census. The gold set they would be
+*scored* against is still 1 row of 10–20, so the extractor's accuracy remains unstated rather
+than estimated.
+
+New here? [ADDING_DATA.md](ADDING_DATA.md) is the runbook for getting articles or a CSV onto
+the map.
 
 | Step | State |
 |---|---|
@@ -30,13 +40,18 @@ corpus run has not been made, and the gold set it would be scored against is 1 r
 | Wage & hour enforcement (DOL WHD) | ✅ **real data** — 66/66 gate, 231 in-scope cases, in the console |
 | Console verification pass | ✅ 2026-08-11 — walked end to end in a browser; 4 defects found and fixed |
 | Wage & hour *by venue* | ⬜ blocked on the data, not on time — 179 cases → 420 venues |
-| Real articles through the pipeline | 🟡 366 parsed; **45 extracted** (30 = a reproducible random sample); corpus run ($18, ~1h) not made |
+| Real articles through the pipeline | ✅ **real data** — 366/366 extracted, 178 events, 0 rejected, 0 invented venue ids, $12.85 |
+| Contract events + tenure in the console | ✅ **real data** — 31 events / 7 venues ringed and listed; span id collision found and fixed |
+| Extractor accuracy | ⬜ unstated — needs 10–20 gold rows to score against |
 
-The five ✅ **real data** rows are the only rows in this table backed by something other than
-a fixture. The contract side is no longer self-tested: real articles are parsed, 15 have been
-through the real model, and one of them put a real contract event on a real venue. But 15 is a
-sample, not a corpus, and **no contract or tenure figure in the console comes from journalism
-yet** — the console still renders rehearsal output on that layer.
+The eight ✅ **real data** rows are the only rows in this table backed by something other than
+a fixture. The contract side is no longer self-tested or a sample: the whole corpus has been
+through the real model and its output is what the console draws.
+
+What is still missing is not coverage but *validation*. The extractor has never been scored,
+because scoring needs rows a human confirmed from a source they can cite, and there is one of
+those. Until that exists the contract layers ship as extracted-but-ungraded, which is what the
+sidebar says.
 
 The ⬜ on wage & hour by venue is deliberate and is not going to become a ✅. WHISARD has no
 venue field and ZIP is not a substitute for one; the row stays in the table so the absence is
@@ -643,6 +658,13 @@ caching (see above). For the 366-article corpus that projects to:
 
 Both are inside the original $10–20 / ~2h guess, so nothing downstream needs rethinking — but
 the guess was right for the wrong reason, since it assumed a prompt cache that never engaged.
+
+**What it actually cost (2026-08-13): $12.85 and 29 minutes**, against the $18.22 projected
+here. The projection was not wrong arithmetic, it was the wrong sample — the 15 probe articles
+had a median body of 9,666 characters against the corpus median of 4,278, so it extrapolated
+from unusually long articles. The lesson is the one this table was supposed to teach and
+did not: a per-article rate measured on a non-random sample is a rate for that sample. Per
+article the real figure is **≈3.5¢**.
 
 Runs are sequential on purpose, and now that the payload hash is stable the cache genuinely
 makes a re-run free — verified at 10/10 hits, 0.0s. That beats a concurrent runner whose
@@ -1480,6 +1502,44 @@ which is a microtask and is not throttled, a single slider step is **81 ms** and
 sweep is **5.1 s**.
 
 All gates green after the fixes: federal 27, labor 66, ACS 29, shapes 8, spans, end-to-end.
+
+## Considered and rejected: AlphaEarth Foundations
+
+Evaluated 2026-08-13 and not used. Recording it here because "we never thought of it" and "we
+thought about it and it does not fit" look identical from outside.
+
+Google DeepMind's [AlphaEarth Foundations](https://arxiv.org/abs/2507.22291) (July 2025) is a
+64-dimensional learned embedding per 10 m pixel per year, 2017–2025, global, published in the
+Earth Engine catalog as `GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL` and mirrored as Cloud Optimized
+GeoTIFFs at `gs://alphaearth_foundations`.
+
+**It is not rejected on licensing.** The dataset is CC-BY 4.0, which clears this project's
+redistribution constraint — a rarer thing than it sounds, and the reason it was worth checking
+at all. The Earth Engine *platform* terms restrict the free tier to non-commercial use, but the
+GCS route is bound only by CC-BY.
+
+It is rejected on relevance. AlphaEarth encodes what the land surface physically looks like
+from orbit. This project asks who holds a food service contract and what happens to the people
+working under it. There is no physical channel connecting the two:
+
+- Aramark and Sodexo running the same concourse produce identical reflectance, backscatter and
+  canopy height. A contract changing hands is invisible from space.
+- At 10 m a stadium is roughly 20×20 pixels. The embedding can separate "large impervious
+  structure with parking" from "row crops", which the venue spine already asserts with a
+  source.
+- Nothing in it can name an operator, a contract, a wage claim or a bid.
+
+The one defensible use would be year-over-year change detection to corroborate *construction*
+dates — a stadium being built or demolished is genuinely visible. That is narrow, and it would
+have to be labelled as corroborating a capital project and inferring nothing about operators.
+
+The cost is also not small. A 64-dimensional vector cannot be drawn, so using it would first
+require inventing a derived product — PCA, clustering, a similarity scalar — and defending what
+that product *means* to a reader. Full-depth embeddings run about 640 MB per km². That is days
+of tile plumbing in exchange for no new verifiable fact about food service.
+
+If the goal is more spatial richness, better-aligned candidates are OSM venue footprint
+polygons, transit access, or moving ACS from ZCTA to tract.
 
 ## Next
 

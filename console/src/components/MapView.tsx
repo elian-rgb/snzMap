@@ -5,6 +5,7 @@ import type { VenueProperties } from '../utils/spineTransform';
 import { BASEMAP, BORDER_STRONG, PANEL_OVER_MAP, TEXT } from '../theme';
 import { NO_DATA_COLOR } from '../utils/tenureTransform';
 import { NO_VALUE_COLOR } from '../utils/zctaChoropleth';
+import { EVIDENCE_COLOR } from '../utils/evidenceTransform';
 
 /**
  * MapLibre GL map.
@@ -27,6 +28,7 @@ const STYLE_URL = BASEMAP;
 const SPINE_SOURCE = 'venue-spine';
 const SPINE_LAYER = 'venue-spine-circles';
 const FEDERAL_LAYER = 'venue-federal-ring';
+const EVIDENCE_LAYER = 'venue-evidence-ring';
 const ZCTA_SOURCE = 'acs-zcta';
 const ZCTA_FILL = 'acs-zcta-fill';
 const ZCTA_LINE = 'acs-zcta-line';
@@ -93,6 +95,11 @@ export interface MapViewProps {
   /** Venues that a federal award names. Drawn as a ring, not as its own dot. */
   federalVenueIds: string[];
   /**
+   * Venues an extracted article speaks to. Drawn as a second, wider ring outside the federal
+   * one so a venue carrying both claims shows both rather than one hiding the other.
+   */
+  evidenceVenueIds: string[];
+  /**
    * Venue ids the neighbourhood band filter left standing, or null when no band is ticked.
    *
    * Null rather than "all the ids" on purpose: `in` over a literal array is a linear scan per
@@ -131,6 +138,7 @@ export function MapView({
   fitBounds,
   venueColors,
   federalVenueIds,
+  evidenceVenueIds,
   bandVenueIds,
   flyTo,
   onSelectVenue,
@@ -341,6 +349,46 @@ export function MapView({
         SPINE_LAYER
       );
 
+      // An article naming a venue is, like a federal award, a fact about a dot already on the
+      // map rather than a place of its own. Same source, same trick — but drawn wider than
+      // the federal ring and installed beneath it, so a venue carrying both claims shows two
+      // concentric rings instead of one covering the other.
+      //
+      // Radius, not just color, is what separates the two. Nearly every color in this console
+      // now sits within ~1.2 luminance of some other color in it, so hue alone would collapse
+      // in a grayscale print — and this is a thing Kiki hands to someone.
+      //
+      // Deliberately not scaled by event count. Drexel carries 19 of the 31 events and every
+      // other venue carries 1 or 2; sizing by count would draw one huge mark in Philadelphia
+      // and make a thin corpus look like a finding about where contracts churn. It is a
+      // finding about which newspaper the articles came from.
+      map.addLayer(
+        {
+          id: EVIDENCE_LAYER,
+          type: 'circle',
+          source: SPINE_SOURCE,
+          // Starts matching nothing, for the same reason the federal ring does.
+          filter: ['in', ['get', 'venue_id'], ['literal', []]],
+          paint: {
+            'circle-radius': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              3,
+              8.5,
+              10,
+              20,
+            ],
+            'circle-color': 'rgba(0,0,0,0)',
+            'circle-stroke-width': 2,
+            // 7.88:1 on land, 5.83:1 on water. Magenta rather than a second amber so "the
+            // government paid here" and "a newspaper wrote about here" cannot be confused.
+            'circle-stroke-color': EVIDENCE_COLOR,
+          },
+        },
+        FEDERAL_LAYER
+      );
+
       map.on('click', SPINE_LAYER, (e: maplibregl.MapLayerMouseEvent) => {
         const f = e.features?.[0] as { properties?: unknown } | undefined;
         if (f?.properties) onSelectRef.current(f.properties as VenueProperties);
@@ -511,11 +559,18 @@ export function MapView({
         ...clauses,
         ['in', ['get', 'venue_id'], ['literal', federalVenueIds]],
       ] as unknown as maplibregl.FilterSpecification);
+      // Same inheritance, same reason: a venue filtered off the map must not leave the ring
+      // that says "an article names this" floating over empty ground. `in` is fine here —
+      // the list is 7 long, not 6,469.
+      map.setFilter(EVIDENCE_LAYER, [
+        ...clauses,
+        ['in', ['get', 'venue_id'], ['literal', evidenceVenueIds]],
+      ] as unknown as maplibregl.FilterSpecification);
     };
 
     if (loadedRef.current) apply();
     else map.once('load', apply);
-  }, [year, visibleTypes, selectedState, federalVenueIds, bandVenueIds]);
+  }, [year, visibleTypes, selectedState, federalVenueIds, evidenceVenueIds, bandVenueIds]);
 
   // ── Frame the state selection ──────────────────────────────────────────────
   // Bounds come from the dots the filter left, not from a state outline, so a state whose

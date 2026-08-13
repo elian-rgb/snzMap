@@ -355,7 +355,26 @@ def _source_string(span: dict[str, Any]) -> str:
 
 
 def _tenure_id(span: dict[str, Any]) -> str:
-    seed = f"{span['_venue_key']}|{span['operator_normalized']}|{span['start_date']}"
+    """Identity of a span, seeded on the events that built it.
+
+    Was `venue|operator|start_date`, which collided: 67 of 102 spans have no known start,
+    so every span for one operator at one venue hashed to the same id. On the real corpus
+    that produced 95 ids for 102 rows — Drexel alone had two Sodexo runs sharing an id
+    while reporting different exit modes (`contract expired` vs `lost the bid`), and the
+    console dropped one of them because React de-duplicates by key.
+
+    They are not duplicates and must not be merged: they rest on different articles. What
+    was wrong was the identity, not the pairing. Seeding on the sorted event ids says the
+    true thing — two spans built from different evidence are different spans, two built
+    from the same evidence are the same one — and stays stable across re-runs because
+    event ids are themselves content hashes.
+
+    Venue and operator stay in the seed. They are implied by the events, but an id that
+    changes when a *citation* is corrected and not when the *venue* is would be confusing
+    to debug, and the cost of pinning them is nothing.
+    """
+    events = "|".join(sorted(ev.get("event_id") or "" for ev in span["_events"]))
+    seed = f"{span['_venue_key']}|{span['operator_normalized']}|{events}"
     return "sp-" + hashlib.sha256(seed.encode()).hexdigest()[:10]
 
 

@@ -208,8 +208,15 @@ def emit_events(events: list[dict[str, Any]], venues: dict[str, dict[str, Any]])
                 "source_file": ev.get("source_file"),
             },
         })
+    # `extracted` is carried on the collection because the console has to be able to say
+    # "31 of 178", and the 178 is not derivable from a file that contains only the 31 that
+    # matched. A console that hardcoded the denominator would keep printing 178 the next
+    # time the corpus grows, turning a true sentence into a quietly false one.
     (OUT / "contract_events.geojson").write_text(
-        json.dumps({"type": "FeatureCollection", "features": features}))
+        json.dumps({"type": "FeatureCollection",
+                    "extracted": len(events),
+                    "mapped": len(features),
+                    "features": features}))
 
     _write_csv(OUT / "contract_events.csv", [f[0] for f in EVENT_FIELDS], events)
     return {"rows": len(events), "features": len(features),

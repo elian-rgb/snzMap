@@ -1,1 +1,3506 @@
-[]
+[
+  {
+    "tenure_id": "sp-c8eb0aef90",
+    "venue_id": null,
+    "venue_name": "An Bhialann",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_7ed47775d4e71816"
+    ],
+    "source": "|The Daily Mirror; London (UK) | 2016-11-03",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-aabde55cd8",
+    "venue_id": null,
+    "venue_name": "Barnard Store",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-05-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_9312d1e68a008296",
+      "ev_b411eb07a4a307b2"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-06",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-05-01",
+      "overlaps_with": [
+        "Barnard"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-9221ba4d94",
+    "venue_id": null,
+    "venue_name": "Barnard Store",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Barnard",
+    "operator_normalized": "Barnard",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-05-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "self_op_conversion",
+    "derived_from": [
+      "ev_115d769ac117964a",
+      "ev_9daa46dd3ed4d323"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-06",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-05-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-8f58456704",
+    "venue_id": null,
+    "venue_name": "Bartlett Dining Hall",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-07-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_c03f638e8b8b1b84"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-16",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-b9bf93696b",
+    "venue_id": null,
+    "venue_name": "Bartlett Dining Hall",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-07-01",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f2f8e0bbaf01a767"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-16",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1,
+      "sub_brands": [
+        "bon appetit"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-75759012f0",
+    "venue_id": null,
+    "venue_name": "Brandeis",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2013-01-01",
+    "end_precision": "year",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_c77ab15efced105c"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-14",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2013-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-de10f3e022",
+    "venue_id": null,
+    "venue_name": "Brandeis",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2013-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_4491deab17382d16"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-14",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2013-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-3a13a82a20",
+    "venue_id": null,
+    "venue_name": "Clemson",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "1969-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_e6ffa84cb1155276",
+      "ev_84ef7e515261dada"
+    ],
+    "source": "|Food Management; Cleveland | 2016-12-01",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "event_count": 2,
+      "sub_brands": [
+        "Fresh Food Company"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-ebf9cac462",
+    "venue_id": null,
+    "venue_name": "Cotton Correctional Facility",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Food Services",
+    "operator_normalized": "Trinity Food Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_5b17059ccc583b50",
+      "ev_a36bf206a66e4483"
+    ],
+    "source": "|Detroit Free Press; Detroit, Mich. | 2016-09-07; |Lansing State Journal; Lansing, Mich. | 2016-09-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (violation) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-53ceb594d2",
+    "venue_id": null,
+    "venue_name": "David Ross Sports Village",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2016-11-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_6b08126afa853bbc"
+    ],
+    "source": "|Nottingham Evening Post; Nottingham (UK) | 2016-11-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-423dc621d5",
+    "venue_id": null,
+    "venue_name": "El Paso County Criminal Justice Center",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services LLC",
+    "operator_normalized": "Aramark Correctional Services LLC",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-08-31",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_081648386db6d225"
+    ],
+    "source": "|Colorado Springs Independent; Colorado Springs | 2017-02-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-08-31",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-11146b558f",
+    "venue_id": null,
+    "venue_name": "El Paso County Criminal Justice Center",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Services Group",
+    "operator_normalized": "Trinity Services Group",
+    "start_date": "2016-09-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_8c55b6dc2f6bc177"
+    ],
+    "source": "|Colorado Springs Independent; Colorado Springs | 2017-02-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c565079fbc",
+    "venue_id": null,
+    "venue_name": "FGCU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_1ce7bd4d51695bb7"
+    ],
+    "source": "|The News Press; Fort Myers, Fla. | 2016-08-17",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-fe702bd682",
+    "venue_id": null,
+    "venue_name": "FGCU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ba3582e42d4248f2"
+    ],
+    "source": "|The News Press; Fort Myers, Fla. | 2016-08-17",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-bc45b6dc9c",
+    "venue_id": null,
+    "venue_name": "FSU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Food Services",
+    "operator_normalized": "Aramark Food Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2018-07-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_c31a24d22eb0cda2"
+    ],
+    "source": "|Tallahassee Democrat; Tallahassee, Fla. | 2016-12-12",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2018-07-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-4dec4c4ff7",
+    "venue_id": null,
+    "venue_name": "Georgetown",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_716d2f043253c1d4"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-04",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-8a22a8f700",
+    "venue_id": null,
+    "venue_name": "Georgetown University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_6f1ae27c0718d04f"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-04",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-15f0ba88cc",
+    "venue_id": null,
+    "venue_name": "Harvard",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Harvard University Dining Services",
+    "operator_normalized": "Harvard University Dining Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f25f370c0ad0be83"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-26",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (strike) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-10-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-608ca00da2",
+    "venue_id": null,
+    "venue_name": "Ionia Correctional Facility",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Food Services",
+    "operator_normalized": "Trinity Food Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f8fc477c2be54fd8"
+    ],
+    "source": "|Lansing State Journal; Lansing, Mich. | 2016-09-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (violation) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-05-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-352ca57ab4",
+    "venue_id": null,
+    "venue_name": "JMU Dining Services",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2000-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_2f99897144dd3225",
+      "ev_90e55ec5b3e27f06"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-03; |University Wire; Carlsbad | 2016-11-02",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2000-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-162fa874a2",
+    "venue_id": null,
+    "venue_name": "Lafayette General Health",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-12",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "self_op_conversion",
+    "derived_from": [
+      "ev_1a353a09bbc49880",
+      "ev_c04c572b01cf2d49"
+    ],
+    "source": "|The Daily Advertiser; Lafayette, La. | 2016-10-11",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-12-12",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-6683442c97",
+    "venue_id": null,
+    "venue_name": "Lafayette General Medical Center",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Healthcare Services",
+    "operator_normalized": "Aramark Healthcare Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-12",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_972e3d50f5b5c142"
+    ],
+    "source": "|The Daily Advertiser; Lafayette, La. | 2016-10-15",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-12-12",
+      "overlaps_with": [
+        "Lafayette General Medical Center"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-abdeccb848",
+    "venue_id": null,
+    "venue_name": "Lafayette General Medical Center",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Lafayette General Medical Center",
+    "operator_normalized": "Lafayette General Medical Center",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-12",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "self_op_conversion",
+    "derived_from": [
+      "ev_359cdd6828afe3ce"
+    ],
+    "source": "|The Daily Advertiser; Lafayette, La. | 2016-10-15",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-12-12",
+      "overlaps_with": [
+        "Aramark Healthcare Services"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7ab5699f8b",
+    "venue_id": null,
+    "venue_name": "Lafayette Medical Center",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Healthcare Services",
+    "operator_normalized": "Aramark Healthcare Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-12",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_419a3fbf2ca42545"
+    ],
+    "source": "|US Fed News Service, Including US State News; Washington, D.C. | 2016-10-15",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-12-12",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-b42e58d358",
+    "venue_id": null,
+    "venue_name": "Leo O'Donovan dining hall",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_c045149db3a8ed89",
+      "ev_837d0b24b8c555f1"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-12-12",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-01-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-c6fac648f1",
+    "venue_id": null,
+    "venue_name": "Leo's",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-11-01",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_e84274ac3f11ecd3"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7a2a8b0198",
+    "venue_id": null,
+    "venue_name": "Mayo Clinic",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_56c9d453881a20b6",
+      "ev_794d41d516f56041",
+      "ev_dd4b22dc7230a57a"
+    ],
+    "source": "|Post - Bulletin; Rochester, Minn. | 2016-08-31; |Post - Bulletin; Rochester, Minn. | 2016-08-20",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "3 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 3,
+      "sub_brands": [
+        "Morrison Healthcare"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-7e50ce51b9",
+    "venue_id": null,
+    "venue_name": "Mayo Clinic",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_2b58fac4742e2720",
+      "ev_338471573249b08c",
+      "ev_c2304a899c3b08f2"
+    ],
+    "source": "|Post - Bulletin; Rochester, Minn. | 2016-08-31; |Post - Bulletin; Rochester, Minn. | 2016-08-20",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "3 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 3
+    }
+  },
+  {
+    "tenure_id": "sp-77c80aed1b",
+    "venue_id": null,
+    "venue_name": "Michigan",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_0846e9280e833e5a",
+      "ev_a2fe2aa2e307ca2c"
+    ],
+    "source": "|Kennebec Journal; Augusta, Me. | 2016-10-25; |Morning Sentinel; Waterville, Me. | 2016-10-25",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-f2a4e6e182",
+    "venue_id": null,
+    "venue_name": "Michigan Department of Corrections",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2015-01-01",
+    "end_precision": "year",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_e0f052ff96215591"
+    ],
+    "source": "|The Daily News Journal; Murfreesboro, Tenn. | 2016-08-08",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-01-01",
+      "overlaps_with": [
+        "Aramark Correctional Services"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-81701bee59",
+    "venue_id": null,
+    "venue_name": "Michigan Department of Corrections",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2015-01-01",
+    "end_precision": "year",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_2bc9eb9a44038b70",
+      "ev_8919c20ab2a949d0"
+    ],
+    "source": "|The Tennessean; Nashville, Tenn. | 2016-08-08; |News Sentinel; Knoxville, Tenn. | 2016-08-05",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-01-01",
+      "overlaps_with": [
+        "Aramark Correctional Services"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-3d1fe964b9",
+    "venue_id": null,
+    "venue_name": "Michigan Department of Corrections",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2015-09-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_703d633fc8161141"
+    ],
+    "source": "|Crain's Detroit Business; Detroit | 2017-01-30",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-09-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1,
+      "sub_brands": [
+        "Aramark Correctional Services"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-a94ad7a317",
+    "venue_id": null,
+    "venue_name": "Michigan Department of Corrections",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Services Group",
+    "operator_normalized": "Trinity Services Group",
+    "start_date": "2015-09-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_381cdc07c31d6d85",
+      "ev_cd58e0f13974709c"
+    ],
+    "source": "|Crain's Detroit Business; Detroit | 2017-01-30",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-09-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-ffe32747aa",
+    "venue_id": null,
+    "venue_name": "Michigan prison food service",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2015-09-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_eb1bea5b8402c598"
+    ],
+    "source": "|Detroit Free Press; Detroit, Mich. | 2016-09-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-5b799f6940",
+    "venue_id": null,
+    "venue_name": "Michigan prison food service",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Food Services",
+    "operator_normalized": "Trinity Food Services",
+    "start_date": "2015-09-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_4203f9045b98efed"
+    ],
+    "source": "|Detroit Free Press; Detroit, Mich. | 2016-09-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-eb8b843d8f",
+    "venue_id": null,
+    "venue_name": "Michigan prisons",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2015-08-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_fdbd67926c4df7ee"
+    ],
+    "source": "|Livingston County Daily Press & Argus; Howell, Mich. | 2016-09-09",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-08-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-bb4bdba725",
+    "venue_id": null,
+    "venue_name": "Michigan prisons",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Services Group",
+    "operator_normalized": "Trinity Services Group",
+    "start_date": "2015-08-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_22702e580d9e9660"
+    ],
+    "source": "|Livingston County Daily Press & Argus; Howell, Mich. | 2016-09-09",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-08-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-8ede7be3f5",
+    "venue_id": null,
+    "venue_name": "NCH Healthcare System",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2012-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_9bca26df1c10411c"
+    ],
+    "source": "|The News Press; Fort Myers, Fla. | 2016-08-27",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2012-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-0d78889d61",
+    "venue_id": null,
+    "venue_name": "Neil Armstrong Elementary",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_d9e12110a28d4aa5",
+      "ev_f6b78a138640f421"
+    ],
+    "source": "|The Times - Tribune; Scranton, Pa. | 2016-11-10; |TCA Regional News; Chicago | 2016-11-10",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (violation) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-07",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-9bbabb5b6f",
+    "venue_id": null,
+    "venue_name": "Northwest Missouri State University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-04-03",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_4e6c6c0add92e0f7"
+    ],
+    "source": "|University Wire; Carlsbad | 2017-01-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-04-03",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-acb504f28c",
+    "venue_id": null,
+    "venue_name": "Northwest Missouri State University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-04-03",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "self_op_conversion",
+    "derived_from": [
+      "ev_71ed24575f11b40f"
+    ],
+    "source": "|University Wire; Carlsbad | 2017-01-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-04-03",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c115bf1de2",
+    "venue_id": null,
+    "venue_name": "Ramsey County correctional facility",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Minnesota",
+    "operator_normalized": "Minnesota",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_8521b7769abe3a18"
+    ],
+    "source": "|The Guardian (Online); London (UK) | 2016-09-30",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7cb512c57e",
+    "venue_id": null,
+    "venue_name": "Rio Tinto",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "ISS",
+    "operator_normalized": "ISS",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-01-01",
+    "end_precision": "year",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_7f45b1ee671f005a"
+    ],
+    "source": "|The Australian Financial Review; Melbourne | 2016-12-03",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-6930b3a8e3",
+    "venue_id": null,
+    "venue_name": "Rock and Roll Hall of Fame",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_63e00132b530584f"
+    ],
+    "source": "|Fair Disclosure Wire; Linthicum | 2016-08-10",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-82397566f3",
+    "venue_id": null,
+    "venue_name": "Rutgers University \u2013 Newark",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-07-29",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_eca51a03b2dca04e"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-27",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-29",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-2f7d9a2860",
+    "venue_id": null,
+    "venue_name": "Rutgers University \u2013 Newark",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Gourmet Dining Services",
+    "operator_normalized": "Gourmet Dining Services",
+    "start_date": "2016-07-29",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_daf4cae66c260d20"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-27",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-29",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-1b1d922502",
+    "venue_id": null,
+    "venue_name": "SHSU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "ARAMARK Educational Services of Texas, Inc.",
+    "operator_normalized": "ARAMARK Educational Services of Texas, Inc.",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_79756416ee45996e"
+    ],
+    "source": "|US Fed News Service, Including US State News; Washington, D.C. | 2016-08-20",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1,
+      "sub_brands": [
+        "Aramark Educational Services"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-97484db6ef",
+    "venue_id": null,
+    "venue_name": "SMSU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-07-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_9237db883fc6d2ee"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-84197ee2b6",
+    "venue_id": null,
+    "venue_name": "SMSU",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-07-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_6d593eeb311d29ff"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-e269b3b965",
+    "venue_id": null,
+    "venue_name": "SMSU campus",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f589bb1d345c1fa4",
+      "ev_7e23c8700e5c112a"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-d9cda0e85b",
+    "venue_id": null,
+    "venue_name": "SMSU campus",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_d43a44138dcf3ec5",
+      "ev_02610c1a3e46c43c"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 2,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-7ed39b11fd",
+    "venue_id": null,
+    "venue_name": "St. Cloud State University's Garvey Commons",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-07-01",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_4c95d6079be2a7e1"
+    ],
+    "source": "|St. Cloud Times; St. Cloud, Minn. | 2016-07-31",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-430cc2d251",
+    "venue_id": null,
+    "venue_name": "St. Cloud State University's Garvey Commons",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-07-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_17f190dcdbc956e6"
+    ],
+    "source": "|St. Cloud Times; St. Cloud, Minn. | 2016-07-31",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-bc7c796325",
+    "venue_id": null,
+    "venue_name": "state prison properties",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": "2013-12-01",
+    "start_precision": "month",
+    "end_date": "2015-08-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_0100a2ac6b81113d",
+      "ev_1fc8805b011c2e80"
+    ],
+    "source": "|Lansing State Journal; Lansing, Mich. | 2016-09-09",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-08-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-851e0b233f",
+    "venue_id": null,
+    "venue_name": "state prison properties",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Trinity Services Group",
+    "operator_normalized": "Trinity Services Group",
+    "start_date": "2015-08-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ca0859e280559ae9"
+    ],
+    "source": "|Lansing State Journal; Lansing, Mich. | 2016-09-09",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2015-08-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-d6e26ad663",
+    "venue_id": null,
+    "venue_name": "Temple",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-10-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_7540d3607e1095f3",
+      "ev_ca3c544be6203886",
+      "ev_460833386e6ebe56"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-12-29; |University Wire; Carlsbad | 2016-10-25; |University Wire; Carlsbad | 2016-10-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "re-awarded with no reported end to the previous run",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-07-01",
+      "overlaps_with": [
+        "Sodexo"
+      ],
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-63618ace5a",
+    "venue_id": null,
+    "venue_name": "Temple",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-10-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_7984a6913c9c631d"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-12-29",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-10-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-d73773d53b",
+    "venue_id": null,
+    "venue_name": "Temple",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-06-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_bdfb6f8e95b8eba0"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-13",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-06-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7eaafd180d",
+    "venue_id": null,
+    "venue_name": "Temple",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-06-30",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_aeaae025458e9c71",
+      "ev_03a0d8daf6924d03"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-25; |University Wire; Carlsbad | 2016-10-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-06-30",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-3241352e3e",
+    "venue_id": null,
+    "venue_name": "Temple University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-01-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_6577b229781263b6",
+      "ev_b820fc3a668226b8",
+      "ev_bc749ab7924913cc",
+      "ev_14dd6c82c54ef417",
+      "ev_82303a72f0ac0128",
+      "ev_63eb07056ee90224",
+      "ev_e50cf904efe27803",
+      "ev_533e8e79627058b1",
+      "ev_d8f59974003adf6e",
+      "ev_34e141aaae716a04",
+      "ev_d9fc15e40b846eb8"
+    ],
+    "source": "|Fair Disclosure Wire; Linthicum | 2016-11-15; |MENA Report; Camden | 2016-10-14; |University Wire; Carlsbad | 2016-10-11; |University Wire; Carlsbad | 2017-01-17; |University Wire; Carlsbad | 2016-10-21; |US Fed News Service, Including US State News; Washington, D.C. | 2016-10-12; |TCA Regional News; Chicago | 2016-10-11; |University Wire; Carlsbad | 2016-12-06",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "re-awarded with no reported end to the previous run",
+        "3 undated event(s) could not be placed on the timeline",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-07-01",
+      "overlaps_with": [
+        "Sodexo"
+      ],
+      "event_count": 8
+    }
+  },
+  {
+    "tenure_id": "sp-6e60c2985f",
+    "venue_id": null,
+    "venue_name": "Temple University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-07-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_476d0140c9de2f23"
+    ],
+    "source": "|MENA Report; Camden | 2016-10-14",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-07-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-362dc0ad6e",
+    "venue_id": null,
+    "venue_name": "Temple University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-05-13",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_48562a06ad6d72c9",
+      "ev_fc526f07acd7b9b6"
+    ],
+    "source": "|University Wire; Carlsbad | 2017-01-17",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-05-13",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-b40c9cc1ae",
+    "venue_id": null,
+    "venue_name": "Temple University",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-07-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_cec500d8fc1a792d",
+      "ev_ec60d67dd3be98e5",
+      "ev_031fc2394d4f02ae",
+      "ev_7beff567a0cffbea",
+      "ev_a5eefc7e95315fce"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-21; |University Wire; Carlsbad | 2016-10-11; |TCA Regional News; Chicago | 2016-10-11; |Philadelphia Inquirer; Philadelphia, Pa. | 2016-11-01",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-07-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 3,
+      "sub_brands": [
+        "SodexoMagic"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-be8aae8ba3",
+    "venue_id": null,
+    "venue_name": "Tennessee Department of Correction",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-10-01",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_d93165ae10ec1bd6",
+      "ev_22f81347b12bfe06",
+      "ev_8745d01a1fc37af0"
+    ],
+    "source": "|The Daily News Journal; Murfreesboro, Tenn. | 2016-08-08; |The Tennessean; Nashville, Tenn. | 2016-08-08; |News Sentinel; Knoxville, Tenn. | 2016-08-05",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-10-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-0b7a063aca",
+    "venue_id": null,
+    "venue_name": "Tennessee Department of Correction",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "TRICOR",
+    "operator_normalized": "TRICOR",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-10-01",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_535c9491784104c8",
+      "ev_874a10d680f7405a"
+    ],
+    "source": "|The Daily News Journal; Murfreesboro, Tenn. | 2016-08-08; |The Tennessean; Nashville, Tenn. | 2016-08-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-10-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-83d0427cad",
+    "venue_id": null,
+    "venue_name": "the Deece",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-01-01",
+    "end_precision": "approx",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_2e613f83a9ed12fe"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-30",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-8d00ce937c",
+    "venue_id": null,
+    "venue_name": "the Deece",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2017-01-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_9f03a8a9bbee074c"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-11-30",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-01-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Bon App\u00e9tit"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-01159e2c55",
+    "venue_id": null,
+    "venue_name": "The Perch",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-05-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_12b2a95adf4b2d1f",
+      "ev_046e976888731612"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-06",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (violation) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-05-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-1eec7daa4e",
+    "venue_id": null,
+    "venue_name": "The Perch",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-05-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_7a147e35d112c444",
+      "ev_be5ff4112ef162d4"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-06",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-05-19",
+      "event_count": 2,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-69033994eb",
+    "venue_id": null,
+    "venue_name": "the university",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_3e9dcb397dbe5cb5"
+    ],
+    "source": "|MENA Report; Camden | 2016-11-09",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-11-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c79a97a977",
+    "venue_id": null,
+    "venue_name": "Tom Green County Jail",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark Correctional Services",
+    "operator_normalized": "Aramark Correctional Services",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_9894fba1b01080df",
+      "ev_a493acde83f2b7cf"
+    ],
+    "source": "|Standard Times; San Angelo | 2016-09-12",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-08-02",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-4e73938c79",
+    "venue_id": null,
+    "venue_name": "U of L",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-08-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ee0b16f565ec83f6",
+      "ev_f57b4ea2d4198326",
+      "ev_ebcf556433c35988"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-03; |University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-08-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-ec7fc6bc5c",
+    "venue_id": null,
+    "venue_name": "U of L",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ed6542c6ac3411e7"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-08",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c283a0a42a",
+    "venue_id": null,
+    "venue_name": "UChicago Dining",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_ff26d56dfddeff9b"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-030e9be7e6",
+    "venue_id": null,
+    "venue_name": "UChicago Dining",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_924fecd73196c315"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-18",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1,
+      "sub_brands": [
+        "bon app\u00e9tit"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-dd0f62a573",
+    "venue_id": null,
+    "venue_name": "UK",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2014-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_0662e1683034e326",
+      "ev_121321515d6dd7e1"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-05; |Courier - Journal; Louisville, Ky. | 2016-09-21",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-01",
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-f937662379",
+    "venue_id": null,
+    "venue_name": "University of Chicago",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-09-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_09c088f6f5d38aaf"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-26",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-9c94113394",
+    "venue_id": null,
+    "venue_name": "University of Chicago",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-09-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_002f8e6005d37fe7"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-26",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Bon App\u00e9tit"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-63a5025d7e",
+    "venue_id": null,
+    "venue_name": "University of Maine at Farmington",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_d03915d04fee81c9",
+      "ev_6ecda175813bf0b8"
+    ],
+    "source": "|TCA Regional News; Chicago | 2016-08-26; |Sun Journal; Lewiston, Me. | 2016-08-25",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-466064802c",
+    "venue_id": null,
+    "venue_name": "University of Maine at Farmington",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_10286f439ee953e2",
+      "ev_53f3724bb634c03f"
+    ],
+    "source": "|TCA Regional News; Chicago | 2016-08-26; |Sun Journal; Lewiston, Me. | 2016-08-25",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 2
+    }
+  },
+  {
+    "tenure_id": "sp-5f97fcec32",
+    "venue_id": null,
+    "venue_name": "University of Maine System",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-01-01",
+    "end_precision": "year",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_a6774d5494232339",
+      "ev_2965784eba04f957"
+    ],
+    "source": "|Portland Press Herald; Portland, Me. | 2016-10-23",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-336ee271ac",
+    "venue_id": null,
+    "venue_name": "University of Maine System",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2016-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_e3f304b01ecabdf4",
+      "ev_c879640f6f86d456"
+    ],
+    "source": "|Portland Press Herald; Portland, Me. | 2016-10-23",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-a2c0a068a7",
+    "venue_id": null,
+    "venue_name": "University of New Orleans",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "1999-01-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_5b4b0c0b369d9003",
+      "ev_f2781fa189f4adde",
+      "ev_1e45b1926c0664cd"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-21",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "2 undated event(s) could not be placed on the timeline",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "1999-01-01",
+      "event_count": 3
+    }
+  },
+  {
+    "tenure_id": "sp-0f1a1f4f84",
+    "venue_id": null,
+    "venue_name": "University of Toledo",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_398b7470a11e4d88",
+      "ev_27d4954e8c27323d",
+      "ev_93466f08afeb4b74"
+    ],
+    "source": "|The Blade; Toledo, Ohio | 2016-09-17; |TCA Regional News; Chicago | 2016-09-17; |US Fed News Service, Including US State News; Washington, D.C. | 2016-09-25",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "renewal with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-12",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c915fdc455",
+    "venue_id": null,
+    "venue_name": "University of Toronto",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-01-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_f587c1b0c7582dbc",
+      "ev_2c9adfc73a07f5c3"
+    ],
+    "source": "|Maclean's; Toronto | 2016-11-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "overlaps_with": [
+        "University of Toronto"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-baaa5a1d9c",
+    "venue_id": null,
+    "venue_name": "University of Toronto",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "University of Toronto",
+    "operator_normalized": "University of Toronto",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-01-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "self_op_conversion",
+    "derived_from": [
+      "ev_3d844a0a15b3ac55",
+      "ev_0d84f3aac24baa25"
+    ],
+    "source": "|Maclean's; Toronto | 2016-11-07",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-01-01",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-4f2dacdf27",
+    "venue_id": null,
+    "venue_name": "USCG Academy",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-09-15",
+    "start_precision": "exact",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_297eec1ddc041a95"
+    ],
+    "source": "|Targeted News Service; Washington, D.C. | 2016-09-15",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-09-15",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-43d5b1ead7",
+    "venue_id": null,
+    "venue_name": "Vassar",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2017-09-01",
+    "end_precision": "month",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_7014048379e7d06f"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-26",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-09-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-6c383b6eb2",
+    "venue_id": null,
+    "venue_name": "Vassar",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2017-09-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_01152f2742c53669"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-26",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2017-09-01",
+      "event_count": 1,
+      "sub_brands": [
+        "Bon App\u00e9tit"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-1e382aabbc",
+    "venue_id": null,
+    "venue_name": "Ville Grill",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-08-01",
+    "end_precision": "approx",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_19612d8dd1f9846d",
+      "ev_cc41f3a8a5c4d46c"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-09-03",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": "2016-08-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-8e2acc5ed1",
+    "venue_id": null,
+    "venue_name": "Yosemite National Park",
+    "venue_type": "other",
+    "city": null,
+    "state": null,
+    "lat": null,
+    "lng": null,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_63e00132b530584f"
+    ],
+    "source": "|Fair Disclosure Wire; Linthicum | 2016-08-10",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "1 undated event(s) could not be placed on the timeline",
+        "start_date unknown",
+        "venue never matched the spine \u2014 not mappable"
+      ],
+      "known_through": null,
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-095465ccbb",
+    "venue_id": "wd-Q1142992",
+    "venue_name": "Nissan Stadium",
+    "venue_type": "stadium",
+    "city": "Nashville-Davidson metropolitan government (balance)",
+    "state": "TN",
+    "lat": 36.166388888,
+    "lng": -86.771388888,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_824bd8c89d30a04b"
+    ],
+    "source": "|The Tennessean; Nashville, Tenn. | 2016-10-02",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (initiative) \u2014 operator was here, but no award was reported",
+        "start_date unknown"
+      ],
+      "known_through": "2016-10-02",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-c601bbb5ff",
+    "venue_id": "wd-Q1545870",
+    "venue_name": "Veterans Stadium",
+    "venue_type": "stadium",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.906666666,
+    "lng": -75.171111111,
+    "operator": "Harry M. Stevens",
+    "operator_normalized": "Harry M. Stevens",
+    "start_date": "1997-01-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_3eccefa12c893476"
+    ],
+    "source": "|TCA Regional News; Chicago | 2016-07-30",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "1997-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-631b2748ad",
+    "venue_id": "wd-Q238101",
+    "venue_name": "University of Minnesota",
+    "venue_type": "other",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.975,
+    "lng": -93.235277777,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "1998-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_71d0143d9b28035d"
+    ],
+    "source": "|University Wire; Carlsbad | 2017-01-19",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "1998-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7f38b67e46",
+    "venue_id": "wd-Q3305514",
+    "venue_name": "Gies Memorial Stadium",
+    "venue_type": "stadium",
+    "city": "Champaign",
+    "state": "IL",
+    "lat": 40.099166666,
+    "lng": -88.235833333,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2015-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_f3c41c9f6493897d"
+    ],
+    "source": "|News Gazette; Champaign, Ill. | 2016-08-07",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "2015-01-01",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-ea85b29ed0",
+    "venue_id": "wd-Q603034",
+    "venue_name": "Drexel University",
+    "venue_type": "other",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.956441,
+    "lng": -75.188686,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-01-01",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_151d52e651c23ef4",
+      "ev_5655db073e1031e4",
+      "ev_9f9a1c4748b3765e",
+      "ev_1576b0f6277181e2",
+      "ev_cbf723b1238b2101",
+      "ev_110022717d7259bb",
+      "ev_4605d693ee6f70b1"
+    ],
+    "source": "|Fair Disclosure Wire; Linthicum | 2016-11-15; |Philadelphia Daily News; Philadelphia, Pa. | 2016-11-03; |Philadelphia Inquirer; Philadelphia, Pa. | 2016-11-01; |TCA Regional News; Chicago | 2016-10-31; |University Wire; Carlsbad | 2016-10-28",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "re-awarded with no reported end to the previous run",
+        "1 undated event(s) could not be placed on the timeline",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)"
+      ],
+      "known_through": "2016-12-11",
+      "overlaps_with": [
+        "Sodexo"
+      ],
+      "event_count": 3
+    }
+  },
+  {
+    "tenure_id": "sp-9b292eb880",
+    "venue_id": "wd-Q603034",
+    "venue_name": "Drexel University",
+    "venue_type": "other",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.956441,
+    "lng": -75.188686,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": "2015-05-01",
+    "start_precision": "month",
+    "end_date": "2016-09-20",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_54bf40d031fa7244",
+      "ev_33650d0abe13f0c7",
+      "ev_27cf5d4cc3acfdd0",
+      "ev_5ff1a8e1a957888c"
+    ],
+    "source": "|Food Management; Cleveland | 2016-10-20; |The Daily Record; Baltimore, Md. | 2016-10-10; |University Wire; Carlsbad | 2016-10-28",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)"
+      ],
+      "known_through": "2016-09-20",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 2,
+      "sub_brands": [
+        "SodexoMAGIC",
+        "SodexoMagic"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-6dbbf8e581",
+    "venue_id": "wd-Q603034",
+    "venue_name": "Drexel University",
+    "venue_type": "other",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.956441,
+    "lng": -75.188686,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-10",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "other",
+    "derived_from": [
+      "ev_a37bafd56fdad641",
+      "ev_66dd1c7bd79cd51c",
+      "ev_b65daccf305ed6ec",
+      "ev_9b69752e4110e409"
+    ],
+    "source": "|Food Management; Cleveland | 2016-10-20; |University Wire; Carlsbad | 2016-10-21; |University Wire; Carlsbad | 2016-10-06",
+    "notes": "contract expired; no cause reported",
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "presence only (violation) \u2014 operator was here, but no award was reported",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)"
+      ],
+      "known_through": "2016-12-10",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 2,
+      "sub_brands": [
+        "SodexoMAGIC",
+        "SodexoMagic"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-bfa4169a44",
+    "venue_id": "wd-Q603034",
+    "venue_name": "Drexel University",
+    "venue_type": "other",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 39.956441,
+    "lng": -75.188686,
+    "operator": "Sodexo",
+    "operator_normalized": "Sodexo",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-12-10",
+    "end_precision": "exact",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_eb06480d77146771",
+      "ev_a7cc8b521b277db2",
+      "ev_6beccbcecdd23ea5",
+      "ev_f6b5a2138034d929"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-10-25; |Philadelphia Inquirer; Philadelphia, Pa. | 2016-11-01; |TCA Regional News; Chicago | 2016-10-31",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown",
+        "overlaps another operator at this venue (prime vs sub-contract, or a bad pairing)"
+      ],
+      "known_through": "2016-12-10",
+      "overlaps_with": [
+        "Aramark"
+      ],
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-7ae49c0f41",
+    "venue_id": "wd-Q6794182",
+    "venue_name": "Maverick Stadium,Texas",
+    "venue_type": "stadium",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.729166666,
+    "lng": -97.126666666,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": null,
+    "start_precision": null,
+    "end_date": "2016-06-06",
+    "end_precision": "approx",
+    "end_status": "ended",
+    "exit_mode": "lost_bid",
+    "derived_from": [
+      "ev_e1e02178446ca129"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-08-22",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "run ends with no award ever reported \u2014 start unknown",
+        "start_date unknown"
+      ],
+      "known_through": "2016-06-06",
+      "event_count": 1
+    }
+  },
+  {
+    "tenure_id": "sp-61079a2a54",
+    "venue_id": "wd-Q6794182",
+    "venue_name": "Maverick Stadium,Texas",
+    "venue_type": "stadium",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.729166666,
+    "lng": -97.126666666,
+    "operator": "Compass",
+    "operator_normalized": "Compass",
+    "start_date": "2016-06-06",
+    "start_precision": "approx",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_3f56dfa6a6530881"
+    ],
+    "source": "|University Wire; Carlsbad | 2016-08-22",
+    "notes": null,
+    "extras": {
+      "needs_review": false,
+      "review_reasons": [],
+      "known_through": "2016-06-06",
+      "event_count": 1,
+      "sub_brands": [
+        "Chartwells"
+      ]
+    }
+  },
+  {
+    "tenure_id": "sp-ee1e3bbdb9",
+    "venue_id": "wd-Q7929512",
+    "venue_name": "U.S. Bank Stadium",
+    "venue_type": "stadium",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.973889,
+    "lng": -93.258056,
+    "operator": "Aramark",
+    "operator_normalized": "Aramark",
+    "start_date": "2016-01-01",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": null,
+    "end_status": "unknown",
+    "exit_mode": null,
+    "derived_from": [
+      "ev_556e2b87ec155c0b",
+      "ev_afcf646fb820ea39",
+      "ev_0e17dc4174d54b02",
+      "ev_1d9b218f0ccdcaa8",
+      "ev_a4f21430519ab961",
+      "ev_0d78ee36e0ac1ed1"
+    ],
+    "source": "|Fair Disclosure Wire; Linthicum | 2016-11-15; |Star Tribune; Minneapolis, Minn. | 2016-11-03; |Star Tribune; Minneapolis, Minn. | 2016-11-02; |TCA Regional News; Chicago | 2016-11-02; |TCA Regional News; Chicago | 2016-11-03",
+    "notes": null,
+    "extras": {
+      "needs_review": true,
+      "review_reasons": [
+        "3 undated event(s) could not be placed on the timeline"
+      ],
+      "known_through": "2016-01-01",
+      "event_count": 4
+    }
+  }
+]

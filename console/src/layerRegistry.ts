@@ -60,11 +60,12 @@ export const LAYER_REGISTRY: LayerDef[] = [
     category: 'contract',
     geometry: 'point',
     recordType: 'B',
-    status: 'planned',
+    status: 'ready',
     src: '/data/tenure_records.geojson',
     source: 'Article extraction pipeline',
     description:
-      "One row per operator's run at one venue. At time T a venue shows the operator whose span contains T.",
+      "One row per operator's run at one venue. At time T a venue shows the operator whose span contains T. " +
+      'Covers 7 venues out of 6,884 — a sample of what the corpus supports, not a census.',
   },
   {
     key: 'contract_events',
@@ -72,10 +73,12 @@ export const LAYER_REGISTRY: LayerDef[] = [
     category: 'contract',
     geometry: 'point',
     recordType: 'A',
-    status: 'planned',
+    status: 'ready',
     src: '/data/contract_events.geojson',
     source: 'Article extraction pipeline',
-    description: 'Individual won/lost/renewed/self-op events as reported by a single article.',
+    description:
+      'Individual won/lost/renewed/self-op events as reported by a single article. ' +
+      'Ringed in magenta on the map; 31 of 178 extracted events name a venue in this spine.',
   },
 
   // ── Money ─────────────────────────────────────────────────────────────────

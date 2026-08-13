@@ -36,10 +36,14 @@ import { Section } from './Section';
 import { VenueSearch } from './VenueSearch';
 import type { OperatorRow } from '../utils/operatorLens';
 import type { Band, BandKey } from '../utils/venueFilter';
+import { EVIDENCE_COLOR, type LoadedEvidence, type VenueEvidence } from '../utils/evidenceTransform';
 
 interface SidebarProps {
   spine: GeoJSON.FeatureCollection<GeoJSON.Point, VenueProperties> | null;
   onPickVenue: (hit: VenueHit) => void;
+  /** Article-extraction output, or null when the pipeline has not been run. */
+  evidence: LoadedEvidence | null;
+  onPickEvidence: (v: VenueEvidence) => void;
   typeCounts: { type: string; count: number }[];
   hiddenTypes: string[];
   onToggleType: (type: string) => void;
@@ -110,6 +114,8 @@ const TYPE_LABELS: Record<string, string> = {
 export function Sidebar({
   spine,
   onPickVenue,
+  evidence,
+  onPickEvidence,
   typeCounts,
   hiddenTypes,
   onToggleType,
@@ -272,6 +278,51 @@ export function Sidebar({
           inAcsRange={inAcsRange}
         />
       </Section>
+
+      {evidence && (
+        <Section
+          title="From the articles"
+          summary={`${evidence.venues.length} venue${evidence.venues.length === 1 ? '' : 's'}`}
+        >
+          {/* A list, not just a legend, because 7 venues among 6,884 dots cannot be found by
+              looking. The ring makes them recognisable once you are near one; this is how you
+              get near one. Clicking flies the map there and opens the venue panel. */}
+          <ul style={listStyle}>
+            {evidence.venues.map((v) => (
+              <li key={v.venueId}>
+                <button
+                  type="button"
+                  onClick={() => onPickEvidence(v)}
+                  style={evidenceRowStyle}
+                >
+                  <span style={{ ...swatchStyle, background: EVIDENCE_COLOR }} />
+                  <span style={{ flex: 1, textAlign: 'left' }}>{v.venueName}</span>
+                  <span style={mutedStyle}>
+                    {v.firstYear === v.lastYear
+                      ? (v.firstYear ?? '—')
+                      : `${v.firstYear ?? '?'}–${v.lastYear ?? '?'}`}
+                  </span>
+                  <span style={{ ...mutedStyle, minWidth: 24, textAlign: 'right' }}>
+                    {v.events.length}
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+          {/* The coverage gap, stated as a number rather than implied by a short list. A
+              reader who sees 7 venues and no denominator will assume the pipeline found
+              little; it found 178 events and most of them are about buildings this map was
+              never a census of. Those are different problems with different fixes. */}
+          <p style={{ ...mutedStyle, fontSize: 11, marginTop: 8, lineHeight: 1.5 }}>
+            {evidence.mappedEvents.toLocaleString()} of{' '}
+            {evidence.extractedEvents.toLocaleString()} extracted events name a venue in this
+            spine. The other{' '}
+            {(evidence.extractedEvents - evidence.mappedEvents).toLocaleString()} name prisons,
+            school districts and hospitals — real contracts, but not places this map is a
+            census of.
+          </p>
+        </Section>
+      )}
 
       <Section
         title={`Operators in ${year}`}
@@ -619,6 +670,21 @@ const swatchStyle: React.CSSProperties = {
   height: 9,
   borderRadius: 99,
   flexShrink: 0,
+};
+
+// A real <button>, not a styled <li> with an onClick: these are the only way to reach 7 dots
+// among 6,884, so they have to be tabbable and reachable by a screen reader rather than being
+// a mouse-only affordance. `font: inherit` because a button does not inherit type by default
+// and would otherwise render in the browser's default 13px sans, breaking the row rhythm.
+const evidenceRowStyle: React.CSSProperties = {
+  ...rowStyle,
+  width: '100%',
+  background: 'none',
+  border: 'none',
+  font: 'inherit',
+  color: 'inherit',
+  cursor: 'pointer',
+  textAlign: 'left',
 };
 
 const mutedStyle: React.CSSProperties = { color: MUTED, fontSize: 12 };

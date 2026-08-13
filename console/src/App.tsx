@@ -53,6 +53,11 @@ import {
 } from './utils/stateFilter';
 import { buildOperatorRows, venueIdsForOperator } from './utils/operatorLens';
 import {
+  loadEvidence,
+  type LoadedEvidence,
+  type VenueEvidence,
+} from './utils/evidenceTransform';
+import {
   applyBands,
   bandColorsFor,
   BAND_BY_KEY,
@@ -85,6 +90,7 @@ export default function App() {
     VenueProperties
   > | null>(null);
   const [tenure, setTenure] = useState<TenureProperties[]>([]);
+  const [evidence, setEvidence] = useState<LoadedEvidence | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [tenureError, setTenureError] = useState<string | null>(null);
   const [year, setYear] = useState(2015);
@@ -130,6 +136,15 @@ export default function App() {
     loadTenure(src)
       .then(setTenure)
       .catch((e: Error) => setTenureError(e.message));
+  }, []);
+
+  // The article pipeline's own output, loaded on the same swallow-to-null bargain as the
+  // rest: if the extraction has not been run, the section and the rings simply do not appear
+  // rather than the map failing.
+  useEffect(() => {
+    loadEvidence(LAYER_BY_KEY.contract_events.src!)
+      .then(setEvidence)
+      .catch(() => setEvidence(null));
   }, []);
 
   // Federal is a third independent load. It is the only real contract data in the project,
@@ -445,6 +460,16 @@ export default function App() {
   // see venueAwardTotals for why the two must never be shown as one number.
   const federalVenue = useMemo(() => venueAwardTotals(federal), [federal]);
 
+  /**
+   * Venues an extracted article speaks to, ringed on the map.
+   *
+   * Not filtered by the slider year. The ring says "this venue appears in the corpus", which
+   * is true regardless of where the slider sits, and a mark that blinked out as the reader
+   * scrubbed would make a thin corpus look thinner still. What each article actually *says*
+   * about a given year is the venue panel's job, and that one does respect the slider.
+   */
+  const evidenceVenueIds = useMemo(() => evidence?.venueIds ?? [], [evidence]);
+
   // The slider runs 1950-2026 and ACS runs 2011-2024, so most slider positions have no
   // context at all. When the exact year is missing the nearest published year is resolved
   // here and handed to the panel *labelled as a different year* — the panel never presents
@@ -493,11 +518,37 @@ export default function App() {
     setFlyTo({ lng: hit.lngLat[0], lat: hit.lngLat[1], nonce: Date.now() });
   };
 
+  /**
+   * Jump to a venue an article names, from the sidebar list.
+   *
+   * Routed through `pickVenue` rather than flying directly so it inherits every correction
+   * that path already makes — un-hiding the venue's type, clearing a conflicting state
+   * filter, moving the slider into the venue's own window. Flying to a venue that the
+   * current filters have hidden would land the camera on empty ground, which reads as a
+   * broken link rather than as an active filter.
+   */
+  const pickEvidence = (v: VenueEvidence) => {
+    const f = spine?.features.find((x) => x.properties.venue_id === v.venueId);
+    if (!f) return;
+    pickVenue({
+      venue: f.properties,
+      lngLat: f.geometry.coordinates as [number, number],
+      // The spine's name, not the article's. `viaAlias` is what drives the "matched an old
+      // name" note in the panel, and the events file records the venue as the article wrote
+      // it — which is often a stale or partial name. Claiming that as a matched alias would
+      // put a sourcing claim in the UI that no alias table backs.
+      matched: f.properties.canonical_name,
+      viaAlias: false,
+    });
+  };
+
   return (
     <div style={shellStyle}>
       <Sidebar
         spine={spine}
         onPickVenue={pickVenue}
+        evidence={evidence}
+        onPickEvidence={pickEvidence}
         typeCounts={typeCounts}
         hiddenTypes={hiddenTypes}
         onToggleType={(t) =>
@@ -577,6 +628,7 @@ export default function App() {
             fitBounds={fitBounds}
             venueColors={venueColors}
             federalVenueIds={federalVenueIds}
+            evidenceVenueIds={evidenceVenueIds}
             bandVenueIds={bandVenueIds}
             flyTo={flyTo}
             // The two panels occupy the same corner, so opening one closes the other. They are

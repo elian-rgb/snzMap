@@ -2,6 +2,9 @@
 
 How a new person gets articles or a spreadsheet onto the map.
 
+> For what the project is, what is true about it today, and how to read the console, start
+> with **[HANDOFF.md](HANDOFF.md)**. This file is the operating manual.
+
 Read this first: **there is no upload button, no Google Drive folder, and no web form.**
 Everything below is a command run on a laptop that has the repo checked out.
 
@@ -307,8 +310,8 @@ they can cite. This is the only place in the project where hand-typed data is ex
 ## Filling in the gold rows (the one job that is waiting on a person)
 
 **`pipeline/output/gold_seed.csv` is already seeded with 24 venues.** Identity is filled —
-exact spelling, city, state, coordinates. Seven columns are blank because they are the
-actual knowledge being captured:
+exact spelling, city, state, coordinates. Seven columns are yours to fill, because they are
+the actual knowledge being captured:
 
 | Column | What to put |
 |---|---|

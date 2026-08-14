@@ -5,6 +5,11 @@ Historical map of institutional food service contracts. Two halves, per `SNZ_PLA
 - `pipeline/` — Python. Builds the venue spine, then extracts contract history from articles.
 - `console/` — Bun + Hono + Vite + React + MapLibre GL. Renders the layers by place and time.
 
+> **New here? Read [HANDOFF.md](HANDOFF.md) first.** It is the front door: what is true today,
+> how to open the console, how to add data, and what is waiting on a person. This file is the
+> build log — every decision and every defect found, in order. It is a reference, not a
+> read-through.
+
 ## Status
 
 **The contract chain runs end to end on the full corpus, and journalism is now on the map.**

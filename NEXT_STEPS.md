@@ -126,6 +126,46 @@ print(len(a),'articles;',sum(1 for x in a if not x.get('body_text')),'with no bo
 
 ---
 
+### A cosmetic fix that should ride along with C
+
+Every `source_publication` in the corpus reads `'|University Wire; Carlsbad |'`. The bars are
+striprtf rendering a ProQuest table cell; 597 of 602 publications and 600 of 602 dates arrive
+that way. It reaches `tenure_records.csv`, `contract_events.csv` and the review queue — every
+file a person reads.
+
+The fix is four lines in `pipeline/ingest/parse.py`: unwrap a value that is exactly one cell
+(`^\|([^|]*)\|$`, no interior bars). Only that shape — article bodies genuinely contain
+multi-cell table rows, 43 of them, and a blanket strip would mangle real text.
+
+**It is not free, and the reason is worth understanding before touching it.** `prompt.py`
+prints the article header into the payload — *"copy these into every event verbatim"* — and
+the response cache is keyed on a hash of that payload. Cleaning the parser changes all 366
+prompts:
+
+```
+cache hits today:              366/366
+cache hits after the fix:        5/366     <- the 5 articles that never had bars
+cost to re-extract the rest:    $12.67
+```
+
+There is no cheaper correct version. `extract/run.py:finalize` already treats the article
+record as the authority and overwrites every source field the model echoes, so a clean parse
+*would* clean every downstream file — but only through a re-extraction. Fixing it further
+downstream instead leaves `articles.json` and `contract_events.json` wrong for the next
+consumer. And fixing the parser *without* re-extracting is the worst of the three: the
+deliverables keep the bars, and the next person's `pipeline.add --spend` silently costs $12.67
+instead of $0.03 with no warning.
+
+Renaming the 366 cached files to their new hashes was considered and rejected. The final rows
+would be identical — `finalize` discards the model's echoed source fields anyway — but
+`raw/extract/` would then claim a response was given to a payload that was never sent, which
+breaks the audit trail the project rests on.
+
+So: **do it as part of C**, which already pays for a full re-extraction. On its own it is
+$12.67 for a cosmetic string.
+
+---
+
 ## What to do before either
 
 Both builds are expensive and neither is measurable without these, which cost no engineering

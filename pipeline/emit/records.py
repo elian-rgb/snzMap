@@ -24,6 +24,13 @@ through 2026.
 and cannot be a feature. It is still a real run, so it goes in the CSV and the count is
 printed — a row missing from the map has to be visible somewhere or it is just lost.
 
+**One feature per claim, not per sentence.** The events layer used to draw one feature per
+extracted event, so a contract reported by three papers looked like three contracts: 31
+mapped events were 18 real claims, and Drexel alone showed 19. The geojson now collapses
+them with the *same* rule the pairer uses, and carries `mentions` so the corroboration is
+visible instead of inflating the count. The CSV is deliberately left uncollapsed — that is
+the file you audit a span back to a sentence with, and it needs every sentence.
+
     .venv/bin/python -m pipeline.emit.records
 """
 
@@ -210,18 +217,72 @@ def emit_tenure(rows: list[dict[str, Any]], as_of: dt.date) -> dict[str, Any]:
 
 # ── Events ─────────────────────────────────────────────────────────────────────
 
-def emit_events(events: list[dict[str, Any]], venues: dict[str, dict[str, Any]]) -> dict[str, Any]:
-    features = []
+def collapse_events(
+    events: list[dict[str, Any]], venues: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """Mappable events, folded so that one real-world claim is one record.
+
+    The rule is imported from `spans.pair` rather than restated here, and that is the whole
+    point of the function. Two definitions of "the same claim" would drift, and then the map
+    and the tenure table would disagree about how many contracts exist while both looked
+    right. The pairer already had to solve this — three papers covering one award must not
+    become three spans — so the events layer uses its answer.
+
+    Grouping is by `(venue_id, operator)`, which is `pair._venue_key` restricted to the case
+    that can reach the map: an event with no `venue_id` has no coordinates and is dropped a
+    line later regardless.
+
+    Each surviving record keeps `_event_ids` and `_sources` from every mention, so nothing is
+    thrown away — the count changes, the provenance does not.
+    """
+    from ..spans.pair import collapse_duplicates
+
+    groups: dict[tuple[str, str], list[dict[str, Any]]] = {}
     for ev in events:
         venue = venues.get(ev.get("venue_id") or "")
         if not venue or venue.get("lat") is None:
             continue
+        groups.setdefault((ev["venue_id"], ev.get("operator_normalized") or ""), []).append(ev)
+
+    claims: list[dict[str, Any]] = []
+    for key in sorted(groups):
+        claims.extend(collapse_duplicates(groups[key]))
+    return claims
+
+
+def _citations(sources: list[dict[str, Any]]) -> list[str]:
+    seen, out = set(), []
+    for src in sources:
+        cite = (f"{src.get('source_publication') or '?'} "
+                f"{src.get('source_date') or '?'}").strip()
+        if cite not in seen:
+            seen.add(cite)
+            out.append(cite)
+    return out
+
+
+def emit_events(events: list[dict[str, Any]], venues: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    claims = collapse_events(events, venues)
+    mapped_events = sum(len(c["_event_ids"]) for c in claims)
+
+    features = []
+    for ev in claims:
+        venue = venues[ev["venue_id"]]
+        ids = [i for i in ev["_event_ids"] if i]
         features.append({
             "type": "Feature",
+            # The representative event's id, not a new synthetic one. It is already a content
+            # hash, it is stable across re-runs, and it is the id the CSV and the audit sample
+            # use — a second id namespace here would only give a reviewer two things to paste.
             "id": ev.get("event_id"),
             "geometry": {"type": "Point", "coordinates": [venue["lng"], venue["lat"]]},
             "properties": {
                 "event_id": ev.get("event_id"),
+                # How many extracted events state this one claim, and which. 1 is the common
+                # case and means exactly that: one article said it, nothing corroborates it.
+                "mentions": len(ids),
+                "event_ids": ids,
+                "sources": _citations(ev["_sources"]),
                 "venue_id": ev.get("venue_id"),
                 "venue_name": venue.get("canonical_name"),
                 # Kept beside the canonical name on purpose: the printed name is what dates
@@ -236,26 +297,33 @@ def emit_events(events: list[dict[str, Any]], venues: dict[str, dict[str, Any]])
                 "date_precision": ev.get("date_precision"),
                 "contract_value_usd": ev.get("contract_value_usd"),
                 "extraction_confidence": ev.get("extraction_confidence"),
-                "needs_review": bool(ev.get("needs_review")),
+                # OR'd across every mention. A claim one article stated cleanly and another
+                # stated doubtfully still has a doubt in it, and collapsing must not be a way
+                # for a flag to disappear.
+                "needs_review": any(s.get("needs_review") for s in ev["_sources"]),
                 "source_publication": ev.get("source_publication"),
                 "source_date": ev.get("source_date"),
                 "source_title": ev.get("source_title"),
                 "source_file": ev.get("source_file"),
             },
         })
-    # `extracted` is carried on the collection because the console has to be able to say
-    # "31 of 178", and the 178 is not derivable from a file that contains only the 31 that
-    # matched. A console that hardcoded the denominator would keep printing 178 the next
-    # time the corpus grows, turning a true sentence into a quietly false one.
+    # Three counts, because they are three different facts and the console needs all of them
+    # to say a true sentence. `extracted` is not derivable from a file holding only what
+    # matched, and `mapped` is not derivable from `features` any more now that features are
+    # claims. `mapped` deliberately keeps meaning *events* — silently redefining a field from
+    # 31 to 18 under the same name is the quiet kind of wrong this project exists to avoid.
     (OUT / "contract_events.geojson").write_text(
         json.dumps({"type": "FeatureCollection",
                     "extracted": len(events),
-                    "mapped": len(features),
+                    "mapped": mapped_events,
+                    "claims": len(features),
                     "features": features}))
 
     _write_csv(OUT / "contract_events.csv", [f[0] for f in EVENT_FIELDS], events)
     return {"rows": len(events), "features": len(features),
-            "no_coordinates": len(events) - len(features)}
+            "mapped_events": mapped_events,
+            "restatements": mapped_events - len(features),
+            "no_coordinates": len(events) - mapped_events}
 
 
 # ── Search log ─────────────────────────────────────────────────────────────────
@@ -465,8 +533,10 @@ def main() -> None:
         print(f"    {t['unpaintable_no_start']} feature(s) have no start year and will never paint")
     if t["unpaintable_no_end"]:
         print(f"    {t['unpaintable_no_end']} feature(s) have no evidence date and will never paint")
-    print(f"  contract_events  {e['rows']} rows -> {e['features']} map features "
-          f"({e['no_coordinates']} unmapped)")
+    print(f"  contract_events  {e['rows']} rows -> {e['mapped_events']} name a venue in the "
+          f"spine ({e['no_coordinates']} do not)")
+    print(f"    {e['features']} map features — one per distinct claim"
+          + (f", {e['restatements']} restatement(s) folded in" if e["restatements"] else ""))
     if s.get("error"):
         print(f"  search_log       skipped: {s['error']}")
     else:

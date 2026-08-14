@@ -18,6 +18,11 @@ about buildings this map was never a census of. The contract layers are a sample
 corpus supports, labelled as one in the sidebar, not a census. The two builds that would fix
 this are scoped, measured and deliberately not started in [NEXT_STEPS.md](NEXT_STEPS.md).
 
+Those 31 events are **18 distinct claims**: four papers covering the Drexel award are one
+contract, not four. The events layer draws one feature per claim and carries `mentions`, so
+repeat coverage reads as corroboration rather than inflating the count — the same rule
+`spans.pair` has always applied to spans, now imported rather than restated.
+
 **Precision is now measured; recall still is not.** A random sample of 20 events was judged
 against the article each came from: **14 correct — 48–86% at 95% confidence** (`pipeline/
 audit/`). That figure and its interval are read off `audit_summary.json` by the console, so
@@ -56,7 +61,7 @@ to say what the paid one would cost rather than spending on your behalf:
 | Console verification pass | ✅ 2026-08-11 — walked end to end in a browser; 4 defects found and fixed |
 | Wage & hour *by venue* | ⬜ blocked on the data, not on time — 179 cases → 420 venues |
 | Real articles through the pipeline | ✅ **real data** — 366/366 extracted, 178 events, 0 rejected, 0 invented venue ids, $12.85 |
-| Contract events + tenure in the console | ✅ **real data** — 31 events / 7 venues ringed and listed; span id collision found and fixed |
+| Contract events + tenure in the console | ✅ **real data** — 18 claims from 31 events / 7 venues ringed and listed; span id collision found and fixed |
 | Extractor accuracy | ⬜ unstated — needs 10–20 gold rows to score against |
 
 The eight ✅ **real data** rows are the only rows in this table backed by something other than
@@ -1284,7 +1289,8 @@ line produced 988 failures on a single vintage.
 | `output/tenure_records.json` | **The deliverable** — one row per operator's run at one venue |
 | `output/tenure_records.geojson` | Map layer, with `render_end_year` driving the time slider |
 | `output/tenure_records.csv` | Same rows in Kiki's column order |
-| `output/contract_events.{geojson,csv}` | The intermediate layer — audit a span back to a sentence |
+| `output/contract_events.geojson` | The intermediate layer — one feature per claim, with `mentions` |
+| `output/contract_events.csv` | Every event, uncollapsed — audit a span back to a sentence |
 | `output/search_log.csv` | Searches performed, including the ones that found nothing |
 | `output/review_queue.csv` | Everything the pipeline refused to decide, with article snippets |
 | `output/federal_venue_awards.geojson` | The 8 federal awards that name a spine venue — the map layer |

@@ -287,6 +287,14 @@ export function Sidebar({
           {/* A list, not just a legend, because 7 venues among 6,884 dots cannot be found by
               looking. The ring makes them recognisable once you are near one; this is how you
               get near one. Clicking flies the map there and opens the venue panel. */}
+          {/* Column key. The hover title says the same thing, but a tooltip does not survive
+              a screenshot or a print, and a bare "×19" beside an "8" is unreadable without
+              it. Only shown when some venue actually carries a multiplier. */}
+          {evidence.mappedClaims < evidence.mappedEvents && (
+            <p style={{ ...mutedStyle, fontSize: 10, margin: '0 0 4px', textAlign: 'right' }}>
+              claims · × articles reporting them
+            </p>
+          )}
           <ul style={listStyle}>
             {evidence.venues.map((v) => (
               <li key={v.venueId}>
@@ -302,8 +310,19 @@ export function Sidebar({
                       ? (v.firstYear ?? '—')
                       : `${v.firstYear ?? '?'}–${v.lastYear ?? '?'}`}
                   </span>
+                  {/* Claims, then the reports behind them. "8 ×12" says Drexel has eight
+                      distinct claims stated by twelve articles — corroboration, which is a
+                      quality signal, rather than twelve contracts, which would be a lie. The
+                      multiplier is dropped when nothing was restated, so a venue with one
+                      report per claim does not carry a decorative "×1". */}
                   <span style={{ ...mutedStyle, minWidth: 24, textAlign: 'right' }}>
-                    {v.events.length}
+                    {v.claims.length}
+                  </span>
+                  <span
+                    style={{ ...mutedStyle, minWidth: 30, textAlign: 'right' }}
+                    title={`${v.claims.length} distinct claim${v.claims.length === 1 ? '' : 's'}, from ${v.mentions} extracted event${v.mentions === 1 ? '' : 's'}`}
+                  >
+                    {v.mentions > v.claims.length ? `×${v.mentions}` : ''}
                   </span>
                 </button>
               </li>
@@ -320,6 +339,17 @@ export function Sidebar({
             {(evidence.extractedEvents - evidence.mappedEvents).toLocaleString()} name prisons,
             school districts and hospitals — real contracts, but not places this map is a
             census of.
+            {/* The pins are claims, not reports, and the difference is large enough here that
+                leaving it unsaid would let a reader treat the two numbers as one. Rendered
+                only when something was actually restated. */}
+            {evidence.mappedClaims < evidence.mappedEvents && (
+              <>
+                {' '}
+                Those {evidence.mappedEvents.toLocaleString()} events state{' '}
+                <strong>{evidence.mappedClaims.toLocaleString()}</strong> distinct claims — the
+                rest are the same contract reported by more than one paper, drawn once.
+              </>
+            )}
           </p>
           {/* How often the extractor is right, stated as an interval. Every figure is read
               off audit_summary.json — a hand-typed "70%" would still say 70% after the next

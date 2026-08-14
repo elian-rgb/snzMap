@@ -3,15 +3,27 @@
  *
  * This is the only layer in the console built from prose rather than from a government file,
  * so it is also the only one whose coverage is a statement about the corpus rather than about
- * the country. 178 events were extracted; 31 of them name a venue the spine contains, across
- * 7 venues. The other 147 name prisons, school districts and hospitals — real events about
- * real contracts, but not about stadiums, arenas or convention centers, which is what the
- * spine is. That gap is reported in the sidebar rather than quietly dropped, because "we
- * found nothing there" and "we were not looking there" are different claims.
+ * the country. Most extracted events name prisons, school districts and hospitals — real
+ * events about real contracts, but not about stadiums, arenas or convention centers, which is
+ * what the spine is. That gap is reported in the sidebar rather than quietly dropped, because
+ * "we found nothing there" and "we were not looking there" are different claims. Every figure
+ * in that sentence is read off the file; none is written here, because a number in a comment
+ * or in JSX stops being true the next time the corpus grows.
+ *
+ * A feature is a *claim*, not an article sentence. `emit.records` folds repeat coverage of one
+ * award into one feature carrying `mentions`, so four papers reporting the Drexel contract are
+ * one pin corroborated four times rather than four contracts. The three counts on the
+ * collection are all needed and all different: `extracted` is every event, `mapped` is the
+ * events that landed on a venue in this spine, `claims` is how many distinct things those
+ * events say.
  */
-/** One extracted event, as `emit.records` writes it into contract_events.geojson. */
-export interface EventProperties {
+/** One claim, as `emit.records` writes it into contract_events.geojson. */
+export interface ClaimProperties {
   event_id: string;
+  /** How many extracted events state this claim. 1 means a single uncorroborated report. */
+  mentions: number;
+  event_ids: string[];
+  sources: string[];
   venue_id: string | null;
   venue_name: string | null;
   venue_name_as_written: string | null;
@@ -30,12 +42,14 @@ export interface EventProperties {
   source_title: string | null;
 }
 
-/** Every event the pipeline placed at one venue, plus the summary the sidebar prints. */
+/** Every claim the pipeline placed at one venue, plus the summary the sidebar prints. */
 export interface VenueEvidence {
   venueId: string;
   venueName: string;
   lngLat: [number, number];
-  events: EventProperties[];
+  claims: ClaimProperties[];
+  /** Extracted events behind those claims — always >= claims.length. */
+  mentions: number;
   operators: string[];
   firstYear: number | null;
   lastYear: number | null;
@@ -46,10 +60,12 @@ export interface LoadedEvidence {
   venueIds: string[];
   /** Events that landed on a venue in this spine. */
   mappedEvents: number;
+  /** Distinct claims those events make — the number of features actually drawn. */
+  mappedClaims: number;
   /**
    * Every event the extractor produced, mapped or not. Read off the file rather than
-   * hardcoded: the console has to say "31 of 178", and a literal in the JSX would keep
-   * saying 178 the next time the corpus grows.
+   * hardcoded: the console has to state a coverage fraction, and a literal in the JSX would
+   * keep quoting today's corpus after the corpus has grown.
    */
   extractedEvents: number;
   /** Precision audit, or null if nobody has run one. Null renders as "unaudited". */
@@ -88,18 +104,19 @@ export interface AuditSummary {
  */
 export const EVIDENCE_COLOR = '#86198f';
 
-type EventFeature = GeoJSON.Feature<GeoJSON.Point, EventProperties>;
+type ClaimFeature = GeoJSON.Feature<GeoJSON.Point, ClaimProperties>;
 
 /**
- * Group events by venue.
+ * Group claims by venue.
  *
  * Keyed by venue rather than kept flat because the map draws one ring per venue, not one per
- * event: Drexel alone carries 19 of the 31 events, and 19 rings stacked on one point would
- * read as a single heavy blob that overstates how much of the country this layer covers.
+ * claim: Drexel alone carries 8 of the 18 claims, and stacked rings on one point would read
+ * as a single heavy blob that overstates how much of the country this layer covers.
  */
 export function buildEvidence(
-  features: EventFeature[],
+  features: ClaimFeature[],
   extracted?: number,
+  mapped?: number,
   audit: AuditSummary | null = null
 ): LoadedEvidence {
   const byVenue = new Map<string, VenueEvidence>();
@@ -114,43 +131,54 @@ export function buildEvidence(
         venueId: p.venue_id,
         venueName: p.venue_name ?? p.venue_name_as_written ?? p.venue_id,
         lngLat: f.geometry.coordinates as [number, number],
-        events: [],
+        claims: [],
+        mentions: 0,
         operators: [],
         firstYear: null,
         lastYear: null,
       };
       byVenue.set(p.venue_id, v);
     }
-    v.events.push(p);
+    v.claims.push(p);
+    // `?? 1` so a geojson written before this field existed counts one mention per claim
+    // rather than reporting zero sources for evidence that plainly has one.
+    v.mentions += p.mentions ?? 1;
   }
 
   for (const v of byVenue.values()) {
     // Newest first. A reader scanning a venue's evidence wants the current state of the
-    // contract before its history, and an undated event sorts last rather than being
+    // contract before its history, and an undated claim sorts last rather than being
     // dropped — it is still evidence, it just cannot be placed on the timeline.
-    v.events.sort((a, b) => (b.event_year ?? -Infinity) - (a.event_year ?? -Infinity));
+    v.claims.sort((a, b) => (b.event_year ?? -Infinity) - (a.event_year ?? -Infinity));
 
-    v.operators = [...new Set(v.events.map((e) => e.operator_normalized ?? e.operator).filter(Boolean))] as string[];
+    v.operators = [...new Set(v.claims.map((e) => e.operator_normalized ?? e.operator).filter(Boolean))] as string[];
 
-    const years = v.events.map((e) => e.event_year).filter((y): y is number => typeof y === 'number');
+    const years = v.claims.map((e) => e.event_year).filter((y): y is number => typeof y === 'number');
     v.firstYear = years.length ? Math.min(...years) : null;
     v.lastYear = years.length ? Math.max(...years) : null;
   }
 
   // Most-documented venue first, so the list leads with the one a reader can actually learn
   // something from rather than with whichever venue happened to sort first alphabetically.
+  // Ties break on mentions: two venues with three claims each are not equally documented if
+  // one of them was corroborated by six papers and the other by three.
   const venues = [...byVenue.values()].sort(
-    (a, b) => b.events.length - a.events.length || a.venueName.localeCompare(b.venueName)
+    (a, b) =>
+      b.claims.length - a.claims.length ||
+      b.mentions - a.mentions ||
+      a.venueName.localeCompare(b.venueName)
   );
 
+  const mappedClaims = features.length;
   return {
     venues,
     venueIds: venues.map((v) => v.venueId),
-    mappedEvents: features.length,
-    // Falls back to the mapped count when the file predates the `extracted` field, so an
-    // older geojson renders "31 of 31" — understating the corpus — rather than "31 of 0",
-    // which would read as a broken denominator and invite the reader to distrust the rest.
-    extractedEvents: extracted ?? features.length,
+    // Both fall back to what the file can still support when it predates these fields. An
+    // older geojson then understates the corpus rather than rendering a zero denominator,
+    // which would read as broken and invite the reader to distrust the rest.
+    mappedEvents: mapped ?? mappedClaims,
+    mappedClaims,
+    extractedEvents: extracted ?? mapped ?? mappedClaims,
     audit,
   };
 }
@@ -158,8 +186,9 @@ export function buildEvidence(
 export async function loadEvidence(src: string, auditSrc?: string): Promise<LoadedEvidence> {
   const res = await fetch(src);
   if (!res.ok) throw new Error(`${src}: ${res.status}`);
-  const fc = (await res.json()) as GeoJSON.FeatureCollection<GeoJSON.Point, EventProperties> & {
+  const fc = (await res.json()) as GeoJSON.FeatureCollection<GeoJSON.Point, ClaimProperties> & {
     extracted?: number;
+    mapped?: number;
   };
 
   // A missing or unreadable audit is not an error — it means nobody has run one, which the
@@ -178,17 +207,17 @@ export async function loadEvidence(src: string, auditSrc?: string): Promise<Load
     }
   }
 
-  return buildEvidence(fc.features ?? [], fc.extracted, audit);
+  return buildEvidence(fc.features ?? [], fc.extracted, fc.mapped, audit);
 }
 
 /**
- * Events at a venue that had happened by `year`, for the venue panel.
+ * Claims at a venue that had happened by `year`, for the venue panel.
  *
- * Undated events are always included. An event the article never dated has not been shown to
+ * Undated claims are always included. A claim the article never dated has not been shown to
  * happen after T; it has been shown to happen, full stop. Hiding it while the slider sits in
  * 1994 would let a reader conclude the venue was quiet then, which the source does not say.
  */
-export function eventsAsOf(v: VenueEvidence | undefined, year: number): EventProperties[] {
+export function claimsAsOf(v: VenueEvidence | undefined, year: number): ClaimProperties[] {
   if (!v) return [];
-  return v.events.filter((e) => e.event_year == null || e.event_year <= year);
+  return v.claims.filter((e) => e.event_year == null || e.event_year <= year);
 }

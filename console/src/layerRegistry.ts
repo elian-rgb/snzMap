@@ -77,8 +77,10 @@ export const LAYER_REGISTRY: LayerDef[] = [
     src: '/data/contract_events.geojson',
     source: 'Article extraction pipeline',
     description:
-      'Individual won/lost/renewed/self-op events as reported by a single article. ' +
-      'Ringed in magenta on the map; 31 of 178 extracted events name a venue in this spine.',
+      'Individual won/lost/renewed/self-op contract claims as reported by newspaper articles. ' +
+      'Ringed in magenta on the map, one ring per venue; repeat coverage of one award is ' +
+      'folded into a single claim. The coverage fraction is in the sidebar, read off the ' +
+      'data — a figure typed here would still be quoted after the corpus had changed.',
   },
 
   // ── Money ─────────────────────────────────────────────────────────────────

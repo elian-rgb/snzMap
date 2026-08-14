@@ -4,10 +4,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: { outDir: 'dist' },
-  // MapLibre spawns its tile worker with `new Worker(new URL('./maplibre-gl-worker.mjs',
-  // import.meta.url))`. The dep optimizer rewrites that import but never emits the chunk,
-  // so the URL falls through to the SPA index.html and the worker dies silently — no
-  // basemap tiles, no GeoJSON dots, and no console error to explain it. Serving maplibre
-  // unbundled keeps the worker URL pointing at the real file in node_modules.
-  optimizeDeps: { exclude: ['maplibre-gl'] },
+  // The MapLibre tile-worker fix lives in main.tsx (`setWorkerUrl` + a `?url` import),
+  // not here. An earlier fix excluded maplibre-gl from the dep optimizer, which papered
+  // over the same silent-worker failure in dev only — `optimizeDeps` has no effect on
+  // `vite build`, so production still shipped without the worker file and the map went
+  // blank with no console error. The entry-point fix covers both dev and prod.
 });

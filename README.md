@@ -25,7 +25,14 @@ it cannot go stale. Recall needs gold rows written from outside the pipeline and
 not report them as one number.
 
 New here? [ADDING_DATA.md](ADDING_DATA.md) is the runbook for getting articles or a CSV onto
-the map.
+the map. For the ordinary case it is one command, which runs every free stage and then stops
+to say what the paid one would cost rather than spending on your behalf:
+
+```bash
+.venv/bin/python -m pipeline.add ~/Desktop/new-articles           # collect, parse, quote, stop
+.venv/bin/python -m pipeline.add ~/Desktop/new-articles --spend   # extract and publish
+.venv/bin/python -m pipeline.add --publish                        # rebuild the map, no charge
+```
 
 | Step | State |
 |---|---|
@@ -40,6 +47,7 @@ the map.
 | Span pairing (Phase 1.6) | ✅ 18/18 rule gate, schema-clean |
 | Emit (Phase 1.7) | ✅ 6 files; has now processed rows, via the rehearsal |
 | End-to-end dress rehearsal | ✅ 36/36 — a fake USB reaches the map, model answer is a fixture |
+| One-command add (`pipeline/add.py`) | ✅ 6 commands -> 1; quotes the cost and stops before spending |
 | Tenure layer in the console | ✅ wired + verified in the browser on rehearsal output |
 | Federal awards (USAspending) | ✅ **real data** — 27/27 gate, 393 in-scope awards, in the console |
 | ACS neighbourhood context | ✅ **real data** — 29/29 gate, 6,831 venues, in the console |

@@ -3,9 +3,58 @@
 How a new person gets articles or a spreadsheet onto the map.
 
 Read this first: **there is no upload button, no Google Drive folder, and no web form.**
-Everything below is a command run on a laptop that has the repo checked out. Adding data is
-currently a developer task, not a contributor task. That is a real limitation and the last
-section says what it would take to change it.
+Everything below is a command run on a laptop that has the repo checked out.
+
+There is, however, **one command**. If you have a folder of articles and just want them on
+the map, this is the whole procedure:
+
+```bash
+.venv/bin/python -m pipeline.add ~/Desktop/new-articles
+```
+
+That does every free stage — copies the files in, hashes them, parses them — then prints
+what the paid stage would cost and **stops**. Nothing has been charged and the map has not
+changed. To go through with it:
+
+```bash
+set -a; . ./.env; set +a                                        # the API key
+.venv/bin/python -m pipeline.add ~/Desktop/new-articles --spend
+```
+
+That extracts, builds operator runs, writes the geojson and copies it into the console. The
+map is updated when it finishes.
+
+A third form rebuilds the map from data already on disk, with no API key and no charge —
+use it after editing anything by hand:
+
+```bash
+.venv/bin/python -m pipeline.add --publish
+```
+
+**Re-running is safe.** Files already collected are skipped by content hash, and extractions
+already paid for are read from cache, so running the same folder twice republishes without
+paying twice.
+
+The rest of this document is the same pipeline as separate stages. Read it when something
+goes wrong, when you are adding a spreadsheet rather than articles, or when you want to see
+the per-stage numbers. **You do not need it for the ordinary case.**
+
+### Why there is still no web form
+
+Not an oversight — it was scoped and rejected. Three things stood between a folder of
+articles and the map, and only two of them were an interface problem:
+
+| Barrier | Fixed by `pipeline.add`? |
+| --- | --- |
+| Six commands in sequence; wrong order publishes the previous run's data without erroring | Yes |
+| Outputs must be copied into `console/public/data/` or the console keeps serving the old file | Yes |
+| Extraction calls a paid API — measured at **3.5¢/article**, $12.85 for 366 | **No. Nothing fixes this.** |
+
+In production `console/server.ts` serves a static `dist/`. Extraction needs Python, the
+spine index, and an `ANTHROPIC_API_KEY` on the same machine — so a web form would only work
+for somebody already running this repo locally, who can already run the command above. It
+would move the button without moving the barrier, and it would put a real charge behind a
+click that does not mention one. The command names the number and waits instead.
 
 ---
 
@@ -163,15 +212,33 @@ reported because at n=20 the bare "70%" is a wrong big number.
 ### 4. Pair, emit, publish
 
 ```bash
-.venv/bin/python -m pipeline.spans.pair      # events -> operator runs
-.venv/bin/python -m pipeline.emit.records    # runs -> geojson + csv
-cp pipeline/output/*.geojson console/public/data/
-cp pipeline/output/audit_summary.json console/public/data/   # the accuracy line
+.venv/bin/python -m pipeline.add --publish   # pair + emit + copy, no API key, no charge
 ```
 
-That last `cp` is the step people forget. Nothing appears on the map until the files are
-copied into the console's public directory — the console reads from `console/public/data/`,
-not from `pipeline/output/`.
+Or as separate stages:
+
+```bash
+.venv/bin/python -m pipeline.spans.pair      # events -> operator runs
+.venv/bin/python -m pipeline.emit.records    # runs -> geojson + csv
+cp pipeline/output/tenure_records.geojson console/public/data/
+cp pipeline/output/contract_events.geojson console/public/data/
+```
+
+The copy is the step people forget. Nothing appears on the map until the files are copied
+into the console's public directory — the console reads from `console/public/data/`, not from
+`pipeline/output/`.
+
+**Copy those two files by name, not `pipeline/output/*.geojson`.** The glob is a trap:
+`output/` also holds `federal_venue_awards.geojson`, `venues.geojson` and the two ACS files,
+which come from pipelines the article path never runs. Their copies in `output/` can be
+*older* than what the console is already serving — the federal file was three days stale when
+this was checked — so the glob silently rolls an unrelated layer backwards. `--publish` copies
+only the two files the emit stage actually rewrites, for this reason.
+
+`audit_summary.json` is deliberately **not** copied here. It describes an audit of the
+previous extraction; carrying it forward after new articles land would print an old precision
+figure against a corpus it was never measured on. Copy it only after re-running the audit —
+see step 3b.
 
 ### 5. Look at it
 
@@ -313,13 +380,17 @@ thing runs on one laptop against files on disk.
 
 ## What it would take to make this a contributor task
 
-Honestly: more than the current deadline allows. The pieces missing are
+`pipeline.add` closed the part of this gap that was closeable on one laptop: adding a folder
+of articles is now one command instead of six, and the sequencing mistakes that used to
+publish the wrong data are gone. What is left is genuinely a different project:
 
-- a hosted place to put files, and a way to accept them that is not "plug in a USB"
-- a generic CSV loader driven by a small mapping config (which column is the venue, which is
-  the date, which is the operator) rather than a bespoke module per source
-- a review step, because the join is the part that goes wrong — 147 of 178 extracted events
-  name buildings this map is not a census of, and no automated join would have caught that
+- **a hosted place to put files**, and a way to accept them that is not "plug in a USB".
+  This is the real one. It means a server that runs Python and holds an API key, which means
+  someone owns a bill that anyone with the URL can run up. That is a budget and access-control
+  decision before it is an engineering one.
+- **a generic CSV loader** driven by a small mapping config — which column is the venue, which
+  is the date, which is the operator — rather than a bespoke module per source.
+- **a review step**, because the join is the part that goes wrong: 147 of 178 extracted events
+  name buildings this map is not a census of, and no automated join would have caught that.
 
-The middle one is the tractable piece and would be the right next thing to build. The first
-and third are a different project.
+The middle one is the tractable piece and would be the right next thing to build.

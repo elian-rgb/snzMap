@@ -265,7 +265,11 @@ def stage_emit_and_publish(as_of: dt.date | None) -> dict[str, Any]:
     print(f"  runs         {t['rows']} rows -> {t['features']} map features")
     print(f"  events       {e['rows']} rows -> {e['features']} map features "
           f"({e['no_coordinates']} unmapped)")
-    print(f"  review queue {q['rows']} rows -> output/review_queue.csv")
+    print(f"  review queue {q['rows']} rows, {q['actionable']} of them need a person "
+          f"-> output/review_queue.csv")
+    for cat, n in q["by_category"].items():
+        if cat != "needs_a_person":
+            print(f"                 {n:>4} {cat} — not a reviewer's to fix")
 
     CONSOLE_DATA.mkdir(parents=True, exist_ok=True)
     for name in PUBLISH:

@@ -15,7 +15,8 @@ contract events and contract tenure.
 The number that bounds the last two: **31 of 178 events name a venue in this spine, across 7
 venues of 6,884.** The other 147 name prisons, school districts and hospitals — real contracts
 about buildings this map was never a census of. The contract layers are a sample of what the
-corpus supports, labelled as one in the sidebar, not a census.
+corpus supports, labelled as one in the sidebar, not a census. The two builds that would fix
+this are scoped, measured and deliberately not started in [NEXT_STEPS.md](NEXT_STEPS.md).
 
 **Precision is now measured; recall still is not.** A random sample of 20 events was judged
 against the article each came from: **14 correct — 48–86% at 95% confidence** (`pipeline/

@@ -55,10 +55,45 @@ SNIPPET_CHARS = 260
 
 # Columns for the review queue. One shape for all three record types so the file sorts and
 # filters as a single sheet — a reviewer works down one issue at a time, not one file.
+#
+# `category` leads because without it the queue is unusable in the specific way that matters:
+# it had 912 rows, and 475 of them were "this article is a page scan with no text layer".
+# Nobody reviews their way out of that. Mixing it with rows a person can actually settle
+# makes the file look like 912 unresolved problems, which is both wrong and the reason a
+# review queue gets abandoned. This is the same conflation `spans/evaluate.py` fixes when it
+# separates a miss from a corpus gap: a defect must say who can act on it, or the count is
+# just a number.
 REVIEW_COLUMNS = [
-    "issue", "record_type", "record_id", "venue_name", "operator",
+    "category", "resolved_by", "issue", "record_type", "record_id", "venue_name", "operator",
     "what_the_pipeline_produced", "source", "snippet",
 ]
+
+# What resolves each class. Ordered: a reviewer opening the sheet gets their own work first.
+CATEGORIES = {
+    "needs_a_person": "read the article and decide — this is the actual review queue",
+    "silent_source": "nothing to read; no article ever stated it. Find another source or accept the gap",
+    "out_of_scope": "correctly extracted; the venue is not in this spine. A scope decision, not a correction",
+    "corpus": "the source document is defective. Needs a better export or OCR, not a reviewer",
+}
+CATEGORY_ORDER = list(CATEGORIES)
+
+# Matched against the issue text, lowercased. Deliberately literal substrings taken from
+# strings the pipeline actually emits, not a general classifier — a fuzzy rule here would
+# quietly move rows out of `needs_a_person`, which is the one category that must not shrink
+# by accident.
+#
+# Text is only ever the *fallback*. Scope is decided by `venue_id` (see `categorize`), because
+# the first version of this read the model's free-text note and got it demonstrably wrong: the
+# same moldy-bagel incident, extracted twice from two reprints of one article, landed in two
+# different categories because one note happened to contain the phrase "no candidate venue"
+# and the other did not. 15 rows with no `venue_id` were filed as a reviewer's problem on that
+# basis. The prompt already refuses to trust the model about venue identity; the queue must
+# not reintroduce that trust through the back door.
+_SILENT_SOURCE = (
+    "start unknown", "start_date unknown", "no award ever reported",
+    "could not be placed on the timeline", "presence only",
+    "no reported end", "end unknown",
+)
 
 
 def _year(value: Any) -> int | None:
@@ -272,6 +307,35 @@ def snippet_for(ev: dict[str, Any], index: dict[str, list[dict[str, Any]]]) -> s
     return ("…" if start else "") + body[start:end] + ("…" if end < len(body) else "")
 
 
+def categorize(issue: str, record_type: str, mappable: bool = True) -> str:
+    """Which of the four things has to happen for this row to go away.
+
+    Order matters, and each step is checked against the most authoritative signal available.
+
+      * An article the parser could not read is `corpus` whatever it says, because no
+        downstream judgment applies to a page scan.
+      * `mappable` is next, and it comes from `venue_id` — a structured field the pipeline
+        controls — not from the issue text. A record with no `venue_id` cannot reach the map
+        no matter what a reviewer concludes about its dates or its operator, so the thing that
+        has to happen first is a decision about what this spine is a census of. Sending it to
+        a reviewer asks them to correct a row that still will not plot.
+      * Only then does text decide, and only to separate a documented silence from a real
+        judgment call.
+
+    Anything unrecognised falls to `needs_a_person`. That is the harsher default on purpose —
+    the failure worth avoiding is a real judgment call filed under "not your problem" and
+    never looked at. An over-full review queue wastes a reviewer's time; an under-full one
+    loses the row.
+    """
+    if record_type == "article":
+        return "corpus"
+    if not mappable:
+        return "out_of_scope"
+    if any(k in (issue or "").lower() for k in _SILENT_SOURCE):
+        return "silent_source"
+    return "needs_a_person"
+
+
 def build_review_queue(
     tenure: list[dict[str, Any]],
     events: list[dict[str, Any]],
@@ -300,6 +364,7 @@ def build_review_queue(
                 "what_the_pipeline_produced": span,
                 "source": row.get("source"),
                 "snippet": snippet_for(first, index) if first else "",
+                "_mappable": bool(row.get("venue_id")),
             })
 
     for ev in events:
@@ -316,6 +381,7 @@ def build_review_queue(
                 f"(confidence {ev.get('extraction_confidence')})",
             "source": f"{ev.get('source_publication')} {ev.get('source_date')}",
             "snippet": snippet_for(ev, index),
+            "_mappable": bool(ev.get("venue_id")),
         })
 
     # An article the parser could not pin provenance on can yield no valid event at all, so
@@ -334,11 +400,18 @@ def build_review_queue(
                     f"/ {a.get('source_title') or '?'}",
                 "source": a.get("source_file"),
                 "snippet": " ".join((a.get("body_text") or "").split())[:SNIPPET_CHARS],
+                "_mappable": True,   # unused for articles; `categorize` returns before reading it
             })
 
-    # Grouped by issue, then venue: one sitting works through one class of problem at a
-    # time, which is the difference between a monthly review and an abandoned spreadsheet.
-    queue.sort(key=lambda r: (r["issue"], r["venue_name"] or "", r["record_id"] or ""))
+    for r in queue:
+        r["category"] = categorize(r["issue"], r["record_type"], r.pop("_mappable"))
+        r["resolved_by"] = CATEGORIES[r["category"]]
+
+    # Category first, then issue, then venue: the rows a person can actually settle sit at
+    # the top of the sheet, and within that one sitting works through one class of problem at
+    # a time — the difference between a monthly review and an abandoned spreadsheet.
+    queue.sort(key=lambda r: (CATEGORY_ORDER.index(r["category"]), r["issue"],
+                              r["venue_name"] or "", r["record_id"] or ""))
     return queue
 
 
@@ -357,15 +430,19 @@ def emit(as_of: dt.date | None = None) -> dict[str, Any]:
     _write_csv(OUT / "review_queue.csv", REVIEW_COLUMNS, queue)
 
     by_issue: dict[str, int] = {}
+    by_category: dict[str, int] = {c: 0 for c in CATEGORY_ORDER}
     for r in queue:
         by_issue[r["issue"]] = by_issue.get(r["issue"], 0) + 1
+        by_category[r["category"]] += 1
 
     return {
         "as_of": as_of.isoformat(),
         "tenure": emit_tenure(tenure, as_of),
         "events": emit_events(events, venues),
         "search_log": emit_search_log(),
-        "review_queue": {"rows": len(queue), "by_issue": by_issue},
+        "review_queue": {"rows": len(queue), "by_issue": by_issue,
+                         "by_category": by_category,
+                         "actionable": by_category["needs_a_person"]},
         "missing_inputs": [p.name for p in (TENURE_IN, EVENTS_IN, ARTICLES_IN)
                            if not p.exists()],
     }
@@ -395,9 +472,12 @@ def main() -> None:
     else:
         print(f"  search_log       {s['rows']} searches "
               f"({s.get('nothing_found', 0)} found nothing — that is data)")
-    print(f"  review_queue     {q['rows']} rows")
-    for issue, n in sorted(q["by_issue"].items(), key=lambda x: -x[1])[:8]:
-        print(f"    {n:>4}  {issue}")
+    print(f"  review_queue     {q['rows']} rows, of which {q['actionable']} need a person")
+    for cat in CATEGORY_ORDER:
+        print(f"    {q['by_category'][cat]:>4}  {cat:<15} {CATEGORIES[cat]}")
+    print("  largest single issues:")
+    for issue, n in sorted(q["by_issue"].items(), key=lambda x: -x[1])[:5]:
+        print(f"    {n:>4}  {issue[:88]}")
 
     if r["missing_inputs"]:
         print(f"\n  ! nothing upstream yet: {', '.join(r['missing_inputs'])} missing — "
@@ -405,7 +485,10 @@ def main() -> None:
 
     print("\n  wrote tenure_records.{geojson,csv}, contract_events.{geojson,csv}, "
           "search_log.csv, review_queue.csv")
-    print("  copy to the console with:  cp pipeline/output/*.geojson console/public/data/")
+    # Not a `*.geojson` glob: output/ also holds the federal, spine and ACS layers, whose
+    # copies here can be older than what the console is already serving, so the glob silently
+    # rolls an unrelated layer backwards. `pipeline.add --publish` does this correctly.
+    print("  copy to the console with:  .venv/bin/python -m pipeline.add --publish")
 
 
 if __name__ == "__main__":
